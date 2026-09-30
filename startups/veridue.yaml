@@ -1,0 +1,40 @@
+name: Veridue
+tagline: Due diligence and deal workflows for energy infrastructure
+description: >-
+  Veridue provides a shared platform for teams evaluating or financing renewable
+  energy and data centre projects. It combines deal screening, document review
+  and data-room organisation. Investors and developers can request a demo from
+  the company rather than installing a separate tool for each stage.
+website: https://veridue.ai/
+access:
+  - kind: demo
+    url: https://veridue.ai/contact
+categories:
+  - business-software
+  - finance
+stage: live
+pricing:
+  model: contact_sales
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Veridue's official green monogram
+sources:
+  - url: https://veridue.ai/
+    title: Veridue official product website
+  - url: https://veridue.ai/contact
+    title: Veridue demo request
+  - url: https://veridue.ai/blog/veridue-launches-4m-pre-seed
+    title: Veridue public launch announcement
+launch:
+  title: Veridue opens its energy infrastructure platform
+  summary: Public launch after two years of development and validation.
+  occurred_on:
+    precision: day
+    value: "2026-09-08"
+  date_basis: effective
+  source:
+    url: https://veridue.ai/blog/veridue-launches-4m-pre-seed
+    title: Veridue launches its energy infrastructure platform
+    locator: First paragraph dated London, 8 September 2026, which states that the platform has officially launched
