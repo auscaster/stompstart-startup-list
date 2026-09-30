@@ -19,7 +19,7 @@ access:
   - kind: browse
     url: https://fortexa-five.vercel.app/
 categories:
-  - crypto
+  - finance
   - developer-tools
   - ai-and-agents
 stage: live
