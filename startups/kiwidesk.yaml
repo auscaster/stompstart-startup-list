@@ -1,0 +1,75 @@
+# Copy with `npm run new -- your-startup-slug`, then replace every sample value.
+# The file holds the startup's facts; Stompstart adds identifiers and evidence at review.
+name: KiwiDesk
+tagline: Tiling that feels like it shipped with macOS
+description: >-
+  KiwiDesk is a tiling window manager for macOS. It arranges open windows into
+  one of seven layouts the moment it is installed, with no configuration file
+  required, while keeping the native macOS Desktops intact. Everyday setup is a
+  native Settings app with sliders and pickers; keyboard users get hotkeys and
+  Vim-style layers, and power users get Lua scripting, per-space rules, and a
+  CLI. It runs on Apple Silicon Macs with macOS 14 or later, asks only for the
+  Accessibility permission (no SIP changes, no input monitoring, no account,
+  no analytics), and is free for personal use with its source published under
+  BSL 1.1.
+problem: >-
+  Tiling window managers on macOS usually demand terminal configuration files,
+  and the most powerful one requires disabling System Integrity Protection,
+  which keeps most Mac users from ever trying one.
+audience:
+  - macOS users who want their windows organized
+  - Developers and power users who want tiling without terminal configs
+website: https://kiwidesk.kiwicanopy.com/
+access:
+  - kind: download
+    url: https://kiwidesk.kiwicanopy.com/
+categories:
+  - developer-tools
+  - productivity
+stage: live
+pricing:
+  model: free
+company:
+  name: KiwiCanopy
+  relationship: independent
+location:
+  country: DE
+founded:
+  precision: month
+  value: "2026-07"
+platforms:
+  - macos
+links:
+  - kind: docs
+    url: https://kiwidesk.kiwicanopy.com/docs/
+  - kind: changelog
+    url: https://kiwidesk.kiwicanopy.com/changelog/
+  - kind: source
+    url: https://github.com/KiwiCanopy/KiwiDesk
+# The startup's own logo (an original of at least 256 pixels) and any pictures of the product sit
+# beside this file, in startups/<slug>/. With no gallery, Stompstart screenshots the homepage.
+logo:
+  path: logo.png
+  alt: The KiwiDesk logo, a kiwi-fruit roundel enclosing a tiled window glyph, above the KiwiDesk wordmark
+gallery:
+  - path: screenshot-settings.png
+    alt: The KiwiDesk Settings app showing layout and profile options for tiling windows on macOS
+sources:
+  - url: https://kiwidesk.kiwicanopy.com/
+    title: KiwiDesk official website
+  - url: https://www.producthunt.com/products/kiwidesk
+    title: KiwiDesk on Product Hunt
+  - url: https://github.com/KiwiCanopy/KiwiDesk
+    title: KiwiDesk source repository
+# The first release, and the page that dates it. A prelaunch product leaves this out.
+launch:
+  title: KiwiDesk launches on Product Hunt
+  summary: The public launch of KiwiDesk, a macOS tiling window manager, listed in the September 28, 2026 Product Hunt digest with 138 upvotes.
+  occurred_on:
+    precision: day
+    value: "2026-09-28"
+  date_basis: effective
+  source:
+    url: https://startupcorners.com/digest/product-digest-2026-09-28
+    title: "Best Product Launches: September 28, 2026"
+    locator: Developer Tools and Productivity section, KiwiDesk (138 upvotes)
