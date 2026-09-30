@@ -1,0 +1,72 @@
+# The file holds the startup's facts; Stompstart adds identifiers and evidence at review.
+name: AskWatch
+tagline: Checks whether AI answers name your brand or a rival's
+description: >-
+  AskWatch puts a standing list of buyer questions to six answer engines on a
+  schedule, then keeps the replies so a team can watch its own name appear or
+  drop away over the following weeks. Each report separates the brands that were
+  named from the pages the engines linked to, so the next piece of work gets
+  chosen from evidence rather than impression. Engines covered include ChatGPT,
+  Perplexity, Gemini, Copilot and the Google search surfaces. A crawler report
+  records which AI bots fetched which pages of the site.
+problem: >-
+  A brand cannot read the answers its buyers are given, so a rival being named in
+  place of it usually surfaces as a lost deal rather than as a warning.
+audience:
+  - Marketers
+  - Agencies
+website: https://askwatch.ai/
+access:
+  - kind: signup
+    url: https://app.askwatch.ai/signup
+categories:
+  - marketing
+  - data-and-analytics
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 10000
+    currency: usd
+    interval: month
+  pricing_url: https://askwatch.ai/pricing
+company:
+  name: ESTERSON LIMITED
+  relationship: independent
+platforms:
+  - web
+highlights:
+  - title: Six answer engines on one plan
+    detail: ChatGPT, Perplexity, Gemini, Copilot, Google AI Overviews and Google AI Mode are queried on the same schedule, so the replies can be compared side by side.
+  - title: Named brands separated from cited pages
+    detail: A report lists which brands each engine named and, separately, which pages and domains it cited, which points at the gap to close next.
+  - title: Answers kept over time
+    detail: Question sets repeat on a schedule, so visibility is read as a trend across weeks rather than as a single reading.
+links:
+  - kind: blog
+    url: https://askwatch.ai/blog
+# With no gallery, Stompstart takes a screenshot of the homepage at review.
+logo:
+  path: logo.png
+  alt: The AskWatch logo, a white interlocking loop mark on a black rounded square
+sources:
+  - url: https://askwatch.ai/
+    title: AskWatch, AI visibility tracking across six engines
+  - url: https://askwatch.ai/pricing
+    title: AskWatch pricing
+  - url: https://askwatch.ai/terms
+    title: AskWatch Terms of Use, naming ESTERSON LIMITED
+launch:
+  title: AskWatch starts publishing its public research
+  summary: >-
+    The oldest dated entry on AskWatch's own blog index reads Sep 18, 2026, and
+    that is the earliest page on the site carrying a date. Signups were already
+    open at that point, so the entry dates the product's first public appearance.
+  occurred_on:
+    precision: day
+    value: "2026-09-18"
+  date_basis: announced
+  source:
+    url: https://askwatch.ai/blog
+    title: AskWatch blog
+    locator: The oldest dated entry on the index, Sep 18, 2026
