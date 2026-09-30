@@ -1,0 +1,72 @@
+name: eustella
+tagline: Europe's personal AI agent for smartphones
+description: >-
+  eustella is a personal AI assistant built for smartphones and the web. It
+  runs on open-weight models and keeps user data inside the European Union.
+  A large set of prebuilt agent templates cover everyday tasks, from planning
+  meals and trips to budgeting and learning. The project positions itself as
+  a data-sovereign alternative to US-hosted assistants, with European cloud
+  infrastructure and a free tier alongside paid plans.
+problem: People in Europe want an AI assistant that keeps their data within EU
+  data-protection rules instead of sending it to US-hosted services.
+audience:
+  - Smartphone users in Europe
+  - Privacy-conscious individuals
+  - Small teams and solo professionals
+website: https://eustella.com/
+access:
+  - kind: signup
+    url: https://eustella.com/pricing
+  - kind: download
+    url: https://play.google.com/store/apps/details?id=com.eustella
+categories:
+  - ai-and-agents
+  - productivity
+stage: live
+pricing:
+  model: freemium
+company:
+  name: eustella
+  relationship: independent
+location:
+  country: AT
+  city: Vienna
+founded:
+  precision: month
+  value: "2026-03"
+platforms:
+  - web
+  - ios
+  - android
+links:
+  - kind: blog
+    url: https://eustella.com/blog
+  - kind: social
+    network: linkedin
+    url: https://www.linkedin.com/company/eustella
+  - kind: social
+    network: instagram
+    url: https://www.instagram.com/eustella_com/
+logo:
+  path: logo.png
+  alt: The eustella logo, a light geometric mark on a dark background
+gallery:
+  - path: og.png
+    alt: eustella homepage showing the product and its agent templates
+sources:
+  - url: https://eustella.com/
+    title: Official website
+  - url: https://ai-at.eu/en/news/ai-factory-austria-aiat-as-a-springboard-eustella-launches-a-state-of-the-art-ai-agent-platform/
+    title: AI:AT newsroom coverage of the launch
+launch:
+  title: eustella launches its AI agent platform
+  summary: The AI Factory Austria newsroom announced the public launch of the
+    eustella app for smartphones and the web on June 25, 2026.
+  occurred_on:
+    precision: day
+    value: "2026-06-25"
+  date_basis: effective
+  source:
+    url: https://ai-at.eu/en/news/ai-factory-austria-aiat-as-a-springboard-eustella-launches-a-state-of-the-art-ai-agent-platform/
+    title: AI:AT newsroom announcement
+    locator: First paragraph, dated June 25, 2026
