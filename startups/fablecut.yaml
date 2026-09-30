@@ -1,0 +1,68 @@
+name: FableCut
+tagline: Zero-dependency browser video editor that AI agents can drive
+description: >-
+  FableCut is a zero-dependency browser-based video editor with a timeline
+  supporting four video and four audio tracks, per-track and master audio
+  meters, a preview monitor, and an inspector for clip properties. It runs
+  entirely in the browser with no server, no dependencies, and an API that
+  AI agents can call to edit video programmatically.
+problem: >-
+  Browser-based video editors are heavy, dependency-laden, and opaque to
+  automation. FableCut ships zero dependencies and an agent-callable API so
+  an AI can drive the full edit pipeline without a human in the loop.
+audience:
+  - AI agent operators
+  - Video creators
+  - Developer tools teams
+website: https://fablecut.space
+access:
+  - kind: browse
+    url: https://fablecut.space
+  - kind: source
+    url: https://github.com/ronak-create/FableCut
+categories:
+  - ai-and-agents
+  - media
+  - developer-tools
+stage: live
+pricing:
+  model: free
+company:
+  name: FableCut
+  relationship: independent
+location:
+  country: US
+founded:
+  precision: month
+  value: "2026-07"
+platforms:
+  - web
+links:
+  - kind: source
+    url: https://github.com/ronak-create/FableCut
+  - kind: docs
+    url: https://fablecut.space
+logo:
+  path: logo.png
+  alt: The FableCut logo rendered from the site own favicon.svg
+gallery:
+  - path: product.png
+    alt: A screenshot of the FableCut editor showing a timeline with four video and four audio tracks
+sources:
+  - url: https://fablecut.space
+    title: FableCut official website
+  - url: https://github.com/ronak-create/FableCut
+    title: FableCut on GitHub
+launch:
+  title: FableCut opens to the public
+  summary: >-
+    The zero-dependency browser video editor launched, with an agent-callable
+    API for programmatic video editing.
+  occurred_on:
+    precision: day
+    value: "2026-07-06"
+  date_basis: announced
+  source:
+    url: https://github.com/ronak-create/FableCut
+    title: FableCut repository created on GitHub
+    locator: Repository creation date shows 2026-07-06
