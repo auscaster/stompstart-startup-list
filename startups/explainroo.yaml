@@ -1,0 +1,56 @@
+name: explainroo
+tagline: Local tools for narrated videos made with coding agents
+description: >-
+  explainroo is an open-source video toolkit for coding agents. An agent prepares
+  a script and JavaScript scenes, then the toolkit combines a local voice,
+  word-level timing and canvas animation into a narrated MP4. It includes
+  documentation and examples of explainers and product demonstrations.
+problem: Making a narrated explanation requires coordinating a script, visuals and timing.
+audience:
+  - Developers using coding agents
+  - Creators making explainer videos
+  - Small teams preparing product demonstrations
+website: https://www.explainroo.com/
+access:
+  - kind: browse
+    url: https://www.explainroo.com/videos/
+  - kind: install
+    url: https://github.com/vincentsch/explainroo
+categories:
+  - developer-tools
+  - media
+stage: live
+pricing:
+  model: free
+links:
+  - kind: docs
+    url: https://www.explainroo.com/docs/
+  - kind: source
+    url: https://github.com/vincentsch/explainroo
+logo:
+  path: logo.png
+  alt: A cream play triangle inside a rounded terracotta square
+sources:
+  - url: https://www.explainroo.com/
+    title: Official product website
+  - url: https://www.explainroo.com/docs/
+    title: Official documentation overview
+  - url: https://www.explainroo.com/favicon.svg
+    title: Original vector product mark
+  - url: https://github.com/vincentsch/explainroo
+    title: Public source repository and MIT licence
+  - url: https://news.ycombinator.com/item?id=49908484
+    title: Creator's Show HN introduction
+launch:
+  title: explainroo becomes publicly available
+  summary: >-
+    The public repository was created in September 2026, and the creator
+    introduced the video toolkit and examples on Show HN that month.
+  occurred_on:
+    precision: month
+    value: "2026-09"
+  date_basis: announced
+  source:
+    url: https://hn.algolia.com/api/v1/items/49908484
+    title: Dated Hacker News record of the creator's introduction
+    locator: The created_at field is 2026-09-30T13:13:27Z; the post links the source repository and examples.
