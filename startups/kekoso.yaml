@@ -1,0 +1,61 @@
+name: Kekoso
+tagline: Local speech transcription and dictation for Apple silicon Macs
+description: >-
+  Kekoso is a macOS utility that converts speech into text using models stored on
+  the user's computer. A keyboard shortcut inserts dictated text into the active
+  application. The same app can process audio and video files, transcribe calls,
+  and export timed transcripts as text or subtitle files. Users can choose a
+  recognition model and maintain a vocabulary for names and specialist terms.
+  A local MCP server exposes transcription and related controls to compatible
+  coding assistants. Speech recognition stays on the Mac; an optional translation
+  feature sends recognized text to the user's chosen OpenRouter provider.
+problem: Dictation, recording transcription and agent transcription often require separate tools.
+audience:
+  - Mac users who dictate or transcribe recordings
+  - Developers connecting local speech tools to coding assistants
+website: https://kekoso.app/
+access:
+  - kind: download
+    url: https://kekoso.app/download
+categories:
+  - productivity
+  - media
+  - developer-tools
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 2900
+    currency: usd
+    interval: one_off
+platforms:
+  - macos
+links:
+  - kind: changelog
+    url: https://kekoso.app/changelog/
+logo:
+  path: logo.png
+  alt: Kekoso's dark rounded-square icon with blue and violet waveform bars
+gallery:
+  - path: transcribe.webp
+    alt: Kekoso's transcription window with file input and a field for a video link
+sources:
+  - url: https://kekoso.app/
+    title: Official product website and pricing
+  - url: https://kekoso.app/changelog/
+    title: Official changelog documenting the first public release
+  - url: https://kekoso.app/favicon.svg
+    title: Original vector app logo served by the official website
+  - url: https://kekoso.app/shots/transcribe.webp
+    title: Official product screenshot
+launch:
+  title: Kekoso's first public release
+  summary: Version 1.0 made the Mac dictation and transcription application publicly available.
+  occurred_on:
+    precision: day
+    value: "2026-08-31"
+  date_basis: effective
+  source:
+    url: https://kekoso.app/changelog/
+    title: Kekoso changelog
+    locator: The section headed 1.0, dated 31 August 2026, identifies it as the first public release.
