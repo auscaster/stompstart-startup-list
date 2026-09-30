@@ -1,0 +1,78 @@
+# Hemory — always-on conversation memory for AI agents
+name: Hemory
+tagline: Always-on listening that wires real conversation memory into your AI agents
+description: >-
+  Hemory listens on the phone or Apple Watch you already own and turns everyday
+  conversations into private, searchable memory. Moments are split and labelled
+  automatically, then exposed to Claude, Codex, Cursor and other MCP clients
+  through a search_memory tool so agents can answer from what you actually said
+  and heard. Audio is processed as a stream with zero cloud audio retention;
+  raw audio stays on the listening device. Plans range from a free trial to
+  unlimited Max listening, with voice-activity detection counting only spoken time.
+problem: >-
+  Meeting notes and ad-hoc recordings still leave people stitching context across
+  days by hand, and AI tools forget what was said unless someone pasted a transcript.
+audience:
+  - Knowledge workers who live in meetings
+  - Builders who want agents grounded in real conversations
+website: https://www.hemory.com/
+access:
+  - kind: browse
+    url: https://www.hemory.com/
+  - kind: download
+    url: https://apps.apple.com/app/hemory/id6774048114
+categories:
+  - ai-and-agents
+  - productivity
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 1000
+    currency: usd
+    interval: month
+  pricing_url: https://www.hemory.com/
+company:
+  name: Hemory
+  relationship: independent
+location:
+  country: US
+founded:
+  precision: month
+  value: "2026-08"
+platforms:
+  - ios
+  - android
+  - web
+links:
+  - kind: press
+    url: https://www.producthunt.com/products/hemory
+  - kind: social
+    url: https://x.com/hemoryapp
+    network: x
+logo:
+  path: logo.png
+  alt: The Hemory app icon, a rounded mark used on the website favicon
+gallery:
+  - path: hero.png
+    alt: Hemory marketing image showing always-on listening and an agent reading memories over MCP
+sources:
+  - url: https://www.hemory.com/
+    title: Official website
+  - url: https://apps.apple.com/app/hemory/id6774048114
+    title: Hemory on the App Store
+  - url: https://www.producthunt.com/products/hemory
+    title: Hemory on Product Hunt
+launch:
+  title: Hemory launches on the App Store
+  summary: >-
+    First public App Store release of Hemory, the always-on listening app that
+    turns conversations into searchable memory for AI agents.
+  occurred_on:
+    precision: day
+    value: "2026-08-08"
+  date_basis: effective
+  source:
+    url: https://apps.apple.com/app/hemory/id6774048114
+    title: Hemory on the App Store
+    locator: App Store listing release date of August 8, 2026 (confirmed via iTunes lookup id 6774048114)
