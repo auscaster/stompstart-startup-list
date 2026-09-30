@@ -1,0 +1,48 @@
+﻿name: iFixAi
+tagline: Independent audits for AI agent behavior and authority
+description: >-
+  An auditing service and open-source engine for testing AI agents against
+  behavioral and operational risks. It runs structured inspections across tool
+  use, authorization, workflow compliance and evidence, then produces reports
+  showing what the agent did and where it broke its intended rules. Teams can
+  connect agents through GitHub or MCP, while the open-source engine can run on
+  their own infrastructure.
+problem: AI agents can complete tasks while still exceeding permissions or breaking required workflows.
+audience:
+  - Teams deploying AI agents with access to tools, customer data or business workflows
+website: https://www.ifixai.ai/
+access:
+  - kind: install
+    url: https://github.com/ifixai-ai/iFixAi
+categories:
+  - ai-and-agents
+stage: live
+pricing:
+  model: freemium
+company:
+  name: iFixAi Inc.
+  relationship: independent
+platforms:
+  - web
+links:
+  - kind: source
+    url: https://github.com/ifixai-ai/iFixAi
+logo:
+  path: logo.png
+  alt: iFixAi logo
+sources:
+  - url: https://www.ifixai.ai/
+    title: iFixAi official website
+  - url: https://www.ifixai.ai/terms
+    title: iFixAi Terms of Service
+launch:
+  title: iFixAi launches on Product Hunt
+  summary: iFixAi launched its independent auditing service for AI agents.
+  occurred_on:
+    precision: day
+    value: "2026-09-29"
+  date_basis: effective
+  source:
+    url: https://www.producthunt.com/leaderboard/daily/2026/9/29
+    title: Best of Product Hunt September 29, 2026
+    locator: iFixAi entry in the September 29 daily launch leaderboard
