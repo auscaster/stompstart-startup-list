@@ -1,0 +1,50 @@
+name: Touchy
+tagline: A voice and camera assistant for iPhone
+description: >-
+  Touchy is an iPhone assistant that takes spoken requests and can use
+  the camera to understand what a user is looking at. Users can connect
+  services such as calendars and messaging apps so the assistant can
+  carry out actions with permission. It keeps a continuous conversation
+  and remembers preferences to provide context for later requests.
+problem: Phone users have to switch between separate apps to complete small tasks and ask about their surroundings.
+audience:
+  - iPhone users
+  - People managing tasks across connected apps
+website: https://touchyapp.com/
+access:
+  - kind: download
+    url: https://apps.apple.com/us/app/touchy-ai-at-your-fingertips/id6798889392
+categories:
+  - ai-and-agents
+  - productivity
+stage: live
+pricing:
+  model: freemium
+platforms:
+  - ios
+logo:
+  path: logo.png
+  alt: Touchy's official iPhone app icon
+gallery:
+  - path: product.webp
+    alt: Touchy founder-provided launch image showing the iPhone assistant in use
+sources:
+  - url: https://touchyapp.com/
+    title: Touchy official website
+  - url: https://apps.apple.com/us/app/touchy-ai-at-your-fingertips/id6798889392
+    title: Touchy official App Store listing
+  - url: https://www.ycombinator.com/companies/touchy
+    title: Touchy company profile at Y Combinator
+  - url: https://www.ycombinator.com/launches/Syt-touchy-voice-first-ai-assistant-for-iphone-that-understands-the-world-around-you
+    title: Touchy's founder-written public launch announcement
+launch:
+  title: Touchy releases its iPhone assistant
+  summary: Apple's public listing metadata dates the iPhone app's first release to August 25, 2026.
+  occurred_on:
+    precision: day
+    value: "2026-08-25"
+  date_basis: effective
+  source:
+    url: https://itunes.apple.com/lookup?id=6798889392&country=us
+    title: Apple App Store public metadata for Touchy
+    locator: results[0].releaseDate, 2026-08-25T07:00:00Z; the founders also publicly announced Touchy through Launch YC in August 2026
