@@ -28,11 +28,6 @@ location:
 founded:
   precision: month
   value: "2026-05"
-platforms:
-  - mac
-links:
-  - kind: twitter
-    url: https://x.com/granola_so
 logo:
   path: logo.png
   alt: Granola logo typography
