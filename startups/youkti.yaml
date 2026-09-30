@@ -1,0 +1,77 @@
+name: Youkti
+tagline: Revenue actions for every deal in the pipeline
+description: >-
+  Youkti is a revenue action platform for sales teams. It keeps a running memory
+  of accounts, conversations and deals, then turns that context into specific
+  next moves: which deal is at risk, which dormant account just showed a buying
+  signal, and what to prepare for an upcoming meeting. Contact enrichment,
+  verified mobiles, business emails, LinkedIn profiles and buying signals are
+  free without a card or usage meter. Paid plans add deal actions, account
+  intelligence, CRM sync and ARYA, an AI agent that builds outreach flows from
+  plain-language instructions.
+problem: >-
+  Sales teams pay for contact data and intent feeds, then still guess which
+  account to work next while deals slip quietly in the CRM.
+audience:
+  - Account executives
+  - Sales leaders
+  - RevOps and outbound teams
+website: https://youkti.ai/
+access:
+  - kind: signup
+    url: https://app.youkti.ai/signup
+  - kind: demo
+    url: https://youkti.ai/book-a-demo
+  - kind: browse
+    url: https://youkti.ai/free-access
+categories:
+  - marketing
+  - business-software
+  - ai-and-agents
+stage: live
+pricing:
+  model: freemium
+  pricing_url: https://youkti.ai/free-access
+company:
+  name: Youkti
+  relationship: independent
+location:
+  country: IN
+  city: Hyderabad
+platforms:
+  - web
+links:
+  - kind: social
+    network: linkedin
+    url: https://www.linkedin.com/company/youktiai
+  - kind: social
+    network: youtube
+    url: https://www.youtube.com/@YouktiGTM
+logo:
+  path: logo.png
+  alt: The Youkti logo, a rounded violet mark on a light background
+gallery:
+  - path: deals-at-risk.png
+    alt: Youkti deal action card for an at-risk account with suggested next steps
+sources:
+  - url: https://youkti.ai/
+    title: Official website
+  - url: https://youkti.ai/free-access
+    title: Free access to contact data and buying signals
+  - url: https://hunted.space/product/youkti
+    title: Product Hunt launch overview for Youkti
+  - url: https://www.producthunt.com/products/youkti
+    title: Youkti on Product Hunt
+launch:
+  title: Youkti launches on Product Hunt
+  summary: >-
+    Public Product Hunt launch as Product of the Day, presenting the free data
+    layer and paid revenue action platform.
+  occurred_on:
+    precision: day
+    value: "2026-09-12"
+  date_basis: effective
+  source:
+    url: https://hunted.space/product/youkti
+    title: Youkti Product Hunt launch overview
+    locator: Featured on September 12th, 2026
