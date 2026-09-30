@@ -48,7 +48,7 @@ logo:
   alt: The WebinarFlow logo, a dark rounded square with a white stylised W mark
 gallery:
   - path: product.png
-    alt: A WebinarFlow session closing screen with the offer card and next steps beside the room
+    alt: Public homepage of WebinarFlow showing the product pitch and session room
   - path: session.png
     alt: A WebinarFlow product screenshot from the public launch showing the live webinar studio
 sources:
