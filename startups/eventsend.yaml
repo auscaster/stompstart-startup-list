@@ -29,7 +29,6 @@ pricing:
     amount_minor: 1200
     currency: usd
     interval: month
-  pricing_url: https://eventsend.io/#pricing
 platforms:
   - web
 website: https://eventsend.io/
