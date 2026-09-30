@@ -1,0 +1,54 @@
+name: Definite
+tagline: Connected finance data for reporting and agent workflows
+description: >-
+  Definite connects a company's finance systems and models their records,
+  relationships and calculations in a shared data layer. Finance teams can use
+  that layer for reconciliation, reporting, dashboards and agent workflows.
+  Figures retain links to their source records so reviewers can investigate
+  discrepancies. Customers request a demonstration to discuss a scoped
+  implementation.
+problem: Finance teams repeatedly reconcile records spread across separate systems.
+audience:
+  - Finance and back-office teams
+website: https://www.usedefinite.com/
+access:
+  - kind: demo
+    url: https://definite.cal.com/mazin/definite-intro
+categories:
+  - finance
+  - data-and-analytics
+stage: live
+pricing:
+  model: contact_sales
+company:
+  name: Definite
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Definite's dark geometric emblem with six interlocking loops
+sources:
+  - url: https://www.usedefinite.com/
+    title: Official product and implementation overview
+  - url: https://www.ycombinator.com/companies/definite
+    title: YC company profile and founding year
+  - url: https://www.usedefinite.com/site/definite-logo.png
+    title: Original 256-pixel logo served by the official website
+launch:
+  title: Definite introduces its finance reporting product
+  summary: The founders announced Definite publicly through Launch YC.
+  occurred_on:
+    precision: day
+    value: "2026-07-15"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours
+    title: Definite - Turn weeks of regulatory reports into hours
+    locator: The post's time element is dated July 15, 2026; its embedded approved_at is 2026-07-15T17:10:32Z.
