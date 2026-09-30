@@ -1,0 +1,63 @@
+name: AgentBox
+tagline: Isolated workspaces for running coding agents in parallel
+description: >-
+  AgentBox provisions separate development workspaces where multiple coding
+  assistants can operate at the same time. Its command line manages setup,
+  pause, resume, and teardown across local Docker hosts, remote machines, and
+  supported cloud services. A companion macOS app shows active boxes and opens
+  their terminals, browsers, editors, and Git branches.
+problem: >-
+  Concurrent coding-agent sessions can interfere with files, services, ports,
+  and credentials when they share one development environment.
+audience:
+  - Software developers running multiple coding-agent sessions
+  - Engineering teams that want repeatable, isolated development environments
+website: https://agent-box.sh/
+access:
+  - kind: install
+    url: https://agent-box.sh/#install
+categories:
+  - developer-tools
+  - ai-and-agents
+  - productivity
+stage: live
+pricing:
+  model: free
+platforms:
+  - macos
+  - linux
+links:
+  - kind: docs
+    url: https://agent-box.sh/#cli
+  - kind: source
+    url: https://github.com/madarco/agentbox
+logo:
+  path: logo.png
+  alt: The AgentBox logo, a black outlined box inside a rounded white square
+gallery:
+  - path: overview.png
+    alt: >-
+      AgentBox's official overview image showing its command line and macOS menu
+      for managing isolated coding-agent boxes
+sources:
+  - url: https://agent-box.sh/
+    title: AgentBox official website
+  - url: https://github.com/madarco/agentbox
+    title: AgentBox source repository
+  - url: https://github.com/madarco/agentbox/releases/tag/v0.9.0
+    title: AgentBox v0.9.0 release
+launch:
+  title: AgentBox v0.9.0 is released
+  summary: >-
+    Earliest GitHub tag for AgentBox, marking its v0.9.0 release for launching
+    coding agents in isolated virtual machines.
+  occurred_on:
+    precision: day
+    value: "2026-05-29"
+  date_basis: effective
+  source:
+    url: https://github.com/madarco/agentbox/releases/tag/v0.9.0
+    title: AgentBox v0.9.0 release
+    locator: >-
+      The v0.9.0 page states that madarco tagged it on 29 May at 22:09; its
+      timestamp is 2026-05-29T22:09:05Z.
