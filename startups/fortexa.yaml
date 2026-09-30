@@ -36,7 +36,7 @@ founded:
 platforms:
   - web
 links:
-  - kind: other
+  - kind: source
     url: https://github.com/fortexa-stellar/Fortexa
 logo:
   path: logo.png
@@ -58,3 +58,8 @@ launch:
   occurred_on:
     precision: day
     value: "2026-04-07"
+  date_basis: announced
+  source:
+    url: https://github.com/fortexa-stellar/Fortexa
+    title: Fortexa repository created on GitHub
+    locator: Repository creation date shows 2026-04-07
