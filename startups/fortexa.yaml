@@ -1,0 +1,60 @@
+name: Fortexa
+tagline: Stellar blockchain network with smart contract platform and dApp ecosystem
+description: >-
+  Fortexa is a Stellar-based blockchain network that ships a smart contract
+  platform, on-chain governance, and a dApp ecosystem anchored on the
+  existing Stellar rails. Contracts written for Soroban can run on Fortexa
+  with the same account model and asset primitives, so dApps move between
+  networks without rewriting their state model.
+problem: >-
+  Smart contract networks that ignore Stellar account and asset model force
+  developers to port every primitive. Fortexa runs on the same model so dApps
+  move between Stellar mainnet and Fortexa without rewriting their state.
+audience:
+  - Soroban dApp developers
+  - On-chain analysts
+  - Stellar ecosystem operators
+website: https://fortexa-five.vercel.app/
+access:
+  - kind: browse
+    url: https://fortexa-five.vercel.app/
+categories:
+  - crypto
+  - developer-tools
+  - ai-and-agents
+stage: live
+pricing:
+  model: free
+company:
+  name: Fortexa
+  relationship: independent
+location:
+  country: US
+founded:
+  precision: month
+  value: "2026-04"
+platforms:
+  - web
+links:
+  - kind: other
+    url: https://github.com/fortexa-stellar/Fortexa
+logo:
+  path: logo.png
+  alt: The Fortexa logo, a 256x256 PNG derived from the site own icon
+gallery:
+  - path: product.png
+    alt: A screenshot of the Fortexa landing page showing the network overview
+sources:
+  - url: https://fortexa-five.vercel.app/
+    title: Fortexa official website
+  - url: https://github.com/fortexa-stellar/Fortexa
+    title: Fortexa on GitHub
+launch:
+  title: Fortexa opens the Stellar smart contract network
+  summary: >-
+    The network went live on the public web, anchoring on the Stellar account
+    and asset model and exposing a smart contract platform that runs Soroban
+    contracts without porting.
+  occurred_on:
+    precision: day
+    value: "2026-04-07"
