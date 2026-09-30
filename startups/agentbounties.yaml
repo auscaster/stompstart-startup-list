@@ -47,7 +47,7 @@ platforms:
 links:
   - kind: blog
     url: https://agentbounties.app/blog/
-  - kind: other
+  - kind: source
     url: https://github.com/NSPG13/agent-bounties
 logo:
   path: logo.png
@@ -69,3 +69,8 @@ launch:
   occurred_on:
     precision: day
     value: "2026-07-08"
+  date_basis: announced
+  source:
+    url: https://github.com/NSPG13/agent-bounties
+    title: AgentBounties repository created on GitHub
+    locator: Repository creation date shows 2026-07-08
