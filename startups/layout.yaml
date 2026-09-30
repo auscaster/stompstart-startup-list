@@ -15,11 +15,10 @@ audience:
 website: https://layout.link/
 access:
   - kind: waitlist
-    url: https://layout.link/#waitlist
+    url: https://account.layout.link/waitlist
 categories:
-  - consumer
-  - ai
-  - food
+  - ai-and-agents
+  - commerce
 stage: prelaunch
 pricing:
   model: unknown
@@ -33,9 +32,6 @@ founded:
   value: "2026-09"
 platforms:
   - web
-links:
-  - kind: blog
-    url: https://layout.link/
 # The startup's own logo (an original of at least 256 pixels) and any pictures of the product sit
 # beside this file, in startups/layout/. With no gallery, Stompstart screenshots the homepage.
 logo:
@@ -59,5 +55,5 @@ launch:
   date_basis: effective
   source:
     url: https://layout.link/
-    title: Layout landing page (HTML comment "Published Sep 29, 2026")
-    locator: HTML comment at top of https://layout.link/
+    title: Layout landing page, html root element data-framer-page-optimized-at attribute
+    locator: html data-framer-page-optimized-at="2026-09-29T07:11:43.475Z" in <html> tag
