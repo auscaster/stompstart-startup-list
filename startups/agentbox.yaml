@@ -15,7 +15,7 @@ audience:
 website: https://agent-box.sh/
 access:
   - kind: install
-    url: https://agent-box.sh/#install
+    url: https://agent-box.sh/docs
 categories:
   - developer-tools
   - ai-and-agents
@@ -28,7 +28,7 @@ platforms:
   - linux
 links:
   - kind: docs
-    url: https://agent-box.sh/#cli
+    url: https://agent-box.sh/docs/cli
   - kind: source
     url: https://github.com/madarco/agentbox
 logo:
