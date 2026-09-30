@@ -9,10 +9,10 @@ audience:
   - Product managers
   - Founders
   - Remote professionals
-website: https://www.granola.so/
+website: https://www.granola.ai/
 access:
   - kind: download
-    url: https://www.granola.so/download
+    url: https://www.granola.ai/
 categories:
   - productivity
   - artificial-intelligence
@@ -34,13 +34,13 @@ links:
   - kind: twitter
     url: https://x.com/granola_so
 logo:
-  path: logo.png.jpg
-  alt: Granola logo featuring stylized minimalist typography
+  path: logo.png
+  alt: Granola logo typography
 gallery:
-  - path: notes.png.jpg
+  - path: notes.png
     alt: Meeting notes editor interface inside Granola
 sources:
-  - url: https://www.granola.so/
+  - url: https://www.granola.ai/
     title: Official Website
 launch:
   title: Granola public launch
@@ -50,6 +50,6 @@ launch:
     value: "2026-05-15"
   date_basis: effective
   source:
-    url: https://www.granola.so/
+    url: https://www.granola.ai/
     title: Granola Launch Announcement
     locator: Official landing page and launch notes
