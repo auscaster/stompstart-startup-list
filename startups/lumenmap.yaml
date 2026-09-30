@@ -1,0 +1,60 @@
+name: LumenMap
+tagline: Stellar network activity dashboard with daily volume, active wallets, top dApps, and treemap analytics
+description: >-
+  LumenMap is a Stellar network analytics dashboard. It tracks daily payment
+  volume, active wallet counts, top decentralized applications, and a treemap
+  breakdown of on-chain activity so operators can see where the network's
+  actual usage concentrates. The dashboard updates from public Stellar
+  horizon data and surfaces patterns that raw API queries miss.
+problem: >-
+  Stellar activity is spread across horizon, soroban-rpc, and per-app
+  indexes. There is no single public view that shows daily volume, active
+  wallets, and per-dApp concentration in one place.
+audience:
+  - Stellar dApp operators
+  - On-chain analysts
+  - Network explorers
+website: https://lumenmap.vercel.app/
+access:
+  - kind: browse
+    url: https://lumenmap.vercel.app/
+categories:
+  - data-and-analytics
+  - crypto
+  - developer-tools
+stage: live
+pricing:
+  model: free
+company:
+  name: LumenMap
+  relationship: independent
+location:
+  country: US
+founded:
+  precision: month
+  value: "2026-07"
+platforms:
+  - web
+links:
+  - kind: other
+    url: https://github.com/lumenmap/lumenmap
+logo:
+  path: logo.png
+  alt: The LumenMap logo, a 1024x1024 PNG from the site's icon
+gallery:
+  - path: product.png
+    alt: A screenshot of the LumenMap dashboard showing daily volume, active wallets, top dApps and treemap analytics
+sources:
+  - url: https://lumenmap.vercel.app/
+    title: LumenMap official website
+  - url: https://github.com/lumenmap/lumenmap
+    title: LumenMap on GitHub
+launch:
+  title: LumenMap opens the Stellar activity dashboard
+  summary: >-
+    The dashboard went live on the public web, reading from Stellar horizon
+    data and showing daily volume, active wallets, and treemap analytics in
+    one view.
+  occurred_on:
+    precision: day
+    value: "2026-07-13"
