@@ -1,0 +1,51 @@
+﻿name: LUCI
+tagline: Local screen and meeting memory for AI agents
+description: >-
+  A desktop app for Windows and Apple Silicon Macs that records screen activity
+  and meetings, indexes that context locally, and makes it searchable. Selected
+  context can be retrieved by AI agents such as Codex, Claude Code and Cursor
+  while the underlying recordings and memory remain on the user's computer.
+problem: AI agents miss work context that lives outside connected apps and the current conversation.
+audience:
+  - People who use desktop AI coding agents
+  - Knowledge workers who want searchable local screen and meeting history
+website: https://luci.memories.ai/
+access:
+  - kind: download
+    url: https://luci.memories.ai/download
+categories:
+  - ai-and-agents
+  - productivity
+stage: live
+pricing:
+  model: free
+company:
+  name: Memories.ai
+  relationship: parent
+platforms:
+  - windows
+  - macos
+links:
+  - kind: docs
+    url: https://luci.memories.ai/docs/what-is-luci
+  - kind: changelog
+    url: https://luci.memories.ai/changelog
+logo:
+  path: logo.png
+  alt: LUCI logo
+sources:
+  - url: https://luci.memories.ai/
+    title: LUCI official website
+  - url: https://luci.memories.ai/docs/what-is-luci
+    title: What is LUCI
+launch:
+  title: LUCI Desktop launches for Mac and Windows
+  summary: Memories.ai released LUCI Desktop as a free local screen and meeting memory app for AI agents.
+  occurred_on:
+    precision: day
+    value: "2026-09-22"
+  date_basis: effective
+  source:
+    url: https://memories.ai/blogs/luci-desktop-launch
+    title: Your Agent Misses Hours of Your Workday Context. LUCI Fills in the Gaps.
+    locator: Opening section, which states that Memories.ai launched LUCI Desktop and dates the post September 22, 2026
