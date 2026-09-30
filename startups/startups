@@ -1,0 +1,55 @@
+name: Granola
+tagline: AI notepad for meetings that turns conversations into clear notes
+description: >-
+  Granola is an AI-powered notepad designed for people in meetings. It captures
+  audio locally, transcribes conversations accurately, and enhances your raw notes
+  with meeting context and action items.
+problem: Taking notes manually during meetings distracts from the conversation, while automated bots joining calls can feel intrusive.
+audience:
+  - Product managers
+  - Founders
+  - Remote professionals
+website: https://www.granola.so/
+access:
+  - kind: download
+    url: https://www.granola.so/download
+categories:
+  - productivity
+  - artificial-intelligence
+stage: live
+pricing:
+  model: freemium
+company:
+  name: Granola Systems Inc.
+  relationship: independent
+location:
+  country: GB
+  city: London
+founded:
+  precision: month
+  value: "2026-05"
+platforms:
+  - mac
+links:
+  - kind: twitter
+    url: https://x.com/granola_so
+logo:
+  path: logo.png
+  alt: Granola logo featuring stylized minimalist typography
+gallery:
+  - path: notes.png
+    alt: Meeting notes editor interface inside Granola
+sources:
+  - url: https://www.granola.so/
+    title: Official Website
+launch:
+  title: Granola public launch
+  summary: Granola released its AI meeting notepad to the general public.
+  occurred_on:
+    precision: day
+    value: "2026-05-15"
+  date_basis: effective
+  source:
+    url: https://www.granola.so/
+    title: Granola Launch Announcement
+    locator: Official landing page and launch notes
