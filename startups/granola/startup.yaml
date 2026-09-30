@@ -34,10 +34,10 @@ links:
   - kind: twitter
     url: https://x.com/granola_so
 logo:
-  path: logo.png
+  path: logo.png.jpg
   alt: Granola logo featuring stylized minimalist typography
 gallery:
-  - path: notes.png
+  - path: notes.png.jpg
     alt: Meeting notes editor interface inside Granola
 sources:
   - url: https://www.granola.so/
