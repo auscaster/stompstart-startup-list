@@ -1,0 +1,42 @@
+name: BoardUI
+tagline: React components and templates for agentic interfaces
+description: >-
+  BoardUI is a React design system for interfaces that combine AI agent workflows
+  with dashboards. Its free catalog is distributed as source code that developers
+  can add to their own projects, with additional paid templates available separately.
+problem: Developers building agent products need interface pieces for chat, agent activity and dashboard data without assembling separate component systems.
+audience:
+  - Developers building AI agent products and dashboards
+website: https://www.boardui.com/
+access:
+  - kind: browse
+    url: https://www.boardui.com/
+categories:
+  - developer-tools
+stage: live
+pricing:
+  model: freemium
+platforms:
+  - web
+links:
+  - kind: source
+    url: https://github.com/BoardUI/boardui
+logo:
+  path: logo.png
+  alt: BoardUI logo
+sources:
+  - url: https://www.boardui.com/
+    title: BoardUI official website
+  - url: https://www.tinystartups.com/launches/2026/9
+    title: Startups launched in September 2026
+launch:
+  title: BoardUI launches publicly
+  summary: BoardUI became publicly available as a React design system for dashboards and agent interfaces.
+  occurred_on:
+    precision: month
+    value: "2026-09"
+  date_basis: effective
+  source:
+    url: https://www.tinystartups.com/launches/2026/9
+    title: Startups launched in September 2026
+    locator: BoardUI appears in the September 2026 launch list.
