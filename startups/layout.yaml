@@ -1,0 +1,59 @@
+# Copy with `npm run new -- your-startup-slug`, then replace every sample value.
+# The file holds the startup's facts; Stompstart adds identifiers and evidence at review.
+name: Layout
+tagline: Order food from any restaurant using AI
+description: >-
+  Layout connects AI assistants (Claude, ChatGPT and others) to real food
+  ordering endpoints so a user can ask an LLM to place an order end to end.
+  The assistant picks a restaurant, builds the cart and confirms checkout
+  through a connector, while the user reviews and approves each step.
+problem: Ordering food through delivery apps means opening another app, scrolling
+  menus, and re-entering the same address and payment details every time.
+audience:
+  - People who already use ChatGPT or Claude for everyday tasks
+  - Remote workers ordering lunch at their desk
+website: https://layout.link/
+access:
+  - kind: waitlist
+    url: https://account.layout.link/waitlist
+categories:
+  - ai-and-agents
+  - commerce
+stage: prelaunch
+pricing:
+  model: unknown
+company:
+  name: Layout
+  relationship: independent
+location:
+  country: US
+founded:
+  precision: month
+  value: "2026-09"
+platforms:
+  - web
+# The startup's own logo (an original of at least 256 pixels) and any pictures of the product sit
+# beside this file, in startups/layout/. With no gallery, Stompstart screenshots the homepage.
+logo:
+  path: logo.png
+  alt: The Layout logo, a black circle with a white "L" on a flat background.
+gallery:
+  - path: product.png
+    alt: The Layout landing page shown in a browser window, with the headline "Order food anywhere with AI" and a "Join waitlist" call to action.
+sources:
+  - url: https://layout.link/
+    title: Official website
+# The first release, and the page that dates it. A prelaunch product leaves this out.
+launch:
+  title: Layout opens its AI food ordering waitlist
+  summary: >-
+    Public landing page published 2026-09-29 with a "Join waitlist" call to
+    action, marking the first public appearance of the product.
+  occurred_on:
+    precision: day
+    value: "2026-09-29"
+  date_basis: effective
+  source:
+    url: https://layout.link/
+    title: Layout landing page, html root element data-framer-page-optimized-at attribute
+    locator: html data-framer-page-optimized-at="2026-09-29T07:11:43.475Z" in <html> tag
