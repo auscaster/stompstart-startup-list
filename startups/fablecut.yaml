@@ -18,8 +18,6 @@ website: https://fablecut.space
 access:
   - kind: browse
     url: https://fablecut.space
-  - kind: source
-    url: https://github.com/ronak-create/FableCut
 categories:
   - ai-and-agents
   - media
