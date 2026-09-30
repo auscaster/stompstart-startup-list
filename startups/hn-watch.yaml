@@ -1,0 +1,64 @@
+name: HN.watch
+tagline: The Hacker News front page with a video explainer for every story
+description: >-
+  A news reader that shows the Hacker News front page with a short video
+  explainer attached to every story. Each card carries the story's points,
+  submitter, comment count and age as on Hacker News, and clicking a title
+  opens a player with the explainer video instead of jumping straight to the
+  article. A sync badge on the header shows when the list was last refreshed.
+  The site is free to read and needs no account.
+problem: >-
+  Hacker News stories are often dense threads where the context is spread
+  across the article and hundreds of comments; a short video summary of each
+  story lowers the cost of scanning the front page.
+audience:
+  - Hacker News readers
+  - Developers who skim tech news
+website: https://hn.watch/
+access:
+  - kind: browse
+    url: https://hn.watch/
+categories:
+  - media
+  - productivity
+stage: live
+pricing:
+  model: free
+company:
+  name: Scrimba
+  relationship: parent
+location:
+  country: NO
+  city: Oslo
+founded:
+  precision: month
+  value: "2026-09"
+platforms:
+  - web
+links:
+  - kind: community
+    url: https://news.ycombinator.com/item?id=49879401
+logo:
+  path: logo.png
+  alt: The HN.watch logo, an orange rounded square with a white play-button triangle
+gallery:
+  - path: homepage.png
+    alt: The HN.watch front page with the story list, points, comment counts and the sync badge
+sources:
+  - url: https://hn.watch/
+    title: Official website
+  - url: https://news.ycombinator.com/item?id=49879401
+    title: "Show HN: HN.watch – Videos of all Hacker News posts"
+launch:
+  title: HN.watch launches on Hacker News
+  summary: >-
+    Posted as "Show HN: HN.watch – Videos of all Hacker News posts" and
+    reached 212 points within a day.
+  occurred_on:
+    precision: day
+    value: "2026-09-28"
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=49879401
+    title: "Show HN: HN.watch – Videos of all Hacker News posts"
+    locator: Submission timestamp 2026-09-28 15:16 UTC, which dates the public launch
