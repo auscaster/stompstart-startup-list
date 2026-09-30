@@ -1,0 +1,78 @@
+name: Aktar
+tagline: Upload to your own S3-compatible storage and copy a share link from the Mac menu bar
+description: >-
+  Aktar is a macOS menu bar app that uploads files to storage you already
+  control, such as Amazon S3, Cloudflare R2, Backblaze B2, DigitalOcean Spaces
+  or MinIO. Drag a file onto the menu bar icon, paste from the clipboard, or
+  pick a file, and Aktar puts a public link on the clipboard as a plain URL,
+  Markdown, HTML or a custom template. It keeps upload history with previews,
+  can browse and manage bucket folders, supports expiring uploads through the
+  bucket lifecycle rules, and stores credentials in the macOS Keychain with no
+  Aktar account or telemetry.
+problem: >-
+  Sharing a file from your own cloud usually means opening a console, setting
+  an object public, and copying a URL by hand, so people fall back to third-party
+  file hosts that keep a copy of the file.
+audience:
+  - Mac users who already keep files in S3-compatible buckets
+  - Developers and freelancers who want share links without a hosted file service
+website: https://getaktar.com/
+access:
+  - kind: download
+    url: https://github.com/getaktar/mac/releases/latest/download/Aktar.dmg
+  - kind: install
+    url: https://getaktar.com/
+categories:
+  - developer-tools
+  - productivity
+stage: live
+pricing:
+  model: free
+company:
+  name: Aktar
+  relationship: independent
+founded:
+  precision: day
+  value: "2026-09-26"
+platforms:
+  - macos
+links:
+  - kind: source
+    url: https://github.com/getaktar/mac
+  - kind: changelog
+    url: https://github.com/getaktar/mac/blob/main/CHANGELOG.md
+  - kind: social
+    network: github
+    url: https://github.com/getaktar
+logo:
+  path: logo.png
+  alt: The Aktar logo, a rounded square mark used as the Mac app icon
+gallery:
+  - path: product.png
+    alt: The Aktar homepage showing the Mac menu bar uploader pitch and download options
+sources:
+  - url: https://getaktar.com/
+    title: Official website
+  - url: https://github.com/getaktar/mac
+    title: Public source repository for the macOS app
+  - url: https://github.com/getaktar/mac/releases/tag/v0.1.0
+    title: First public GitHub release v0.1.0
+  - url: https://hunted.space/product/aktar
+    title: Hunted Space overview of the September 30, 2026 Product Hunt launch
+  - url: https://www.producthunt.com/products/aktar
+    title: Product Hunt product page for Aktar
+launch:
+  title: Aktar launches on Product Hunt
+  summary: >-
+    Aktar appears as a public Product Hunt launch with a downloadable Mac app
+    that uploads to the user's own S3-compatible storage and copies a share link.
+  occurred_on:
+    precision: day
+    value: "2026-09-30"
+  date_basis: announced
+  source:
+    url: https://hunted.space/product/aktar
+    title: Aktar Product Hunt launch overview on Hunted Space
+    locator: >-
+      The page states "Featured on September 30th, 2026" and "Aktar launched on
+      Product Hunt on September 30th, 2026".
