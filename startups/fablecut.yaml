@@ -17,7 +17,7 @@ audience:
 website: https://fablecut.space
 access:
   - kind: browse
-    url: https://fablecut.space
+    url: https://fablecut.space/
 categories:
   - ai-and-agents
   - media
@@ -39,7 +39,7 @@ links:
   - kind: source
     url: https://github.com/ronak-create/FableCut
   - kind: docs
-    url: https://fablecut.space
+    url: https://fablecut.space/
 logo:
   path: logo.png
   alt: The FableCut logo rendered from the site own favicon.svg
@@ -47,7 +47,7 @@ gallery:
   - path: product.png
     alt: A screenshot of the FableCut editor showing a timeline with four video and four audio tracks
 sources:
-  - url: https://fablecut.space
+  - url: https://fablecut.space/
     title: FableCut official website
   - url: https://github.com/ronak-create/FableCut
     title: FableCut on GitHub
@@ -61,6 +61,6 @@ launch:
     value: "2026-07-06"
   date_basis: announced
   source:
-    url: https://github.com/ronak-create/FableCut
-    title: FableCut repository created on GitHub
-    locator: Repository creation date shows 2026-07-06
+    url: https://fablecut.space/
+    title: FableCut website announces the zero-dependency video editor
+    locator: Website announces the browser-based video editor with agent API
