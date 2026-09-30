@@ -1,0 +1,71 @@
+name: Volaren
+tagline: Research tools for individual investors, built by former hedge fund analysts
+description: >-
+  Volaren gives individual investors the research workflow that professional
+  analysts use. A person describes a strategy in plain English and the service
+  builds and backtests it against company filings and market data, showing the
+  source behind every figure. The dashboard covers stocks, ETFs, options,
+  commodities, crypto, rates and currencies, and a screener filters on
+  fundamentals such as free cash flow yield and debt to equity. Users can
+  publish strategies to a shared marketplace and follow the ones they trust.
+  A free plan resets monthly and paid tiers add more usage.
+problem: >-
+  The research software that values a company is priced and designed for
+  professional analysts, so individual investors work from either raw data or
+  unsourced opinions.
+audience:
+  - Individual investors
+  - Small research teams
+  - Active retail traders
+website: https://www.volaren.ai/
+access:
+  - kind: signup
+    url: https://www.volaren.ai/signup
+  - kind: browse
+    url: https://www.volaren.ai/pricing
+categories:
+  - finance
+  - data-and-analytics
+stage: live
+pricing:
+  model: free
+company:
+  name: Volaren Inc.
+  relationship: independent
+location:
+  country: US
+founded:
+  precision: month
+  value: "2026-04"
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://www.volaren.ai/docs
+logo:
+  path: logo.png
+  alt: The Volaren logo, a white geometric mark on a dark background
+sources:
+  - url: https://www.volaren.ai/
+    title: Official product website
+  - url: https://www.volaren.ai/our-story
+    title: Company page describing the founders and the product's origin
+  - url: https://www.volaren.ai/pricing
+    title: Official pricing page
+  - url: https://www.volaren.ai/icon.png
+    title: Original 512 pixel logo served by the official website
+launch:
+  title: Volaren opens its research platform to individual investors
+  summary: >-
+    Volaren announced its research platform through Launch YC, after the
+    cofounders met at the University of Chicago and worked on Wall Street.
+  occurred_on:
+    precision: day
+    value: "2026-09-28"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/UDJ-volaren-research-operating-system-for-small-teams-and-active-retail-investors
+    title: Volaren research operating system for small teams and active retail investors
+    locator: >-
+      The post's time element is dated Sep 28, 2026, and its embedded
+      approved_at field is 2026-09-21T03:09:54Z.
