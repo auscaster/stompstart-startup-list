@@ -1,0 +1,70 @@
+# EventSend — proposed startup for the Stompstart startup list.
+name: EventSend
+tagline: Event tracking and routing for product teams
+description: >-
+  EventSend is a single HTTP endpoint an app posts events to. It records each
+  event in a searchable feed, then delivers it to where the team already works:
+  Slack, Discord, Telegram, push or a webhook. A payload such as
+  {"event": "payment.failed", "message": "..."} is all it takes; the service
+  handles validation, deduplication and retries against destinations that
+  misbehave. Sources flip the flow around: a signed webhook URL pasted into
+  Stripe, GitHub or Vercel turns their notifications into the same feed without
+  any code. The product also ships an MCP server and copy-ready prompts, so an
+  agent can instrument the moments worth knowing about and then answer
+  questions about them.
+problem: >-
+  Small teams learn about failed payments, deploys and signups from customers or
+  dashboards instead of their own system, and building reliable fan-out with
+  retries is infrastructure they would rather not maintain.
+audience:
+  - Solo builders and small product teams
+  - SaaS and side-project developers
+categories:
+  - developer-tools
+  - data-and-analytics
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 1200
+    currency: usd
+    interval: month
+  pricing_url: https://eventsend.io/#pricing
+platforms:
+  - web
+website: https://eventsend.io/
+access:
+  - kind: signup
+    url: https://eventsend.io/register
+links:
+  - kind: blog
+    url: https://eventsend.io/blog
+  - kind: docs
+    url: https://eventsend.io/docs
+logo:
+  path: logo.png
+  alt: The EventSend logo, a square app icon on a dark background
+gallery:
+  - path: dashboard.png
+    alt: The EventSend share image describing event tracking and routing for product teams
+sources:
+  - url: https://eventsend.io/
+    title: Official website
+  - url: https://eventsend.io/blog
+    title: EventSend blog
+  - url: https://news.ycombinator.com/item?id=49902837
+    title: Show HN - EventSend, event tracking and routing for solo founders and SaaS teams
+launch:
+  title: EventSend launches publicly on Show HN
+  summary: >-
+    The public introduction of EventSend, an event tracker and router that takes
+    one HTTP POST and delivers events to Slack, Discord, Telegram, push or a
+    webhook.
+  occurred_on:
+    precision: day
+    value: "2026-09-30"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=49902837
+    title: Show HN - EventSend, event tracking and routing for solo founders and SaaS teams
+    locator: The submission dated 30 September 2026, where the author introduces EventSend
