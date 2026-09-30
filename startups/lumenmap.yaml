@@ -20,7 +20,7 @@ access:
     url: https://lumenmap.vercel.app/
 categories:
   - data-and-analytics
-  - crypto
+  - finance
   - developer-tools
 stage: live
 pricing:
