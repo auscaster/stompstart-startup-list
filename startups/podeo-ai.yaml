@@ -1,0 +1,50 @@
+name: Podeo.ai
+tagline: Convert podcast audio into editable videos for YouTube
+description: >-
+  Podeo.ai builds videos from podcast episodes without requiring filmed footage.
+  Creators can select an episode from an RSS feed, set a visual profile and edit
+  the resulting video using a timeline or conversational instructions. Exports
+  include captions, chapters and thumbnails, with direct YouTube publishing and
+  downloadable videos for other platforms.
+problem: Audio podcast producers need a way to publish video episodes without filming each recording.
+audience:
+  - Independent podcasters
+  - Podcast networks
+  - Agencies and podcast producers
+website: https://www.podeo.ai/
+access:
+  - kind: signup
+    url: https://app.podeo.ai/
+categories:
+  - media
+  - ai-and-agents
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 4900
+    currency: usd
+    interval: month
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Podeo.ai's white audio waveform on a blue rounded square
+sources:
+  - url: https://www.podeo.ai/
+    title: Podeo.ai official product and pricing page
+  - url: https://www.podeo.ai/press-release
+    title: Podeo.ai public launch announcement
+  - url: https://www.podeo.ai/manifest.webmanifest
+    title: Official application manifest with original 512-pixel icon
+launch:
+  title: Podeo.ai launches podcast audio to video service
+  summary: Public release of the service for turning audio episodes into editable videos.
+  occurred_on:
+    precision: day
+    value: "2026-09-14"
+  date_basis: effective
+  source:
+    url: https://www.podeo.ai/press-release
+    title: Podeo.ai launch press release
+    locator: Opening paragraph dated September 14, 2026
