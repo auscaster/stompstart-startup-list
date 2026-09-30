@@ -18,8 +18,6 @@ website: https://romeos.cc
 access:
   - kind: browse
     url: https://romeos.cc
-  - kind: source
-    url: https://github.com/rome-os/rome
 categories:
   - ai-and-agents
   - developer-tools
