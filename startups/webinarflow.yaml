@@ -1,0 +1,78 @@
+name: WebinarFlow
+tagline: Automated webinars that call you in only when a live answer is needed
+description: >-
+  WebinarFlow lets a SaaS team record a sales pitch once and run it on a
+  rolling schedule. Prospects book a session, watch the presentation, and use
+  chat and polls in the room. When someone asks a question or needs a human,
+  the host gets a phone alert and can reply in chat or take over on camera;
+  otherwise the recording continues. Answers given live train an assistant that
+  handles the same questions in later sessions.
+problem: >-
+  Sales webinars need a live host for every session, so teams either burn
+  calendar time on quiet rooms or miss the moments when a prospect actually
+  engages.
+audience:
+  - SaaS founders and sales teams
+  - SDR and demo teams running recurring product pitches
+website: https://webinarflow.studio/
+access:
+  - kind: signup
+    url: https://webinarflow.studio/signup
+  - kind: demo
+    url: https://webinarflow.studio/
+categories:
+  - marketing
+  - ai-and-agents
+  - business-software
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 4900
+    currency: usd
+    interval: month
+  pricing_url: https://webinarflow.studio/pricing
+company:
+  name: WebinarFlow
+  relationship: independent
+founded:
+  precision: month
+  value: "2026-09"
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://webinarflow.studio/blog
+logo:
+  path: logo.png
+  alt: The WebinarFlow logo, a dark rounded square with a white stylised W mark
+gallery:
+  - path: product.png
+    alt: A WebinarFlow session closing screen with the offer card and next steps beside the room
+  - path: session.png
+    alt: A WebinarFlow product screenshot from the public launch showing the live webinar studio
+sources:
+  - url: https://webinarflow.studio/
+    title: Official website
+  - url: https://webinarflow.studio/pricing
+    title: Pricing page with Starter, Growth and Scale plans
+  - url: https://hunted.space/product/webinarflow
+    title: Hunted Space overview of the September 30, 2026 Product Hunt launch
+  - url: https://www.producthunt.com/products/webinarflow
+    title: Product Hunt product page for WebinarFlow
+launch:
+  title: WebinarFlow launches automated webinar rooms on Product Hunt
+  summary: >-
+    The public Product Hunt launch presents WebinarFlow as a live product with
+    signup, pricing and a working studio for recorded pitches that call the host
+    in only when needed.
+  occurred_on:
+    precision: day
+    value: "2026-09-30"
+  date_basis: announced
+  source:
+    url: https://hunted.space/product/webinarflow
+    title: WebinarFlow Product Hunt launch overview on Hunted Space
+    locator: >-
+      The page states "Featured on September 30th, 2026" and "WebinarFlow launched
+      on Product Hunt on September 30th, 2026".
