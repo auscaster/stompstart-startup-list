@@ -39,7 +39,7 @@ platforms:
   - linux
 links:
   - kind: source
-    url: https://github.com/rome-os/rome
+    url: https://romeos.cc/blog/
   - kind: docs
     url: https://romeos.cc/
 logo:
@@ -51,7 +51,7 @@ gallery:
 sources:
   - url: https://romeos.cc/
     title: Rome OS official website
-  - url: https://github.com/rome-os/rome
+  - url: https://romeos.cc/blog/
     title: Rome OS on GitHub
 launch:
   title: Rome OS opens to the public
@@ -60,9 +60,9 @@ launch:
     persist state, reuse tools, and compound capabilities across sessions.
   occurred_on:
     precision: day
-    value: "2026-08-23"
+    value: "2026-07-10"
   date_basis: announced
   source:
-    url: https://github.com/rome-os/rome
-    title: Rome OS GitHub repository (creation date)
-    locator: "rome-os/rome repo created at 2026-08-23T06:15:15Z (verifiable via GitHub API)"
+    url: https://romeos.cc/blog/
+    title: Rome OS blog — dates the first published post
+    locator: "Blog page shows first published post dated 2026-07-10 (Rome vs OpenClaw comparison)"
