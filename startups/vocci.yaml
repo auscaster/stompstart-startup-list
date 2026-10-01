@@ -1,0 +1,63 @@
+# Startup facts for Stompstart review.
+name: Vocci
+tagline: A wearable ring that turns spoken moments into AI-ready context
+description: >-
+  Vocci is a titanium recording ring with companion mobile apps. It captures
+  conversations on demand, prepares transcripts and summaries, and can pass
+  authorized context into AI assistants and productivity tools through MCP.
+problem: Useful decisions and follow-ups from in-person conversations are easy to lose.
+audience:
+  - People who want hands-free notes and follow-ups from conversations
+website: https://vocci.ai/
+access:
+  - kind: browse
+    url: https://vocci.ai/
+categories:
+  - ai-and-agents
+  - hardware
+  - productivity
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 24900
+    currency: usd
+    interval: one_off
+  pricing_url: https://vocci.ai/
+company:
+  name: Gyges Labs
+  relationship: parent
+location:
+  country: US
+  city: San Mateo
+founded:
+  precision: unknown
+platforms:
+  - hardware
+  - ios
+  - android
+links:
+  - kind: blog
+    url: https://vocci.ai/blogs/news/ai-note-taking-ring-vocci-launch
+logo:
+  path: logo.png
+  alt: The black Vocci circular signal mark on a transparent background
+gallery:
+  - path: product-context.jpg
+    alt: A person wearing the silver Vocci recording ring on an index finger
+sources:
+  - url: https://vocci.ai/
+    title: Vocci official website
+  - url: https://vocci.ai/blogs/news/ai-note-taking-ring-vocci-launch
+    title: Vocci AI Note-Taking Ring Public Launch
+launch:
+  title: Vocci Ring opens for public purchase
+  summary: Vocci made its recording ring available for public purchase in the United States.
+  occurred_on:
+    precision: day
+    value: "2026-08-04"
+  date_basis: effective
+  source:
+    url: https://vocci.ai/blogs/news/ai-note-taking-ring-vocci-launch
+    title: Vocci AI Note-Taking Ring Public Launch
+    locator: Opening paragraph states that public purchase began on Aug 4, 2026
