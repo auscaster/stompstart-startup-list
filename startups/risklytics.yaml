@@ -1,0 +1,62 @@
+# Startup submission for the Stompstart startup list.
+name: Risklytics
+tagline: Commercial insurance brokerage for robotics and physical AI companies
+description: >-
+  Risklytics is an insurance brokerage for companies that build and deploy AI in
+  the physical world. It helps robotics, drone, hardware and autonomous vehicle
+  teams place commercial coverage such as general liability, technology errors
+  and omissions, cyber, property and umbrella policies. The company is backed by
+  Y Combinator and works from San Francisco.
+problem: >-
+  Frontier technology companies often find that standard commercial insurance
+  does not match what they build or how they operate, and brokers used to
+  software or to traditional manufacturing may not recognise the risks.
+audience:
+  - Robotics companies
+  - Hardware and deep tech startups
+  - Drone and autonomous vehicle operators
+  - AI software and agent companies
+website: https://www.risklytics.ai/
+access:
+  - kind: signup
+    url: https://app.risklytics.ai/sign-up/
+categories:
+  - finance
+  - hardware
+  - startup-resources
+stage: live
+pricing:
+  model: contact_sales
+  pricing_url: https://www.risklytics.ai/pricing/
+company:
+  name: Risklytics
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://www.risklytics.ai/news/
+logo:
+  path: logo.png
+  alt: The Risklytics logo, a dark rounded mark with the company name
+sources:
+  - url: https://www.risklytics.ai/
+    title: Official website
+  - url: https://www.risklytics.ai/pricing/
+    title: Pricing page
+launch:
+  title: Risklytics launches its Y Combinator-backed insurance brokerage
+  summary: >-
+    Risklytics announced its public launch as a commercial insurance brokerage
+    for companies that deploy AI in the physical world.
+  occurred_on:
+    precision: day
+    value: "2026-08-14"
+  date_basis: effective
+  source:
+    url: https://www.risklytics.ai/news/risklytics-yc-launch/
+    title: Our Y Combinator launch is live
+    locator: Byline below the heading, which reads August 14, 2026
