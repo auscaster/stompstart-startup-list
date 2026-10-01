@@ -1,0 +1,44 @@
+name: Mass Magnetics
+tagline: Recycled rare-earth materials and domestically manufactured magnets
+description: >-
+  Mass Magnetics recovers rare-earth material from discarded motors, hard drives
+  and industrial equipment. It sorts material by grade and chemistry, supplies
+  recovered magnetic alloys, and is developing US production of permanent magnets.
+  Its website accepts magnet preorders and requests for material quotations.
+problem: Manufacturers need additional sources of rare-earth materials and permanent magnets.
+audience:
+  - Manufacturers of electric motors and robotic equipment
+website: https://massmagnetics.com/
+access:
+  - kind: contact_sales
+    url: https://massmagnetics.com/
+categories:
+  - hardware
+  - climate-and-energy
+stage: live
+pricing:
+  model: unknown
+company:
+  name: Mass Magnetics
+  relationship: independent
+logo:
+  path: logo.png
+  alt: Mass Magnetics' original white-and-red monogram with transparent padding
+sources:
+  - url: https://massmagnetics.com/
+    title: Official website with material products and quotation form
+  - url: https://massmagnetics.com/advanced-soft-magnetics
+    title: Available recovered soft-magnetic materials
+  - url: https://www.ycombinator.com/companies/mass-magnetics
+    title: Founder-maintained Y Combinator company profile
+launch:
+  title: Mass Magnetics introduces its US-made magnet offering
+  summary: The founders describe their recycled-feedstock approach and invite customers to contact them.
+  occurred_on:
+    precision: day
+    value: "2026-08-18"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/Sm3-mass-magnetics-usa-made-magnets
+    title: Mass Magnetics founder launch announcement on Y Combinator
+    locator: Announcement by Eric Silver; primary response created_at is 2026-08-18T14:30:00.079Z
