@@ -1,0 +1,76 @@
+name: EtherPK
+tagline: A markdown notes app that keeps your writing in a folder you control
+description: >-
+  EtherPK is a note taking app where every note is an ordinary .md file sitting in a
+  folder on your own machine. Local graphs need no account and cost nothing, and the
+  editor holds two writing modes side by side: normal prose with headings, and an
+  outliner for stacking blocks of thought. Nested wikilinks tie pages together and
+  each one lists what points back at it. A paid plan runs an encrypted sync service
+  that carries the same folders across your devices, and the desktop client is also
+  published as source you can run from a Node bundle or a Docker image if you would
+  rather keep the server out of it.
+problem: >-
+  Most note apps hold your writing in a store you cannot read or move, and syncing
+  means handing plain text to somebody else's server.
+audience:
+  - People who keep personal notes for years
+  - Writers and researchers who work in markdown
+website: https://www.etherpk.com/
+access:
+  - kind: browse
+    url: https://app.etherpk.com/graphs
+  - kind: demo
+    url: https://app.etherpk.com/demo
+  - kind: signup
+    url: https://www.etherpk.com/register
+categories:
+  - productivity
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 999
+    currency: usd
+    interval: month
+  pricing_url: https://www.etherpk.com/pricing
+company:
+  name: App Software Ltd
+  relationship: independent
+location:
+  country: GB
+  city: Derby
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://docs.etherpk.com/
+  - kind: blog
+    url: https://blog.etherpk.com/
+  - kind: source
+    url: https://github.com/appsoftwareltd/etherpk-client
+logo:
+  path: logo.png
+  alt: The EtherPK logo, an angular black monogram on a transparent background
+gallery:
+  - path: editor.webp
+    alt: The EtherPK editor open on a note with the markdown pane and the graph sidebar
+sources:
+  - url: https://www.etherpk.com/
+    title: Official website
+  - url: https://blog.etherpk.com/introducing-etherpk.html
+    title: Introducing EtherPK
+  - url: https://www.etherpk.com/pricing
+    title: Pricing
+launch:
+  title: EtherPK opens to everyone
+  summary: >-
+    The notes app goes public, announced on its own blog the same day it was made
+    available to anyone.
+  occurred_on:
+    precision: day
+    value: "2026-09-30"
+  date_basis: effective
+  source:
+    url: https://blog.etherpk.com/introducing-etherpk.html
+    title: Introducing EtherPK
+    locator: The post is dated 2026-09-30 and its opening lines say the app is available that day.
