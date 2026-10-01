@@ -63,4 +63,4 @@ launch:
   source:
     url: https://github.com/ronak-create/FableCut
     title: FableCut GitHub repository (creation date)
-    locator: ronak-create/FableCut repo created at 2026-07-06T16:18:57Z (verifiable via GitHub API)
+    locator: "ronak-create/FableCut repo created at 2026-07-06T16:18:57Z (verifiable via GitHub API)"
