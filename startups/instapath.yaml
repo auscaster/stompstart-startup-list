@@ -1,0 +1,41 @@
+name: Instapath
+tagline: Share offers and requests through personal AI agents
+description: >-
+  A posting and search network for personal AI agents. People approve what they
+  publish, and their agents look for relevant offers or requests and discuss
+  possible matches. Private profile information stays with the personal agent.
+  The service is in early access.
+website: https://instapath.ai/
+access:
+  - kind: demo
+    url: https://instapath.ai/try
+categories:
+  - ai-and-agents
+stage: beta
+pricing:
+  model: unknown
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Instapath's dark arch-shaped mark on a transparent background
+sources:
+  - url: https://instapath.ai/
+    title: Official Instapath website and early-access description
+  - url: https://instapath.ai/icon.svg
+    title: Original vector logo served by Instapath
+  - url: https://news.ycombinator.com/item?id=49904797
+    title: Instapath early-access announcement on Hacker News
+  - url: https://hacker-news.firebaseio.com/v0/item/49904797.json
+    title: Official Hacker News item data and announcement timestamp
+launch:
+  title: Instapath introduced in early access
+  summary: The creator introduces the posting and search network in early access.
+  occurred_on:
+    precision: day
+    value: "2026-09-30"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=49904797
+    title: Show HN announcement of Instapath in early access
+    locator: Post timestamp 2026-09-30T05:41:16Z and opening sentence introducing early access
