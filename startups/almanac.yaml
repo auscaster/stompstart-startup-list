@@ -1,0 +1,55 @@
+name: Almanac
+tagline: An AI workspace that connects tasks, conversations and a personal wiki
+description: >-
+  Almanac brings tasks, projects and conversations into a Mac workspace.
+  Connected accounts supply context for a wiki that users can inspect and correct.
+  The assistant prepares drafts and follow-ups alongside the relevant task.
+  Setup currently requires a separate ChatGPT subscription. The workspace offers
+  a seven-day trial with a payment card, followed by a monthly subscription.
+problem: Keeping project context and follow-ups consistent across separate work tools.
+audience:
+  - People managing projects across multiple accounts and conversations
+website: https://usealmanac.com/
+access:
+  - kind: download
+    url: https://usealmanac.com/download
+categories:
+  - productivity
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 2000
+    currency: usd
+    interval: month
+  pricing_url: https://usealmanac.com/
+company:
+  name: Almanac
+  relationship: independent
+platforms:
+  - macos
+logo:
+  path: logo.png
+  alt: Almanac's cream profile of a classical head on a dark circular background
+sources:
+  - url: https://usealmanac.com/
+    title: Official product description, pricing and requirements
+  - url: https://usealmanac.com/download
+    title: Official Mac application download
+  - url: https://usealmanac.com/logo.svg
+    title: Original official vector logo, rendered to PNG without redrawing
+  - url: https://www.ycombinator.com/companies/almanac
+    title: Almanac company and founder listing
+  - url: https://news.ycombinator.com/item?id=49511007
+    title: Founder launch announcement on Hacker News
+launch:
+  title: Almanac introduces its connected AI workspace on Hacker News
+  summary: The founders announced a live product with connected accounts and personal and company wikis.
+  occurred_on:
+    precision: day
+    value: "2026-08-31"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=49511007
+    title: Launch HN Almanac (YC S26)
+    locator: Founder announcement; story timestamp 2026-08-31T15:34:34Z, also available in the official HN item API.
