@@ -1,0 +1,68 @@
+name: Rome
+tagline: An open-source agentic OS for persistent apps and reusable workflows
+description: >-
+  Rome is an open-source agentic operating system that lets AI agents build
+  tools, retain context across sessions, and reuse capabilities across tasks.
+  It treats agents as first-class processes with their own lifecycle, memory,
+  and tool registry, so an agent that learned a workflow yesterday can apply
+  it today without re-reading the docs.
+problem: >-
+  AI agents lose context between sessions and cannot reuse work. Every task
+  starts from scratch, re-reading docs and re-discovering APIs. Rome gives
+  agents persistent state and a tool registry so capabilities compound.
+audience:
+  - AI agent operators
+  - Developer tools teams
+  - Open source contributors
+website: https://romeos.cc/
+access:
+  - kind: browse
+    url: https://romeos.cc/
+categories:
+  - ai-and-agents
+  - developer-tools
+  - productivity
+stage: live
+pricing:
+  model: free
+company:
+  name: Rome OS
+  relationship: independent
+location:
+  country: US
+founded:
+  precision: month
+  value: "2026-08"
+platforms:
+  - web
+  - macos
+  - linux
+links:
+  - kind: source
+    url: https://romeos.cc/blog/
+  - kind: docs
+    url: https://romeos.cc/
+logo:
+  path: logo.png
+  alt: The Rome OS logo rendered from the site own icon.svg
+gallery:
+  - path: product.png
+    alt: A screenshot of the Rome OS interface showing persistent agent apps and reusable workflows
+sources:
+  - url: https://romeos.cc/
+    title: Rome OS official website
+  - url: https://romeos.cc/blog/
+    title: Rome OS on GitHub
+launch:
+  title: Rome OS opens to the public
+  summary: >-
+    The open-source agentic operating system launched, letting AI agents
+    persist state, reuse tools, and compound capabilities across sessions.
+  occurred_on:
+    precision: day
+    value: "2026-07-10"
+  date_basis: announced
+  source:
+    url: https://romeos.cc/blog/
+    title: Rome OS blog — dates the first published post
+    locator: "Blog page shows first published post dated 2026-07-10 (Rome vs OpenClaw comparison)"
