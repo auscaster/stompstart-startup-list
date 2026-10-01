@@ -1,0 +1,100 @@
+name: Nori Robotics
+tagline: A $1,688 two-armed home robot assembled in San Francisco
+description: >-
+  Nori Robotics makes the Nori A3, a two-armed robot on a wheeled base for
+  everyday household tasks such as folding clothes, loading a dishwasher and
+  fetching items. Each arm moves with 7+1 degrees of freedom and lifts up to
+  1.5 kg. A lidar with 12 m of range and four 720p RGB cameras handle
+  navigation, and a speaker and microphone take spoken commands. The battery
+  lasts six to eight hours. Owners train and operate the robot with the Nori
+  Lab laptop app, and a skills marketplace lets them share the behaviors they
+  teach it. The company assembles the A3 in San Francisco and sells it at
+  $1,688 full price with no deposit, shipping from Fall 2026.
+problem: >-
+  General-purpose robots have cost $20,000 or more, which keeps them in labs
+  and pilot programs instead of homes. Household work today is spread across
+  single-task appliances that each do one job.
+audience:
+  - Households that want help with routine chores
+  - Small businesses that need affordable mobile manipulation
+website: https://www.norirobotics.com/
+access:
+  - kind: signup
+    url: https://www.norirobotics.com/preorder
+  - kind: browse
+    url: https://www.norirobotics.com/
+categories:
+  - hardware
+  - everyday-life
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 168800
+    currency: usd
+    interval: one_off
+company:
+  name: Nori Robotics
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+platforms:
+  - hardware
+links:
+  - kind: social
+    url: https://x.com/NoriRobotics
+    network: x
+  - kind: social
+    url: https://www.linkedin.com/company/norirobotics
+    network: linkedin
+  - kind: community
+    url: https://discord.gg/NgKhhxQny7
+    network: discord
+logo:
+  path: logo.png
+  alt: >-
+    The Nori mark, a light green four-leaf clover shape with two white oval
+    eyes in the center
+gallery:
+  - path: product.jpg
+    alt: >-
+      A Nori A3 robot in the company's San Francisco assembly space, with
+      more robot units behind it and an American flag on the wall
+sources:
+  - url: https://www.norirobotics.com/
+    title: Nori Robotics official website
+  - url: https://www.ycombinator.com/companies/noril1
+    title: Nori company profile at Y Combinator
+  - url: https://www.norirobotics.com/favicon-mark.84d68036.png
+    title: Original brand mark served by the official website
+  - url: https://www.norirobotics.com/images/workshop.2d100e21.jpg
+    title: Official Nori A3 workshop photograph from the company website
+  - url: https://news.ycombinator.com/item?id=49525153
+    title: Launch HN post by the Nori Robotics founders, dated 2026-09-01
+  - url: https://www.forbes.com/sites/johnkoetsier/2026/08/18/american-humanoid-robot-launches-for-just-1688-delivery-this-fall-made-in-san-francisco/
+    title: Forbes article dated August 18, 2026 reporting the Nori A3 launch
+  - url: https://electronics360.globalspec.com/article/24104/nori-a3-us-made-humanoid-robot-unveiled-for-1-688
+    title: >-
+      Electronics360 article dated August 23, 2026 describing the A3 wheeled
+      base and 19 degrees of freedom
+launch:
+  title: Nori opens orders for the A3, its $1,688 two-armed home robot
+  summary: >-
+    The San Francisco company began taking orders at full price with no
+    deposit for the Nori A3, a two-armed wheeled robot for household tasks,
+    with shipping planned from Fall 2026. Forbes reported the launch on
+    August 18, 2026, and wider news coverage and the company's own launch
+    post followed on August 20. In that post the company said it had already
+    deployed its first robot and passed $440,000 in sales.
+  occurred_on:
+    precision: day
+    value: "2026-08-20"
+  date_basis: announced
+  source:
+    url: https://interestingengineering.com/ai-robotics/us-humanoid-robot-nori-a3
+    title: New US humanoid robot targets house chores with $1,688 price tag
+    locator: >-
+      News report on the Nori A3 launch. The page's published date of
+      2026-08-20 appears in its metadata, matching the company's own launch
+      post of the same day.
