@@ -1,0 +1,75 @@
+name: Oasive
+tagline: Fixed-income research, screening, and valuation in one workflow
+description: >-
+  Oasive is a research platform for bond investors. A portfolio manager or
+  analyst can ask what is moving rates, compare Treasury maturities, and
+  screen agency mortgage-backed securities without hopping between market
+  data, models, and slide decks. Macro and rates research and the agency
+  MBS desk are live; municipals, ABS, and corporates are still on the
+  roadmap. Free research needs no card. Paid seats start with a 14-day trial.
+problem: >-
+  Fixed-income desks still split the same question across market data,
+  security data, spreadsheet models, PDF research, and presentation tools.
+audience:
+  - Portfolio managers and traders on fixed-income desks
+  - Analysts covering rates and agency mortgage-backed securities
+website: https://www.oasive.ai/
+access:
+  - kind: signup
+    url: https://www.oasive.ai/start-trial
+categories:
+  - finance
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 20000
+    currency: usd
+    interval: month
+  pricing_url: https://www.oasive.ai/join
+company:
+  name: Oasive
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://www.oasive.ai/news
+  - kind: social
+    url: https://www.linkedin.com/company/oasive
+    network: linkedin
+logo:
+  path: logo.png
+  alt: Oasive logo, a navy mark of three linked nodes inside an open ring
+gallery:
+  - path: product.png
+    alt: Oasive homepage with the agency MBS workspace, a coupon OAS chart, and a research desk
+sources:
+  - url: https://www.oasive.ai/
+    title: Oasive official website
+  - url: https://www.oasive.ai/news/oasive-launch-y-combinator
+    title: Oasive public launch note
+  - url: https://www.oasive.ai/join
+    title: Oasive plans and pricing
+  - url: https://www.ycombinator.com/companies/oasive
+    title: Oasive Y Combinator company page
+launch:
+  title: Oasive leaves stealth with Y Combinator
+  summary: >-
+    Founder Anaïs Howland published the public launch on 24 September 2026.
+    Macro and rates research and the agency MBS platform opened the same day,
+    with a free research tier and a paid trial.
+  occurred_on:
+    precision: day
+    value: "2026-09-24"
+  date_basis: announced
+  source:
+    url: https://www.oasive.ai/news/oasive-launch-y-combinator
+    title: Oasive is out of stealth, backed by Y Combinator
+    locator: Byline under the headline, dated September 24, 2026
