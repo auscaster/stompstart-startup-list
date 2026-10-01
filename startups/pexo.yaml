@@ -1,0 +1,44 @@
+name: Pexo
+tagline: Create and revise finished videos through conversation
+description: >-
+  An AI video production tool that turns prompts, links, images, audio and other
+  supplied assets into edited videos. Pexo can plan scenes, generate media, add
+  voiceover, music and captions, and lets users request revisions by commenting
+  on frames instead of working in a traditional timeline.
+website: https://pexo.ai/
+access:
+  - kind: signup
+    url: https://pexo.ai/
+categories:
+  - ai-and-agents
+  - media
+  - marketing
+stage: live
+pricing:
+  model: freemium
+  pricing_url: https://pexo.ai/pricing
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Pexo logo
+sources:
+  - url: https://pexo.ai/
+    title: Pexo official website
+  - url: https://pexo.ai/pricing
+    title: Pexo pricing
+  - url: https://www.producthunt.com/products/pexo-2
+    title: Pexo on Product Hunt
+  - url: https://hunted.space/dashboard/pexo-2
+    title: Pexo Product Hunt launch dashboard
+launch:
+  title: Pexo launches on Product Hunt
+  summary: Pexo publicly launched its conversational AI video production product on Product Hunt.
+  occurred_on:
+    precision: day
+    value: "2026-09-30"
+  date_basis: effective
+  source:
+    url: https://hunted.space/dashboard/pexo-2
+    title: Pexo Product Hunt launch dashboard
+    locator: About Pexo on Product Hunt section states that Pexo launched on September 30th, 2026.
