@@ -1,0 +1,63 @@
+name: Scissor
+tagline: A free vector and pixel graphics editor that runs in your browser
+description: >-
+  A design editor that runs entirely in the browser on WebAssembly. Artwork is
+  created, edited and saved on the user's own device, with no install, no
+  account and no upload. It covers pen, curvature and shape tools, Bézier path
+  editing, type with OpenType features and a glyphs panel, layers, masks and
+  clipping, gradients and pattern fills, live non-destructive effects, raster
+  tracing into editable vectors and pixel layers. It opens SVG, PDF, EPS, .ai
+  and PSD, exports SVG, PDF, PNG, JPEG and WebP, works offline, and can be
+  installed as an app. A user manual documents the tools, menus, formats and
+  keyboard shortcuts.
+problem: >-
+  Professional vector editors are subscription products; a browser editor with
+  no install and no account lowers the entry bar for occasional design work.
+audience:
+  - Designers
+  - Developers who edit vector artwork
+website: https://scissor.studio/
+access:
+  - kind: browse
+    url: https://scissor.studio/
+categories:
+  - design
+  - productivity
+stage: live
+pricing:
+  model: free
+company:
+  name: Scissor
+  relationship: independent
+founded:
+  precision: month
+  value: "2026-09"
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://scissor.studio/manual/
+logo:
+  path: logo.png
+  alt: The Scissor logo, the site's own 512-pixel app icon from its web manifest
+gallery:
+  - path: homepage.png
+    alt: The Scissor editor landing page with the tool coverage and file format list
+sources:
+  - url: https://scissor.studio/
+    title: Official website
+  - url: https://news.ycombinator.com/item?id=49875308
+    title: "Show HN: Free alternative to graphics design giants"
+launch:
+  title: Scissor launches on Hacker News
+  summary: >-
+    Posted as "Show HN: Free alternative to graphics design giants" and
+    reached 139 points within two days.
+  occurred_on:
+    precision: day
+    value: "2026-09-28"
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=49875308
+    title: "Show HN: Free alternative to graphics design giants"
+    locator: Submission timestamp, which dates the public launch
