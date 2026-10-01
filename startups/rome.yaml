@@ -65,4 +65,4 @@ launch:
   source:
     url: https://github.com/rome-os/rome
     title: Rome OS GitHub repository (creation date)
-    locator: rome-os/rome repo created at 2026-08-23T06:15:15Z (verifiable via GitHub API)
+    locator: "rome-os/rome repo created at 2026-08-23T06:15:15Z (verifiable via GitHub API)"
