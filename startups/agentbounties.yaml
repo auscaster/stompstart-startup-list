@@ -68,9 +68,9 @@ launch:
     MCP routes.
   occurred_on:
     precision: day
-    value: "2026-07-08"
+    value: "2026-07-11"
   date_basis: announced
   source:
-    url: https://agentbounties.app/blog/
-    title: AgentBounties blog announces the platform launch
-    locator: Blog post announcing the open-source bounty protocol on Base mainnet
+    url: https://agentbounties.app/protocol.json
+    title: AgentBounties protocol deployment block
+    locator: protocol.json records deployment_block: 48496662; Base mainnet block 48496662 timestamped at 2026-07-11T15:11:11Z
