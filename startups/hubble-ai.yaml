@@ -1,0 +1,48 @@
+name: Hubble
+tagline: Patient-authorized medical records through one API
+description: >-
+  Hubble gathers medical records for software teams after a patient authorizes
+  access. It connects to electronic health record systems and health information
+  exchanges, and uses browser and voice agents for providers outside those
+  integrations. Retrieved documents are organized into structured data with
+  references to their original sources. Teams can request a demonstration
+  through the website before integrating the service.
+website: https://hubble.ai/
+access:
+  - kind: demo
+    url: https://calendly.com/prabha-hubble/30min
+categories:
+  - health
+  - developer-tools
+stage: live
+pricing:
+  model: unknown
+founded:
+  precision: year
+  value: "2026"
+location:
+  country: US
+  city: Seattle
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Hubble's black orbital mark on a pale rounded square
+sources:
+  - url: https://hubble.ai/
+    title: Hubble official website
+  - url: https://www.ycombinator.com/companies/hubble-ai
+    title: Hubble company profile on Y Combinator
+  - url: https://hubble.ai/favicon.svg
+    title: Original Hubble vector logo, rendered directly to PNG
+launch:
+  title: Hubble introduces patient-mediated medical record access
+  summary: Hubble announces patient authorization and retrieval across provider systems.
+  occurred_on:
+    precision: day
+    value: "2026-07-17"
+  date_basis: announced
+  source:
+    url: https://www.hubble.ai/blog/introducing-patient-mediated-access
+    title: "Introducing patient-mediated access: records that follow the patient"
+    locator: "Dated July 17, 2026; the opening section says the product shipped that week."
