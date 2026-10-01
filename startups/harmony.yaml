@@ -1,0 +1,69 @@
+name: Harmony
+tagline: A service desk for IT and HR teams that runs inside Slack and Microsoft Teams
+description: >-
+  Harmony is an AI-native service platform for internal support teams.
+  Employees raise requests in Slack or Microsoft Teams, where Harmony's
+  agents answer questions, carry out routine work such as password resets
+  and access requests, and open tracked tickets when a person needs to step
+  in. The platform also keeps an inventory of devices, applications and
+  licences, and builds a knowledge base from resolved requests over time.
+  The company came out of stealth in July 2026 with a $34M seed round led
+  by Lightspeed Venture Partners.
+problem: Internal support teams spend much of their time on repetitive requests, password resets, access changes and equipment questions, that arrive scattered across chat, email and ticket queues, while employees wait for answers to simple questions.
+audience:
+  - IT support and service desk teams
+  - HR and people teams handling employee requests
+  - Companies replacing a legacy ITSM tool
+website: https://harmony.io/
+access:
+  - kind: demo
+    url: https://harmony.io/demo
+  - kind: contact_sales
+    url: https://harmony.io/pricing
+categories:
+  - ai-and-agents
+  - business-software
+stage: live
+pricing:
+  model: contact_sales
+  pricing_url: https://harmony.io/pricing
+company:
+  name: Harmony
+  relationship: independent
+location:
+  country: US
+  city: New York
+platforms:
+  - web
+people:
+  - name: Nitzan Shapira
+    role: Co-founder
+  - name: Ran Ribenzaft
+    role: Co-founder
+links:
+  - kind: press
+    url: https://harmony.io/press/harmony-raises-34-million-to-reinvent-employee-experience
+logo:
+  path: logo.png
+  alt: The Harmony symbol, a purple letter H formed by four rounded loops, on a transparent background
+gallery:
+  - path: product-tickets.png
+    alt: The Harmony service desk, showing a list of support tickets next to an open ticket where the agent replies to an employee in Slack
+sources:
+  - url: https://harmony.io/
+    title: Official website
+  - url: https://harmony.io/press/harmony-raises-34-million-to-reinvent-employee-experience
+    title: Launch press release, July 28, 2026
+  - url: https://harmony.io/pricing
+    title: Pricing page
+launch:
+  title: Public launch out of stealth with a $34M seed round
+  summary: Harmony announced itself publicly on 28 July 2026, coming out of stealth with a $34M seed round led by Lightspeed Venture Partners. Its launch release describes AI agents that handle employee service requests across IT, HR and other internal functions, embedded in Slack and Microsoft Teams. The founders, Nitzan Shapira and Ran Ribenzaft, previously co-founded Epsagon, which Cisco acquired.
+  occurred_on:
+    precision: day
+    value: "2026-07-28"
+  date_basis: announced
+  source:
+    url: https://harmony.io/press/harmony-raises-34-million-to-reinvent-employee-experience
+    title: Harmony Raises $34 Million to Reinvent Employee Experience Powered by AI
+    locator: Press release dated July 28, 2026, New York
