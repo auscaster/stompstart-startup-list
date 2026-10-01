@@ -1,0 +1,48 @@
+name: TypeSafe AI
+tagline: Decision models for automation inside software
+description: >-
+  TypeSafe AI builds models that return typed probabilistic decisions for software.
+  Its first public model, Jev, takes unstructured state and predefined questions and
+  returns structured choices, scores, or yes/no decisions with confidence values.
+problem: Software teams need fast automated judgments that applications can consume without parsing free-form model output.
+audience:
+  - Developers building automated software workflows
+  - Teams that need structured model decisions inside applications
+website: https://typesafe.ai/
+access:
+  - kind: signup
+    url: https://console.typesafe.ai/login
+categories:
+  - ai-and-agents
+  - developer-tools
+stage: live
+pricing:
+  model: usage_based
+  pricing_url: https://typesafe.ai/blog/introducing-system-one-models-and-jev
+company:
+  name: TypeSafe AI, Inc.
+  relationship: independent
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://typesafe.ai/blog/introducing-system-one-models-and-jev
+logo:
+  path: logo.png
+  alt: TypeSafe AI logo mark
+sources:
+  - url: https://typesafe.ai/
+    title: TypeSafe AI official website
+  - url: https://typesafe.ai/blog/introducing-system-one-models-and-jev
+    title: Introducing System One Models and Jev
+launch:
+  title: TypeSafe AI releases its first public System One model
+  summary: TypeSafe AI came out of stealth with Jev, its first public model for structured decisions inside software.
+  occurred_on:
+    precision: day
+    value: "2026-09-15"
+  date_basis: effective
+  source:
+    url: https://typesafe.ai/blog/introducing-system-one-models-and-jev
+    title: Introducing System One Models and Jev
+    locator: Opening paragraphs dated Sep 15, 2026, which say TypeSafe AI is releasing its first System One model that day
