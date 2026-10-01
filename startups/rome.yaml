@@ -63,6 +63,6 @@ launch:
     value: "2026-08-23"
   date_basis: announced
   source:
-    url: https://romeos.cc/
-    title: Rome OS website announces the agentic OS launch
-    locator: Website announces the open-source agentic OS for persistent apps
+    url: https://github.com/rome-os/rome
+    title: Rome OS GitHub repository (creation date)
+    locator: rome-os/rome repo created at 2026-08-23T06:15:15Z (verifiable via GitHub API)
