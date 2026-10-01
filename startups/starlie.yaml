@@ -1,0 +1,70 @@
+name: Starlie
+tagline: A fast, native Jira client for Mac
+description: >-
+  Starlie is a native macOS app for people who live in Jira and want it to feel
+  quick. It connects to Jira Cloud and self-hosted Jira Server, then gives you
+  fast search, sprint boards and inline issue editing without the browser tab.
+  Install from the Mac App Store, connect a Jira site, and setup takes about
+  five minutes.
+problem: >-
+  The browser is the slowest part of Jira. Every search, board view and issue
+  edit round-trips through a web client that was not designed for daily use on
+  a desktop, and the alternatives are heavy IDE plugins.
+audience:
+  - Jira users on Mac who work in sprint boards and issues daily
+  - Engineering and project teams that run Jira Cloud or Server
+website: https://starlie.app/
+access:
+  - kind: download
+    url: https://apps.apple.com/app/id6761744867
+  - kind: browse
+    url: https://starlie.app/pricing/
+categories:
+  - productivity
+  - business-software
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 299
+    currency: usd
+    interval: month
+  pricing_url: https://starlie.app/pricing/
+company:
+  name: Starlie
+  relationship: independent
+platforms:
+  - macos
+links:
+  - kind: press
+    url: https://www.producthunt.com/products/starlie
+  - kind: source
+    url: https://marketplace.atlassian.com/apps/127252714/starlie-mac-desktop-client-for-jira
+  - kind: docs
+    url: https://starlie.app/help/
+logo:
+  path: logo.png
+  alt: The Starlie app icon on a rounded square
+sources:
+  - url: https://starlie.app/
+    title: Official website
+  - url: https://starlie.app/pricing/
+    title: Pricing with monthly, yearly and lifetime terms
+  - url: https://apps.apple.com/app/id6761744867
+    title: Starlie for Jira on the Mac App Store
+  - url: https://marketplace.atlassian.com/apps/127252714/starlie-mac-desktop-client-for-jira
+    title: Starlie in the Atlassian Marketplace
+launch:
+  title: Starlie launches for Mac
+  summary: >-
+    First published release of the Mac app. The site's own structured data
+    carries datePublished 2026-08-06, with a later revision on 2026-09-22.
+  occurred_on:
+    precision: day
+    value: "2026-08-06"
+  date_basis: effective
+  source:
+    url: https://starlie.app/
+    title: Official website
+    locator: >-
+      JSON-LD in the page head, SoftwareApplication datePublished field
