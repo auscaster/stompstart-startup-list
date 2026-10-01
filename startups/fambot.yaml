@@ -1,0 +1,46 @@
+name: Fambot
+tagline: Daily family plans from school messages and calendars
+description: >-
+  Fambot brings family-related email, calendar updates and group messages into
+  a shared daily plan. Parents and caregivers can review upcoming dates and
+  tasks, then ask questions by text or in the app. It is available on the web,
+  iPhone and Android, and is free during beta.
+problem: School deadlines and activity changes are scattered across inboxes, calendars and group chats.
+audience:
+  - Parents and caregivers coordinating school and family activities
+website: https://fambot.com/
+access:
+  - kind: signup
+    url: https://fambot.com/auth/signup
+  - kind: download
+    url: https://apps.apple.com/app/id6746368694
+categories:
+  - productivity
+stage: live
+pricing:
+  model: free
+platforms:
+  - web
+  - ios
+  - android
+logo:
+  path: logo.png
+  alt: Fambot's official purple robot brand profile image
+sources:
+  - url: https://fambot.com/
+    title: Official product website
+  - url: https://fambot.com/post/fambot-beta
+    title: Fambot Beta announcement
+  - url: https://fambot.com/brand
+    title: Official brand assets
+launch:
+  title: Fambot opens its family beta
+  summary: The company opens 500 free beta places for families.
+  occurred_on:
+    precision: day
+    value: "2026-06-08"
+  date_basis: effective
+  source:
+    url: https://fambot.com/post/fambot-beta
+    title: Fambot Beta
+    locator: June 8, 2026 dateline and the section announcing 500 free beta spots starting today
