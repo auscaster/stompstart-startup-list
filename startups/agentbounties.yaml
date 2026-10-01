@@ -73,4 +73,4 @@ launch:
   source:
     url: https://agentbounties.app/protocol.json
     title: AgentBounties protocol deployment block
-    locator: protocol.json records deployment_block: 48496662; Base mainnet block 48496662 timestamped at 2026-07-11T15:11:11Z
+    locator: "protocol.json records deployment_block: 48496662; Base mainnet block 48496662 timestamped at 2026-07-11T15:11:11Z"
