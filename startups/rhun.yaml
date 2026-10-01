@@ -1,0 +1,46 @@
+name: Rhun
+tagline: A small, fast code editor written in assembly
+description: >-
+  An open-source code editor for Windows, Linux and macOS, written in x86
+  assembly to stay light and fast. Rhun ships tabs, syntax highlighting, fuzzy
+  search and optional Vim mode, runs builds, shell commands and coding agents
+  beside the code, and lets users follow Claude Code and Codex sessions as they
+  work. AI is optional: drafts can use local open-weight models or existing
+  subscriptions, and 39 light and dark themes are included.
+website: https://rhun.app/
+access:
+  - kind: download
+    url: https://rhun.app/
+  - kind: browse
+    url: https://github.com/vshvedov/rhun
+categories:
+  - developer-tools
+  - productivity
+stage: live
+pricing:
+  model: free
+platforms:
+  - macos
+  - windows
+  - linux
+logo:
+  path: logo.png
+  alt: Rhun logo
+sources:
+  - url: https://rhun.app/
+    title: Rhun official website
+  - url: https://github.com/vshvedov/rhun
+    title: Rhun GitHub repository
+  - url: https://news.ycombinator.com/item?id=49926726
+    title: "Show HN: Rhun, an open-source code editor written in assembly"
+launch:
+  title: Rhun launches on Show HN
+  summary: Rhun publicly launched its open-source assembly code editor with a Show HN post linking rhun.app.
+  occurred_on:
+    precision: day
+    value: "2026-10-01"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=49926726
+    title: "Show HN: Rhun, an open-source code editor written in assembly"
+    locator: Show HN item created 2026-10-01 by vladcodes linking https://rhun.app/
