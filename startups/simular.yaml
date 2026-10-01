@@ -1,0 +1,61 @@
+name: Simular
+tagline: Autonomous computer-use agent and robosecretary
+description: >-
+  Simular builds research-driven autonomous AI agents that operate real
+  computers. Its primary agent, Sai, acts as a robosecretary that automates
+  repetitive desktop workflows, navigating across operating systems, desktop
+  apps, file systems, and browsers just like a human operator.
+problem: Knowledge workers spend excessive time on repetitive screen tasks across disconnected desktop and web applications.
+audience:
+  - Operations teams
+  - Knowledge workers
+  - Enterprise automation engineers
+website: https://www.simular.ai/
+access:
+  - kind: signup
+    url: https://sai.simular.ai/
+categories:
+  - ai-and-agents
+  - productivity
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 5000
+    currency: usd
+    interval: month
+  pricing_url: https://www.sai.work/pricing
+platforms:
+  - web
+  - macos
+  - windows
+  - linux
+location:
+  country: US
+  city: San Francisco
+links:
+  - kind: blog
+    url: https://www.simular.ai/research
+  - kind: source
+    url: https://github.com/simular-ai
+sources:
+  - url: https://www.simular.ai/
+    title: Simular official website
+  - url: https://www.sai.work/pricing
+    title: Simular Sai pricing
+  - url: https://www.producthunt.com/posts/simular-2
+    title: Simular on Product Hunt
+launch:
+  title: Simular launches Sai autonomous computer fleet
+  summary: Simular publicly launched Sai, an autonomous computer-use agent designed to automate desktop and browser workflows.
+  occurred_on:
+    precision: day
+    value: "2026-09-21"
+  date_basis: effective
+  source:
+    url: https://www.producthunt.com/posts/simular-2
+    title: Simular - Product Hunt Launch
+    locator: Product of the Day listing and announcement on September 21, 2026.
+logo:
+  path: logo.png
+  alt: Simular logo
