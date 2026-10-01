@@ -1,0 +1,74 @@
+name: Ferndesk
+tagline: A help center that stays current as the product changes
+description: >-
+  Ferndesk is a hosted help center with Fern, an agent that checks every
+  article against the live product, fixes what changed, and drafts what is
+  missing. Teams migrate existing docs in one click, publish on their own
+  domain or /help path, and embed an in-app widget with AI conversations.
+  Founders use it so documentation keeps pace with product work instead of
+  going stale after launch.
+problem: >-
+  Product teams write help articles once, then the product moves on and the
+  docs go out of date until someone notices and rewrites them by hand.
+audience:
+  - SaaS founders and product teams who ship help centers
+  - Support leads who need docs that match the current product
+website: https://ferndesk.com/
+access:
+  - kind: signup
+    url: https://ferndesk.com/app/signup
+  - kind: browse
+    url: https://ferndesk.com/
+categories:
+  - productivity
+  - business-software
+  - ai-and-agents
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 14900
+    currency: usd
+    interval: month
+  pricing_url: https://ferndesk.com/pricing
+company:
+  name: Ferndesk
+  relationship: independent
+founded:
+  precision: day
+  value: "2026-09-30"
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://ferndesk.com/pricing
+logo:
+  path: logo.png
+  alt: The Ferndesk pixel fern mark used as the product logo
+gallery:
+  - path: product.png
+    alt: The Ferndesk help center light theme showing article layout and navigation
+sources:
+  - url: https://ferndesk.com/
+    title: Official Ferndesk website
+  - url: https://ferndesk.com/pricing
+    title: Ferndesk pricing and free trial page
+  - url: https://hunted.space/product/ferndesk
+    title: Hunted Space overview of the September 30, 2026 Product Hunt launch
+  - url: https://www.producthunt.com/products/ferndesk
+    title: Product Hunt product page for Ferndesk
+launch:
+  title: Ferndesk launches on Product Hunt
+  summary: >-
+    Ferndesk appears as a public Product Hunt launch for a help center product
+    with an agent that keeps articles aligned to the live product.
+  occurred_on:
+    precision: day
+    value: "2026-09-30"
+  date_basis: announced
+  source:
+    url: https://hunted.space/product/ferndesk
+    title: Ferndesk Product Hunt launch overview on Hunted Space
+    locator: >-
+      The page states Ferndesk earned upvotes on Product Hunt (September 30th,
+      2026), placing #2 of the day.
