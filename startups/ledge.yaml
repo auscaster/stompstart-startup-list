@@ -1,0 +1,65 @@
+name: Ledge
+tagline: Markdown notes that run shell commands, code, SQL and AI
+description: >-
+  A Markdown notebook app for developers and DevOps who keep commands in their
+  notes. Write a note, press Cmd+Enter on a code block and its output streams
+  in beneath it: shell in the terminal, in the project, on the machine or on
+  a server. Notes can run code, SQL and AI prompts, and hold per-project
+  profiles with the API keys and database URLs they use. Available as desktop
+  apps for Apple Silicon Mac, Windows (x64) and Linux (x64 and arm64), with a
+  mobile app for iPhone, iPad and Android. Free and open source.
+problem: >-
+  Runbooks and command snippets live in static notes: copying each command
+  into a terminal and pasting the output back breaks the loop. A notebook that
+  runs the commands in place keeps the runbook and its evidence together.
+audience:
+  - Developers
+  - DevOps engineers
+website: https://ledge.sh/
+access:
+  - kind: download
+    url: https://ledge.sh/
+categories:
+  - developer-tools
+  - productivity
+stage: live
+pricing:
+  model: free
+company:
+  name: Ledge
+  relationship: independent
+founded:
+  precision: month
+  value: "2026-09"
+platforms:
+  - web
+  - ios
+  - android
+links:
+  - kind: docs
+    url: https://ledge.sh/docs
+  - kind: source
+    url: https://github.com/ledgesh/ledge
+logo:
+  path: logo.png
+  alt: The Ledge logo, the site's lime L mark rendered from its SVG
+gallery:
+  - path: homepage.png
+    alt: The Ledge landing page with the notebook example and the platform download list
+sources:
+  - url: https://ledge.sh/
+    title: Official website
+  - url: https://news.ycombinator.com/item?id=49902382
+    title: "Show HN: Ledge.sh – Runnable Markdown Notes"
+launch:
+  title: Ledge launches on Hacker News
+  summary: >-
+    Posted as "Show HN: Ledge.sh – Runnable Markdown Notes" on 2026-09-29.
+  occurred_on:
+    precision: day
+    value: "2026-09-29"
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=49902382
+    title: "Show HN: Ledge.sh – Runnable Markdown Notes"
+    locator: Submission timestamp, which dates the public launch
