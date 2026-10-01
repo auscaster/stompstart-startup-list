@@ -61,6 +61,6 @@ launch:
     value: "2026-07-06"
   date_basis: announced
   source:
-    url: https://fablecut.space/
-    title: FableCut website announces the zero-dependency video editor
-    locator: Website announces the browser-based video editor with agent API
+    url: https://github.com/ronak-create/FableCut
+    title: FableCut GitHub repository (creation date)
+    locator: ronak-create/FableCut repo created at 2026-07-06T16:18:57Z (verifiable via GitHub API)
