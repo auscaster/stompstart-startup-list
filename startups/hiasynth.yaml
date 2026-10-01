@@ -1,0 +1,77 @@
+name: Hiasynth
+tagline: European market research through a synthetic population model
+description: >-
+  Hiasynth lets businesses ask an AI assistant questions about European consumer
+  markets using Humanity, its synthetic population model. Teams can estimate
+  audience sizes, compare locations and explore household characteristics through
+  an MCP connection. The model links simulated individuals with households and
+  neighbourhoods, drawing on official statistics and survey data. It provides
+  statistical market research rather than records for identifying or contacting
+  real people. A monthly subscription includes query credits.
+problem: >-
+  Comparing consumer audiences across European countries requires combining
+  separate statistical sources and research tools.
+audience:
+  - Market research teams
+  - Businesses evaluating European audiences and locations
+website: https://hiasynth.co/
+access:
+  - kind: signup
+    url: https://hiasynth.co/app
+categories:
+  - data-and-analytics
+  - ai-and-agents
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 2800
+    currency: eur
+    interval: month
+  pricing_url: https://hiasynth.co/docs/pricing
+company:
+  name: Hiasynth AB
+location:
+  country: SE
+  city: Stockholm
+founded:
+  precision: year
+  value: "2025"
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Hiasynth's pink and orange geometric mark on a pale square background
+  caption: Original 512-pixel app icon from Hiasynth's website
+sources:
+  - url: https://hiasynth.co/
+    title: Hiasynth official website
+  - url: https://hiasynth.co/docs/getting-started
+    title: Hiasynth getting started and account access
+  - url: https://hiasynth.co/docs/pricing
+    title: Hiasynth subscription and query-credit pricing
+  - url: https://hiasynth.co/about
+    title: About Hiasynth and its company
+  - url: https://hiasynth.co/releases
+    title: Humanity release lineage, including earlier internal and beta builds
+  - url: https://hiasynth.co/hicone-app-light.png
+    title: Original Hiasynth app icon
+  - url: https://hiasynth.co/manifest.json
+    title: Official web manifest identifying the original 512 by 512 app icon
+launch:
+  title: Hiasynth opens Humanity to the public
+  summary: >-
+    Hiasynth released public access to Humanity v2.1 through MCP-compatible AI
+    clients. Its announcement identifies this as the first public release of the
+    population model.
+  occurred_on:
+    precision: day
+    value: "2026-09-24"
+  date_basis: effective
+  source:
+    url: https://hiasynth.co/press/humanity-launch
+    title: Hiasynth makes 522 million European consumer profiles accessible to any AI
+    locator: >-
+      Press-release dateline, 24 September 2026; opening paragraph says access
+      opens to the public today; paragraph before the funding note identifies
+      Humanity v2.1 as the first public release.
