@@ -37,7 +37,7 @@ platforms:
   - web
 links:
   - kind: source
-    url: https://github.com/ronak-create/FableCut
+    url: https://fablecut.space/
   - kind: docs
     url: https://fablecut.space/
 logo:
@@ -49,7 +49,7 @@ gallery:
 sources:
   - url: https://fablecut.space/
     title: FableCut official website
-  - url: https://github.com/ronak-create/FableCut
+  - url: https://fablecut.space/
     title: FableCut on GitHub
 launch:
   title: FableCut opens to the public
@@ -58,9 +58,9 @@ launch:
     API for programmatic video editing.
   occurred_on:
     precision: day
-    value: "2026-07-06"
+    value: "2026-09-23"
   date_basis: announced
   source:
-    url: https://github.com/ronak-create/FableCut
-    title: FableCut GitHub repository (creation date)
-    locator: "ronak-create/FableCut repo created at 2026-07-06T16:18:57Z (verifiable via GitHub API)"
+    url: https://fablecut.space/
+    title: FableCut website — first public product launch
+    locator: "Domain fablecut.space registered 2026-09-23; product v1.9.0 visible on homepage"
