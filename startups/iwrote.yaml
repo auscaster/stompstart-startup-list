@@ -1,0 +1,64 @@
+name: iwrote
+tagline: Write the way you always do, and certify that you wrote it.
+description: >-
+  iwrote is a browser writing app that records the craft behind a finished piece. As
+  you type, it logs the edits: what you wrote, when you paused to think, what you cut,
+  and what you pasted in. When the draft is done you certify it and get a short link
+  that shows readers the effort behind it, a timeline drawing of the session that no
+  one can alter. The service keeps counts and timings, never the words themselves, and
+  it treats a writing aid such as research, grammar help or an AI brainstorming partner
+  as a tool, not a ghostwriter.
+problem: AI writing detectors are unreliable and often wrong, so a genuine author has
+  no credible way to prove a piece is their own. iwrote replaces the guesswork with a
+  tamper-evident record of the writing session itself.
+audience:
+  - Writers and journalists who publish under their own name
+  - People who want to show a piece is human-written
+  - Readers who want to check a claim without asking the author
+website: https://iwrote.co/
+access:
+  - kind: browse
+    url: https://iwrote.co/
+  - kind: signup
+    url: https://iwrote.co/signin
+categories:
+  - productivity
+stage: live
+pricing:
+  model: free
+company:
+  name: iwrote
+  relationship: independent
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://iwrote.co/about
+sources:
+  - url: https://iwrote.co/
+    title: Official website
+  - url: https://iwrote.co/about
+    title: What iwrote does
+  - url: https://www.producthunt.com/posts/iwrote
+    title: "Product Hunt: iwrote"
+  - url: https://news.ycombinator.com/item?id=49914770
+    title: "Show HN: Certify you wrote it and not AI"
+logo:
+  path: logo.png
+  alt: The iwrote logo, a dark rounded square with a white letter i and a red dot
+launch:
+  title: iwrote opens to everyone
+  summary: >-
+    iwrote launched on Product Hunt on September 30, 2026, as a browser writing app
+    that records how each piece was written and certifies it under the writer's name.
+  occurred_on:
+    precision: day
+    value: "2026-09-30"
+  date_basis: effective
+  source:
+    url: https://www.producthunt.com/posts/iwrote
+    title: "Product Hunt: iwrote"
+    locator: The product's launch information names September 30, 2026 as its launch day.
