@@ -1,0 +1,52 @@
+name: Databerry
+tagline: All your business data in one place
+description: >-
+  Databerry connects business systems such as Stripe, PostHog, Google Analytics
+  and Calendly into one dashboard so founders can view revenue, analytics,
+  signups and product activity without switching between separate tools.
+problem: Business metrics are spread across many dashboards and projects.
+audience:
+  - Founders running multiple products
+website: https://www.databerry.app/
+access:
+  - kind: signup
+    url: https://www.databerry.app/signup
+categories:
+  - data-and-analytics
+  - productivity-and-collaboration
+stage: live
+pricing:
+  model: freemium
+  pricing_url: https://www.databerry.app/
+company:
+  name: HeavenMade LLC
+  relationship: independent
+location:
+  country: US
+links:
+  - kind: source
+    url: https://www.producthunt.com/products/databerry
+logo:
+  path: logo.png
+  alt: Databerry gradient logo icon
+gallery:
+  - path: product.png
+    alt: Databerry dashboard showing connected business metrics
+sources:
+  - url: https://www.databerry.app/
+    title: Official website
+  - url: https://www.databerry.app/privacy
+    title: Databerry privacy policy
+  - url: https://www.producthunt.com/products/databerry
+    title: Product Hunt launch page
+launch:
+  title: Databerry launches as a unified business dashboard
+  summary: Databerry launched its dashboard for connecting business data from multiple systems.
+  occurred_on:
+    precision: day
+    value: "2026-05-25"
+  date_basis: effective
+  source:
+    url: https://www.producthunt.com/products/databerry
+    title: Databerry launch on Product Hunt
+    locator: The product page records the launch date as May 25, 2026
