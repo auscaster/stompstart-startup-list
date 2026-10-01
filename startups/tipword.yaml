@@ -1,0 +1,50 @@
+name: Tipword
+tagline: Instant word translation anywhere on your Mac
+description: >-
+  Tipword is a macOS translation utility that shows the meaning of a word beside
+  the pointer when you hold a chosen modifier key. It works across apps,
+  websites, PDFs, subtitles, photos and screenshots, with on-device translation
+  for supported languages and optional Google translation for additional ones.
+problem: Looking up an unfamiliar word usually interrupts reading by sending the user to a separate translator.
+audience:
+  - Mac users who regularly read content in other languages
+website: https://tipword.app/
+access:
+  - kind: download
+    url: https://tipword.app/
+categories:
+  - productivity
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 1200
+    currency: usd
+    interval: one_off
+company:
+  name: Tipword
+  relationship: independent
+platforms:
+  - macos
+links:
+  - kind: social
+    url: https://www.producthunt.com/products/tipword?launch=tipword
+logo:
+  path: logo.png
+  alt: Tipword app icon
+sources:
+  - url: https://tipword.app/
+    title: Tipword official website
+  - url: https://www.producthunt.com/products/tipword?launch=tipword
+    title: Tipword on Product Hunt
+launch:
+  title: Tipword launches on Product Hunt
+  summary: Tipword launched publicly on Product Hunt as a Mac utility for instant word translation.
+  occurred_on:
+    precision: day
+    value: "2026-09-30"
+  date_basis: effective
+  source:
+    url: https://www.producthunt.com/products/tipword?launch=tipword
+    title: Tipword launch on Product Hunt
+    locator: Product page marked Launching Today on September 30, 2026
