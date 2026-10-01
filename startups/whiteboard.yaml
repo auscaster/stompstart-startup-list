@@ -1,0 +1,52 @@
+name: Whiteboard
+tagline: A visual workspace for reviewing software with coding agents
+description: >-
+  Whiteboard is a desktop editor for developers who want to inspect and discuss
+  agent-written software. Its canvas connects diagrams and design notes to source
+  code, while a structured diff view helps readers examine changes. Developers can
+  connect an existing coding agent and keep its reasoning alongside the review.
+  The desktop application is published as open-source software under the MIT license.
+problem: Large agent-written changes can be difficult to understand through a line-by-line diff alone.
+audience:
+  - Software developers reviewing coding-agent output
+  - Engineering teams discussing architecture changes
+website: https://dev.fast/
+access:
+  - kind: download
+    url: https://dev.fast/install
+categories:
+  - developer-tools
+  - ai-and-agents
+stage: live
+pricing:
+  model: free
+platforms:
+  - macos
+  - windows
+  - linux
+links:
+  - kind: source
+    url: https://github.com/devdotfast/whiteboard
+logo:
+  path: logo.png
+  alt: White and blue diagonal slashes on a black square, Whiteboard's app icon
+sources:
+  - url: https://dev.fast/
+    title: Whiteboard official website and download page
+  - url: https://github.com/devdotfast/whiteboard
+    title: Whiteboard source repository and desktop application description
+  - url: https://news.ycombinator.com/item?id=49833867
+    title: Founders' public Whiteboard release announcement, 24 September 2026
+  - url: https://raw.githubusercontent.com/devdotfast/whiteboard/46c28f6b56cdee534c412ff03abe7d12cbb79bec/packages/review/app/icons/review-square-512.png
+    title: Original 512-pixel application icon at a pinned source revision
+launch:
+  title: Whiteboard releases its open-source desktop application
+  summary: The founders announced the desktop application and published its source under the MIT license.
+  occurred_on:
+    precision: day
+    value: "2026-09-24"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=49833867
+    title: Show HN announcement by Whiteboard co-founder sidharthkmenon
+    locator: Original post timestamp is 2026-09-24T17:21:36Z; the closing paragraphs announce the MIT-licensed desktop release.
