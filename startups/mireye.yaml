@@ -1,0 +1,62 @@
+name: Mireye
+tagline: Location data and query tools for AI applications
+description: >-
+  Mireye lets developers query information about US locations through a REST API
+  and an MCP server. Applications can resolve addresses, retrieve environmental
+  and infrastructure data, and measure proximity to nearby facilities. Responses
+  include source links and freshness information. The service offers a free
+  credit allowance, paid plans and public examples for site assessment and
+  property analysis.
+audience:
+  - Developers building applications that use location data
+  - Teams assessing land, infrastructure and property
+website: https://www.mireye.com/
+access:
+  - kind: signup
+    url: https://www.mireye.com/signup
+  - kind: demo
+    url: https://www.mireye.com/compare
+categories:
+  - ai-and-agents
+  - data-and-analytics
+  - developer-tools
+stage: live
+pricing:
+  model: freemium
+  pricing_url: https://www.mireye.com/pricing
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://www.mireye.com/blog
+logo:
+  path: logo.png
+  alt: Mireye's black angular mark on a pale square background
+sources:
+  - url: https://www.mireye.com/
+    title: Mireye official website
+  - url: https://www.ycombinator.com/companies/mireye
+    title: Mireye company profile at Y Combinator
+  - url: https://www.mireye.com/icon.png
+    title: Original 512-pixel Mireye brand icon served by its official website
+  - url: https://www.mireye.com/blog/data-center-site-selection-grid-selection
+    title: Official Mireye product article dated July 5, 2026
+  - url: https://hn.algolia.com/api/v1/items/49552616
+    title: Public Hacker News launch timestamp
+launch:
+  title: Mireye announces its location-data API on Hacker News
+  summary: >-
+    The founder presented Mireye's API and MCP tools for querying information
+    about physical locations and invited developers to try a free account.
+  occurred_on:
+    precision: day
+    value: "2026-09-03"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=49552616
+    title: "Launch HN: Mireye (YC S26) - Infrastructure for Physical World AI Agents"
+    locator: >-
+      Founder announcement. The post's timestamp and the linked public
+      Hacker News item API date it to 2026-09-03. This is the dated public
+      announcement, not a claim that the product first existed that day;
+      the official product article dated 2026-07-05 is also within the window.
