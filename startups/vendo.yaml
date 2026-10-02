@@ -57,8 +57,8 @@ sources:
     title: Vendo company profile on Y Combinator
   - url: https://github.com/runvendo/vendo
     title: Official Vendo source repository
-  - url: https://vendo.run/brand/vendo-mark-violet.png
-    title: Official Vendo PNG logo
+  - url: https://raw.githubusercontent.com/runvendo/vendo/main/docs-site/logo/light.svg
+    title: Official Vendo SVG logo used to render the submitted PNG
 launch:
   title: Vendo introduces user-built features and micro-apps
   summary: >-
