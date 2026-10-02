@@ -1,0 +1,48 @@
+name: Chromie
+tagline: A workspace for researching and pursuing government contracts
+description: >-
+  Chromie brings company records, contract opportunities, solicitation analysis,
+  and pursuit tracking into one workspace. Government contracting teams can
+  compare opportunities with their capabilities, review bid requirements, and
+  prepare proposals using information retained from previous pursuits.
+problem: >-
+  Contract research, bid qualification, and proposal preparation depend on
+  information spread across portals, documents, and spreadsheets.
+audience:
+  - Government contractors
+  - Business development and capture teams
+website: https://www.chromie.dev/
+access:
+  - kind: demo
+    url: https://cal.com/chromie/30min
+categories:
+  - business-software
+  - ai-and-agents
+stage: live
+pricing:
+  model: unknown
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: The Chromie icon
+sources:
+  - url: https://www.chromie.dev/
+    title: Official Chromie website
+  - url: https://www.ycombinator.com/companies/chromie
+    title: Chromie company profile on Y Combinator
+  - url: https://www.chromie.dev/logos/chromie-gov-icon-transparent.png
+    title: Original Chromie icon from its official website
+launch:
+  title: Chromie announces its government contracting workspace
+  summary: >-
+    Founder Ananth Sankaralingam introduced Chromie's contract discovery,
+    qualification, and proposal workspace on Launch YC.
+  occurred_on:
+    precision: day
+    value: "2026-08-10"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/SaH-chromie-ai-os-for-government-contracting
+    title: Chromie - AI OS for Government Contracting
+    locator: The page's embedded launch data gives created_at as 2026-08-10T17:48:31.293Z.
