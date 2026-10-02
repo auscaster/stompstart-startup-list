@@ -1,0 +1,47 @@
+name: empirik
+tagline: An AI agent that maps infrastructure change impact before deployment
+description: >-
+  empirik connects an engineer's intended change to a live graph of cloud,
+  SaaS, Kubernetes, identity and on-prem systems. It shows affected services,
+  owners and evidence so infrastructure teams can review blast radius before a
+  change lands and investigate what changed after an incident.
+problem: Infrastructure changes can cross systems and dependencies that are difficult to see before deployment.
+audience:
+  - Platform engineering teams
+  - Site reliability engineers
+  - Infrastructure and DevOps teams
+website: https://empirik.ai/
+access:
+  - kind: contact_sales
+    url: https://empirik.ai/company/contact
+categories:
+  - ai-and-agents
+  - developer-tools
+  - data-and-analytics
+stage: live
+pricing:
+  model: contact_sales
+  pricing_url: https://empirik.ai/company/contact
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: The empirik logo mark, formed by crossing white angular strokes
+sources:
+  - url: https://empirik.ai/
+    title: empirik official website
+  - url: https://empirik.ai/blog/introducing-empirik-the-autonomous-infrastructure-engineer
+    title: Introducing empirik, the autonomous infrastructure engineer
+  - url: https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/
+    title: Sequoia-incubated Empirik launches with 21M to predict outages before they happen
+launch:
+  title: empirik comes out of stealth
+  summary: empirik announced its autonomous infrastructure engineer and its emergence from stealth.
+  occurred_on:
+    precision: day
+    value: "2026-09-01"
+  date_basis: effective
+  source:
+    url: https://empirik.ai/blog/introducing-empirik-the-autonomous-infrastructure-engineer
+    title: Introducing empirik, the autonomous infrastructure engineer
+    locator: Article header dated Sep 01, 2026 and the final section stating that empirik is coming out of stealth
