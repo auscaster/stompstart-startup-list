@@ -17,7 +17,7 @@ access:
 categories:
   - ai-and-agents
   - developer-tools
-stage: live
+stage: beta
 pricing:
   model: usage_based
 company:
@@ -33,6 +33,8 @@ sources:
     title: Dreamscale Labs company profile on Y Combinator
   - url: https://www.dreamscalelabs.com/blog/why/
     title: Why Robot Brains Will Live in the Cloud
+  - url: https://pypi.org/project/dreamscale/
+    title: Official Dreamscale SDK and beta access requirements
   - url: https://www.ycombinator.com/launches/U24-dreamscale-labs-running-robot-brains-in-the-cloud
     title: Dreamscale Labs public launch on Y Combinator
 launch:
