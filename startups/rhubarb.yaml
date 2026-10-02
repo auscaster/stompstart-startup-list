@@ -1,0 +1,44 @@
+name: Rhubarb
+tagline: Build and publish interactive data visualizations with editable code
+description: >-
+  Rhubarb combines data connections, SQL transformations and JavaScript chart
+  development in a hosted workspace. An AI assistant helps users revise the
+  code, while publishing, access controls and scheduled refreshes keep the
+  resulting visualizations available beyond the initial editing session.
+problem: Custom interactive charts need data preparation, hosting and ongoing updates as well as visualization code.
+audience:
+  - Data analysts
+  - Research and communications teams
+website: https://rhubarbviz.com/
+access:
+  - kind: signup
+    url: https://rhubarbviz.com/auth/register
+  - kind: demo
+    url: https://rhubarbviz.com/try
+categories:
+  - data-and-analytics
+stage: live
+pricing:
+  model: usage_based
+  pricing_url: https://rhubarbviz.com/
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Rhubarb product logo
+sources:
+  - url: https://rhubarbviz.com/
+    title: Official product website and pricing
+  - url: https://news.ycombinator.com/item?id=49907663
+    title: Founder introduces Rhubarb on Show HN
+launch:
+  title: Rhubarb introduces its public visualization workspace
+  summary: The founder introduces Rhubarb and invites readers to try the public demo and full product.
+  occurred_on:
+    precision: day
+    value: "2026-09-30"
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=49907663
+    title: Show HN launch discussion
+    locator: Submission timestamp and founder introduction
