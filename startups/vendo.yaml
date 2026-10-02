@@ -1,0 +1,74 @@
+name: Vendo
+tagline: An open-source layer that lets users build features inside your product
+description: >-
+  Vendo embeds an agentic customization layer into software products. End users can
+  create dashboards, micro-apps, and automations on top of the host product's API
+  and design system, while generated code runs inside sandboxes and the host keeps
+  its existing permission boundaries.
+problem: >-
+  Product teams accumulate customer-specific feature requests that are difficult to
+  prioritize and expensive to implement as one-off product work.
+audience:
+  - SaaS product teams
+  - Developers embedding agents into existing products
+website: https://vendo.run/
+access:
+  - kind: signup
+    url: https://console.vendo.run/
+categories:
+  - ai-and-agents
+  - developer-tools
+  - business-software
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 4900
+    currency: usd
+    interval: month
+  pricing_url: https://vendo.run/pricing
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+people:
+  - name: Nour Zahzah
+    role: Co-Founder and CEO
+  - name: Yousef Helal
+    role: Co-Founder and CTO
+links:
+  - kind: docs
+    url: https://docs.vendo.run/
+  - kind: source
+    url: https://github.com/runvendo/vendo
+logo:
+  path: logo.png
+  alt: Vendo's purple segmented mark
+sources:
+  - url: https://vendo.run/
+    title: Official Vendo website
+  - url: https://vendo.run/pricing
+    title: Vendo pricing
+  - url: https://www.ycombinator.com/companies/vendo
+    title: Vendo company profile on Y Combinator
+  - url: https://github.com/runvendo/vendo
+    title: Official Vendo source repository
+  - url: https://vendo.run/brand/vendo-mark-violet.png
+    title: Official Vendo PNG logo
+launch:
+  title: Vendo introduces user-built features and micro-apps
+  summary: >-
+    Co-founder Yousef Helal introduced Vendo on Hacker News as a way for product
+    users to create their own micro-apps, components, automations, and integrations.
+  occurred_on:
+    precision: month
+    value: "2026-07"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=48926618
+    title: "Show HN: Vendo (YC S26) – Let your users add their own features to your product"
+    locator: The Hacker News post timestamp dates this public announcement to July 2026.
