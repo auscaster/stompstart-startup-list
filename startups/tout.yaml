@@ -1,0 +1,45 @@
+name: "Tout"
+tagline: "A planned platform for creator and brand partnerships"
+description: "Tout is preparing an influencer marketing platform for creators, brands and agencies. Its announced product combines creator profiles, brand discovery, audience analysis and matching recommendations. Public access currently consists of a waitlist application; the full platform is not yet shown as available on its website."
+website: "https://www.tout.app/"
+access:
+  -
+    kind: "waitlist"
+    url: "https://www.tout.app/join"
+categories:
+  - "marketing"
+stage: "prelaunch"
+pricing:
+  model: "unknown"
+company:
+  name: "Tout Inc."
+location:
+  country: "US"
+  city: "New York City"
+founded:
+  precision: "year"
+  value: "2025"
+audience:
+  - "Content creators"
+  - "Brands seeking creator partnerships"
+  - "Agencies managing creators or campaigns"
+links:
+  -
+    kind: "press"
+    url: "https://www.tout.app/press"
+logo:
+  path: "logo.png"
+  alt: "A navy letter T with a gold period on a cream background"
+sources:
+  -
+    url: "https://www.tout.app/"
+    title: "Tout official website"
+  -
+    url: "https://www.tout.app/join"
+    title: "Tout waitlist application"
+  -
+    url: "https://www.tout.app/press/waitlist-open"
+    title: "Tout opens its waitlist, April 26, 2026"
+  -
+    url: "https://www.tout.app/press"
+    title: "Tout company information and brand assets"
