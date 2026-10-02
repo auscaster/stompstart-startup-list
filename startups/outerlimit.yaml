@@ -1,0 +1,41 @@
+name: Outerlimit
+tagline: Security and authorization for enterprise AI agents
+description: >-
+  Outerlimit helps enterprise teams inventory AI agents and tools, observe their
+  actions, and apply authorization policies at tool execution. Its platform
+  connects discovery and monitoring with controls over agent access to systems,
+  data and APIs.
+problem: Enterprise security teams need visibility and control over actions taken by AI agents.
+audience:
+  - Enterprise security teams deploying AI agents
+website: https://www.outerlimit.com/
+access:
+  - kind: demo
+    url: https://www.outerlimit.com/request-a-demo
+categories:
+  - security
+stage: live
+pricing:
+  model: unknown
+company:
+  name: Outerlimit Group Ltd
+  relationship: independent
+logo:
+  path: logo.png
+  alt: Outerlimit purple brand symbol
+sources:
+  - url: https://www.outerlimit.com/
+    title: Outerlimit official platform overview
+  - url: https://www.outerlimit.com/company-news/outerlimit-launch
+    title: Outerlimit public launch announcement
+launch:
+  title: Outerlimit emerges from stealth
+  summary: Outerlimit publicly announced its security and authorization platform for enterprise AI agents.
+  occurred_on:
+    precision: day
+    value: "2026-09-22"
+  date_basis: announced
+  source:
+    url: https://www.outerlimit.com/company-news/outerlimit-launch
+    title: Outerlimit emerges from stealth
+    locator: The opening paragraph dates the announcement to September 22, 2026 in London and New York.
