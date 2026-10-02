@@ -1,0 +1,49 @@
+name: Project Echo
+tagline: Customer feedback, roadmap and changelog tools for SaaS teams
+description: >-
+  Project Echo gives SaaS teams a hosted feedback portal where users can submit
+  and vote on requests. Teams can organize that input on a roadmap, publish
+  changelog entries and connect the service through APIs and integrations.
+problem: >-
+  Product feedback can be scattered across conversations and support channels,
+  making requests difficult to prioritize and communicate back to users.
+audience:
+  - SaaS product teams
+website: https://www.projectecho.io/
+access:
+  - kind: signup
+    url: https://app.projectecho.io/pe-app/signup
+categories:
+  - business-software
+  - productivity
+stage: beta
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 2900
+    currency: usd
+    interval: month
+  pricing_url: https://www.projectecho.io/pricing
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Project Echo logo, a red rounded square containing a red waveform mark on white
+sources:
+  - url: https://www.projectecho.io/
+    title: Project Echo official website
+  - url: https://www.projectecho.io/pricing
+    title: Project Echo pricing
+  - url: https://www.projectecho.io/open/milestones
+    title: Project Echo milestones
+launch:
+  title: Project Echo opens its public beta
+  summary: The beta opened self-service signup from the homepage.
+  occurred_on:
+    precision: day
+    value: "2026-06-24"
+  date_basis: effective
+  source:
+    url: https://www.projectecho.io/open/milestones
+    title: Project Echo milestones
+    locator: The June 24, 2026 milestone titled Beta launch states that public signup opened from the homepage.
