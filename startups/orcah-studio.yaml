@@ -1,0 +1,58 @@
+name: Orcah Studio
+tagline: Local video search for Apple Silicon Macs
+description: >-
+  A desktop application that indexes video libraries on an Apple Silicon Mac
+  and retrieves moments by spoken words, visual content, sound, colour and
+  camera metadata. Processing stays on the user's machine by default. Results
+  can be handed to Final Cut Pro or DaVinci Resolve, while an open-source
+  Docker edition provides browser access to the same search core.
+problem: Large video libraries make it slow to locate a specific moment inside files.
+audience:
+  - Video editors and production teams with large footage libraries
+website: https://orcah.app/
+access:
+  - kind: download
+    url: https://orcah.app/
+  - kind: demo
+    url: https://orcah.app/
+categories:
+  - media
+  - ai-and-agents
+  - productivity
+stage: beta
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 24900
+    currency: usd
+    interval: one_off
+  pricing_url: https://orcah.app/pricing
+company:
+  name: Orcah Studio
+  relationship: independent
+platforms:
+  - macos
+links:
+  - kind: source
+    url: https://github.com/iliashad/edit-mind
+logo:
+  path: logo.png
+  alt: Orcah Studio logo with cream audio bars and a circle on a black rounded square
+sources:
+  - url: https://orcah.app/
+    title: Orcah Studio official website
+  - url: https://orcah.app/pricing
+    title: Orcah Studio pricing
+  - url: https://news.ycombinator.com/item?id=49927561
+    title: "Show HN: Local-first video intelligence for Mac"
+launch:
+  title: Orcah Studio launches on Show HN
+  summary: Orcah Studio publicly launched its local video search application with a Show HN post linking to orcah.app.
+  occurred_on:
+    precision: day
+    value: "2026-10-01"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=49927561
+    title: "Show HN: Local-first video intelligence for Mac"
+    locator: Show HN item created 2026-10-01 by iliashad linking https://orcah.app/
