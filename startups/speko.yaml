@@ -1,0 +1,54 @@
+name: Speko
+tagline: Compare and route the models behind a voice agent
+description: >-
+  Speko gives teams building voice agents an API for choosing and routing speech
+  recognition, language and speech synthesis models. Developers can select for
+  language, latency, accuracy or cost, and inspect the published benchmarks
+  behind those choices. The hosted service handles provider routing and billing;
+  an open-source gateway also supports using a team's own provider keys.
+problem: >-
+  Replacing one part of a voice agent often means repeating model evaluations
+  and maintaining another provider integration.
+audience:
+  - Developers building voice agents
+  - Teams maintaining multilingual voice applications
+website: https://speko.ai/
+access:
+  - kind: signup
+    url: https://platform.speko.ai/sign-up
+categories:
+  - ai-and-agents
+  - developer-tools
+stage: live
+pricing:
+  model: usage_based
+  pricing_url: https://speko.ai/pricing
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Speko's white pixel-style S on a blue rounded square
+sources:
+  - url: https://speko.ai/
+    title: Speko official product website
+  - url: https://speko.ai/pricing
+    title: Speko usage-based pricing
+  - url: https://www.ycombinator.com/companies/speko
+    title: Speko company and founder profile
+  - url: https://news.ycombinator.com/item?id=49332751
+    title: Founder announcement on Hacker News
+launch:
+  title: Speko introduces its voice-model routing platform
+  summary: >-
+    Founder Bek introduced the hosted router and open-source gateway on Hacker
+    News, explaining the public benchmarks and model-selection workflow.
+  occurred_on:
+    precision: day
+    value: "2026-08-17"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=49332751
+    title: Launch HN Speko
+    locator: >-
+      Story 49332751, posted by abdik at 2026-08-17T15:36:18Z; opening founder
+      introduction and product explanation.
