@@ -1,0 +1,58 @@
+name: Papaya
+tagline: Find and prioritize improvements to production AI agents
+description: >-
+  Papaya examines production agent traces to identify recurring problems with
+  prompts, context, tool use and model choices. It groups runs by workflow and
+  ranks proposed changes by their expected effect on quality, latency and cost.
+  Engineers can inspect the supporting runs, approve a fix and receive a pull
+  request, while monitoring whether the change holds up in later traffic.
+problem: Engineering teams spend time manually reviewing traces to find agent failures and performance regressions.
+audience:
+  - Engineering teams running AI agents in production
+website: https://papaya.fyi/
+access:
+  - kind: demo
+    url: https://cal.com/macy-mody/macy-papaya
+categories:
+  - developer-tools
+  - ai-and-agents
+stage: live
+pricing:
+  model: freemium
+  pricing_url: https://papaya.fyi/pricing
+company:
+  name: Nile AI Inc.
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Papaya's orange and blue stylized fruit logo
+sources:
+  - url: https://papaya.fyi/
+    title: Official Papaya product website
+  - url: https://www.ycombinator.com/companies/papaya
+    title: Papaya company profile at Y Combinator
+  - url: https://papaya.fyi/pricing
+    title: Papaya pricing plans
+  - url: https://papaya.fyi/terms-of-service
+    title: Papaya terms identifying Nile AI Inc.
+  - url: https://papaya.fyi/favicon.png
+    title: Original 512-pixel Papaya logo served by its official website
+launch:
+  title: Papaya introduces its agent optimization platform
+  summary: The founders presented Papaya on Launch YC and invited teams to connect their production agents.
+  occurred_on:
+    precision: day
+    value: "2026-09-16"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents
+    title: Papaya - Continuous Optimization for your AI agents
+    locator: The launch post's time element is dated September 16, 2026 at 11:04:02 PDT.
