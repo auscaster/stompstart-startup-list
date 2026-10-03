@@ -1,0 +1,48 @@
+name: Text Agent Store
+tagline: Discover AI agents that work through text messaging
+description: >-
+  Text Agent Store is a directory and marketplace for AI agents that people can
+  use through text messaging. It groups agents by use case, lets visitors browse
+  individual agent profiles, and provides a submission path for builders who
+  want their messaging agents reviewed for inclusion.
+problem: >-
+  Text-based AI agents are scattered across separate products and social posts,
+  making it difficult for people to discover useful agents or compare what each
+  one is designed to do.
+audience:
+  - People looking for AI agents they can use through text messaging
+  - Builders of messaging-based AI agents
+website: https://www.imessage.store/
+access:
+  - kind: browse
+    url: https://www.imessage.store/
+categories:
+  - ai-and-agents
+  - commerce
+stage: live
+pricing:
+  model: free
+platforms:
+  - web
+  - ios
+logo:
+  path: logo.png
+  alt: Text Agent Store app icon
+sources:
+  - url: https://www.imessage.store/
+    title: Official Text Agent Store website
+  - url: https://www.producthunt.com/products/text-agent-store/awards
+    title: Text Agent Store launch record on Product Hunt
+launch:
+  title: Text Agent Store launches publicly on Product Hunt
+  summary: >-
+    Text Agent Store launched its marketplace for text-based AI agents on
+    Product Hunt, where the launch was recorded as a September 17, 2026 release.
+  occurred_on:
+    precision: day
+    value: "2026-09-17"
+  date_basis: announced
+  source:
+    url: https://www.producthunt.com/products/text-agent-store/awards
+    title: Text Agent Store Awards
+    locator: The launch awards section lists Text Agent Store on September 17th, 2026.
