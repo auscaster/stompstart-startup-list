@@ -33,16 +33,19 @@ sources:
     title: Official Text Agent Store website
   - url: https://www.producthunt.com/products/text-agent-store/awards
     title: Text Agent Store launch record on Product Hunt
+  - url: https://www.productcool.com/archive/2026/09/17
+    title: ProductCool archive for September 17, 2026
 launch:
   title: Text Agent Store launches publicly on Product Hunt
   summary: >-
     Text Agent Store launched its marketplace for text-based AI agents on
-    Product Hunt, where the launch was recorded as a September 17, 2026 release.
+    September 17, 2026. The Product Hunt record is corroborated by a dated
+    launch archive that lists Text Agent Store on that day.
   occurred_on:
     precision: day
     value: "2026-09-17"
   date_basis: announced
   source:
-    url: https://www.producthunt.com/products/text-agent-store/awards
-    title: Text Agent Store Awards
-    locator: The launch awards section lists Text Agent Store on September 17th, 2026.
+    url: https://www.productcool.com/archive/2026/09/17
+    title: ProductCool archive for September 17, 2026
+    locator: The September 17, 2026 archive lists Text Agent Store among products launched that day.
