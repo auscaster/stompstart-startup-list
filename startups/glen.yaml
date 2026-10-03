@@ -1,0 +1,54 @@
+name: Glen
+tagline: Shared context for teams using coding agents
+description: >-
+  Glen gives teams a shared memory for coding agents and company work. It
+  collects agent session histories and context from Slack, GitHub, tickets,
+  calls and documents, then surfaces relevant prior work in new agent sessions.
+  Teams can search past sessions and reuse skills distilled from repeated work.
+problem: Agent sessions and decisions are scattered across tools, so teams repeatedly explain context and lose prior reasoning.
+audience:
+  - Engineering teams using coding agents
+  - Organizations coordinating work across agents and company tools
+website: https://www.tryglen.com/
+access:
+  - kind: waitlist
+    url: https://www.tryglen.com/
+categories:
+  - ai-and-agents
+  - developer-tools
+  - productivity
+stage: beta
+pricing:
+  model: unknown
+company:
+  name: Glen Labs Incorporated
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Glen's paired green leaf-shaped mark
+sources:
+  - url: https://www.tryglen.com/
+    title: Glen official website
+  - url: https://www.ycombinator.com/companies/glen
+    title: Glen company profile at Y Combinator
+  - url: https://www.ycombinator.com/launches/SvL-glen-a-shared-learning-layer-for-all-the-agents-in-your-organization
+    title: Glen public launch on Launch YC
+launch:
+  title: Glen introduces shared context for teams using agents
+  summary: The founder presented Glen publicly and invited teams to request early access.
+  occurred_on:
+    precision: day
+    value: "2026-08-20"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/SvL-glen-a-shared-learning-layer-for-all-the-agents-in-your-organization
+    title: Glen launch on Launch YC
+    locator: The post's date is Aug 20, 2026; the founder describes the product and early-access invitation.
