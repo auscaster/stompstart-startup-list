@@ -1,0 +1,72 @@
+name: Polylane
+tagline: AI agents that find and fix production issues
+description: >-
+  Polylane connects a team's code, cloud infrastructure and observability data
+  into one context graph. Its agents investigate incidents, open pull requests
+  with proposed fixes, and review code changes against live telemetry so risky
+  merges are caught before they reach production. Engineers can also ask about
+  production in Slack or through MCP and CLI tooling.
+problem: >-
+  On-call still depends on people piecing together alerts, logs and code after
+  something breaks, while coding agents ship changes without that production
+  context.
+audience:
+  - Software engineers
+  - Platform and DevOps teams
+website: https://polylane.com/
+access:
+  - kind: signup
+    url: https://console.polylane.com/signup
+categories:
+  - ai-and-agents
+  - developer-tools
+  - data-and-analytics
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 8000
+    currency: usd
+    interval: month
+  pricing_url: https://polylane.com/pricing/
+company:
+  name: Coreplane Labs
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+  - linux
+logo:
+  path: logo.png
+  alt: Polylane's green square mark with a dark face silhouette and two green eyes
+sources:
+  - url: https://polylane.com/
+    title: Polylane official website
+  - url: https://polylane.com/pricing/
+    title: Polylane public pricing
+  - url: https://www.producthunt.com/products/polylane
+    title: Polylane on Product Hunt
+  - url: https://www.hunted.space/product/polylane
+    title: Polylane launch date on hunted.space
+launch:
+  title: Polylane launches on Product Hunt
+  summary: >-
+    The founders listed Polylane publicly on Product Hunt as AI agents that
+    investigate production issues and open fix pull requests, with signup
+    through the Polylane console.
+  occurred_on:
+    precision: day
+    value: "2026-10-01"
+  date_basis: announced
+  source:
+    url: https://www.hunted.space/product/polylane
+    title: Polylane Product Hunt launch overview on hunted.space
+    locator: >-
+      The overview page meta description and body state that Polylane was
+      featured on Product Hunt on October 1st, 2026, with 147 upvotes and
+      #5 of the day.
