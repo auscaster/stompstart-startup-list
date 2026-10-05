@@ -1,0 +1,78 @@
+name: copperhead
+tagline: An AI agent that edits circuit boards in your own repository
+description: >-
+  An open source command line agent for hardware design. Given a plain
+  English change request or a written brief, it edits KiCad schematics and
+  boards inside the git repository you already use, carries each change into
+  the pinout, bill of materials and subsystem documents that depend on it, and
+  runs the electrical and design rule checks until they pass. A run can start
+  from an existing design or from a brief that walks through specification,
+  architecture, part selection, a draft layout and gerbers. The CLI is free
+  under Apache-2.0 and runs locally; a hosted tier adds a web viewer, private
+  repositories and team governance for a monthly price per seat.
+problem: Board work stays spread across schematics, part lists and documents that drift apart between revisions, and drift ships to fabrication.
+audience:
+  - Hardware engineers
+  - Electronics hobbyists with KiCad projects
+  - Hardware teams at small companies
+website: https://copperhead.sh/
+access:
+  - kind: signup
+    url: https://app.copperhead.sh/
+  - kind: install
+    url: https://github.com/copperheadhq/copperhead
+  - kind: browse
+    url: https://docs.copperhead.sh/
+categories:
+  - ai-and-agents
+  - developer-tools
+  - hardware
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 4900
+    currency: usd
+    interval: month
+  pricing_url: https://copperhead.sh/pricing/
+company:
+  name: copperhead
+  relationship: independent
+platforms:
+  - web
+  - linux
+  - macos
+  - windows
+links:
+  - kind: docs
+    url: https://docs.copperhead.sh/
+  - kind: blog
+    url: https://copperhead.sh/blog/
+  - kind: source
+    url: https://github.com/copperheadhq/copperhead
+  - kind: community
+    url: https://discord.gg/24zYXuR3Pq
+  - kind: status
+    url: https://copperhead.sh/status/
+logo:
+  path: logo.png
+  alt: The copperhead logo, a stylised serpent mark in a rounded square
+gallery:
+  - path: hero.png
+    alt: The copperhead site headline over a render of a circuit board
+sources:
+  - url: https://copperhead.sh/
+    title: Official website
+  - url: https://copperhead.sh/llms.txt
+    title: Product facts summary published by the site
+launch:
+  title: Meet copperhead
+  summary: The blog post that introduced the agent and its two ways of working.
+  occurred_on:
+    precision: day
+    value: "2026-07-14"
+  date_basis: announced
+  source:
+    url: https://copperhead.sh/blog/meet-copperhead/
+    title: Meet copperhead
+    locator: The article dateline, 14 July 2026
