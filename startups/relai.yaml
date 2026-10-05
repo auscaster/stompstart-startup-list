@@ -1,0 +1,52 @@
+name: RELAI
+tagline: Verifiable continual learning for AI agents in production.
+description: >-
+  RELAI helps teams improve deployed AI agents by turning failures, traces,
+  evaluations and human feedback into replayable learning environments. It
+  validates proposed improvements against prior environments while searching
+  for the smallest durable change, so fixes do not silently reintroduce old
+  failures.
+problem: Teams shipping AI agents need a way to learn from production failures without trading one regression for another.
+audience:
+  - Enterprise teams building or deploying AI agents
+  - AI platform and evaluation engineers
+website: https://relai.ai/
+access:
+  - kind: signup
+    url: https://platform.relai.ai/
+categories:
+  - ai-and-agents
+  - developer-tools
+  - data-and-analytics
+stage: beta
+pricing:
+  model: contact_sales
+company:
+  name: RELAI Inc.
+  relationship: independent
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://relai.ai/blog/introducing-relai-verifiable-continual-learning-for-ai-agents-backed-by-usd6-9m-in-funding
+  - kind: careers
+    url: https://relai.ai/careers
+sources:
+  - url: https://relai.ai/
+    title: RELAI official website
+  - url: https://relai.ai/blog/introducing-relai-verifiable-continual-learning-for-ai-agents-backed-by-usd6-9m-in-funding
+    title: RELAI launch announcement
+logo:
+  path: logo.png
+  alt: RELAI's blue three-node mark on a dark square
+launch:
+  title: RELAI launches its verifiable continual learning platform
+  summary: RELAI announced its platform and limited-access onboarding for teams building or deploying AI agents.
+  occurred_on:
+    precision: day
+    value: "2026-06-10"
+  date_basis: announced
+  source:
+    url: https://relai.ai/blog/introducing-relai-verifiable-continual-learning-for-ai-agents-backed-by-usd6-9m-in-funding
+    title: "Introducing RELAI: Verifiable Continual Learning for AI Agents Backed by $6.9M in Funding"
+    locator: The opening paragraph is dated June 10, 2026 and says RELAI is launching; the closing paragraph says limited-access onboarding opens that day.
