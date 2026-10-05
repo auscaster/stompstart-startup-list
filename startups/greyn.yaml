@@ -1,0 +1,54 @@
+name: Greyn
+tagline: A marketplace for surplus construction stock in Belgium
+description: >-
+  Greyn connects businesses holding leftover building supplies with buyers
+  looking for nearby materials. Sellers can photograph their stock to draft
+  listings with AI, then check the details before publication. Buyers browse
+  local offers by material type and availability. Businesses can also bring
+  existing inventory into the platform from Excel or PDF files.
+problem: Usable stock remains idle when construction businesses cannot find local buyers.
+audience:
+  - Construction firms
+  - Building-material merchants
+  - Businesses sourcing reusable supplies
+website: https://greyn.market/en
+access:
+  - kind: browse
+    url: https://greyn.market/en/buy-construction-materials
+  - kind: signup
+    url: https://greyn.market/register
+categories:
+  - commerce
+  - climate-and-energy
+stage: live
+pricing:
+  model: usage_based
+company:
+  name: Greyn BV
+location:
+  country: BE
+  city: Lier
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://greyn.market/en/blog
+logo:
+  path: logo.png
+  alt: Greyn's white G symbol inside a dark circle
+sources:
+  - url: https://greyn.market/en
+    title: Greyn official product website
+  - url: https://greyn.market/en/blog/greyn-launch-event
+    title: Greyn has officially launched
+launch:
+  title: Greyn launches its construction materials marketplace
+  summary: Greyn held its public launch in Lier on 8 September 2026.
+  occurred_on:
+    precision: day
+    value: "2026-09-08"
+  date_basis: effective
+  source:
+    url: https://greyn.market/en/blog/greyn-launch-event
+    title: Greyn has officially launched
+    locator: The opening paragraph below the main image dates the official launch to 8 September 2026.
