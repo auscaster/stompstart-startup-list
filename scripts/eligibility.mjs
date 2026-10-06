@@ -16,7 +16,15 @@ const openedAt = process.env.PR_CREATED_AT ?? new Date().toISOString();
 function changedSlug() {
   const base = process.env.BASE_SHA;
   if (!base) return process.argv[2];
-  const changed = execFileSync("git", ["diff", "--name-only", `${base}...HEAD`], { encoding: "utf8" })
+  // CI checks out GitHub's merge of the pull request into its base as it is now, so the merge's
+  // first parent is that base; the event's base SHA can be the base from when the PR was opened.
+  const parents = execFileSync("git", ["rev-list", "--parents", "-n", "1", "HEAD"], {
+    encoding: "utf8",
+  })
+    .trim()
+    .split(" ");
+  const range = parents.length === 3 ? ["HEAD^1", "HEAD"] : [`${base}...HEAD`];
+  const changed = execFileSync("git", ["diff", "--name-only", ...range], { encoding: "utf8" })
     .split("\n")
     .map((path) => /^startups\/([a-z0-9-]+)(?:\.yaml|\/)/u.exec(path)?.[1])
     .filter(Boolean);
