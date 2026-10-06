@@ -1,0 +1,72 @@
+name: TryNearby
+tagline: Word-of-mouth marketing on autopilot for restaurants
+description: >-
+  TryNearby connects local restaurants with a managed group of nearby creators.
+  Each month a restaurant gets five local creators who visit, eat and post about
+  the spot, with a fully managed creator flow, an analytics dashboard and
+  dedicated account support. Creators get sent new places to visit every week,
+  show up, eat and post, while TryNearby handles the rest.
+problem: >-
+  Local restaurants struggle to be discovered. Creator marketing is built around
+  reaching people everywhere, but local businesses need creators who live nearby
+  and post about places their viewers can actually walk into.
+audience:
+  - Local restaurants
+  - Local creators
+website: https://trynearby.com/
+access:
+  - kind: signup
+    url: https://trynearby.com/
+categories:
+  - marketing
+  - everyday-life
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 39900
+    currency: usd
+    interval: month
+  pricing_url: https://trynearby.com/
+company:
+  name: TryNearby
+  relationship: independent
+location:
+  country: US
+  city: Los Angeles
+founded:
+  precision: year
+  value: "2025"
+platforms:
+  - web
+links:
+  - kind: social
+    url: https://www.instagram.com/trynearby/
+    network: instagram
+  - kind: social
+    url: https://www.tiktok.com/@trynearby
+    network: tiktok
+logo:
+  path: logo.png
+  alt: The TryNearby logo, a location pin mark
+gallery:
+  - path: product.jpg
+    alt: The TryNearby homepage, "Word of mouth for local businesses", framed by diners' posts and food photos
+sources:
+  - url: https://trynearby.com/
+    title: Official website
+  - url: https://x.com/FaZeApex/status/2089412054990065850
+    title: Launch announcement on X
+launch:
+  title: TryNearby launches as part of Y Combinator S26
+  summary: >-
+    TryNearby publicly launched as a Y Combinator S26 company, connecting local
+    restaurants with nearby creators for word-of-mouth marketing.
+  occurred_on:
+    precision: day
+    value: "2026-08-17"
+  date_basis: effective
+  source:
+    url: https://x.com/FaZeApex/status/2089412054990065850
+    title: Launch announcement on X
+    locator: The post, dated 17 August 2026, announces the launch
