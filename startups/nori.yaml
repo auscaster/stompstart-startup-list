@@ -79,22 +79,15 @@ sources:
       Electronics360 article dated August 23, 2026 describing the A3 wheeled
       base and 19 degrees of freedom
 launch:
-  title: Nori opens orders for the A3, its $1,688 two-armed home robot
+  title: Nori Robotics launches on Hacker News
   summary: >-
-    The San Francisco company began taking orders at full price with no
-    deposit for the Nori A3, a two-armed wheeled robot for household tasks,
-    with shipping planned from Fall 2026. Forbes reported the launch on
-    August 18, 2026, and wider news coverage and the company's own launch
-    post followed on August 20. In that post the company said it had already
-    deployed its first robot and passed $440,000 in sales.
+    The founders introduced Nori Robotics on Launch HN as a low-cost humanoid
+    robot for development.
   occurred_on:
     precision: day
-    value: "2026-08-20"
+    value: "2026-09-01"
   date_basis: announced
   source:
-    url: https://interestingengineering.com/ai-robotics/us-humanoid-robot-nori-a3
-    title: New US humanoid robot targets house chores with $1,688 price tag
-    locator: >-
-      News report on the Nori A3 launch. The page's published date of
-      2026-08-20 appears in its metadata, matching the company's own launch
-      post of the same day.
+    url: https://news.ycombinator.com/item?id=49525153
+    title: "Launch HN: Nori Robotics (YC S26) - A low-cost humanoid robot for development"
+    locator: The Launch HN post, dated 1 September 2026
