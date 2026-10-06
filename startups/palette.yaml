@@ -1,0 +1,65 @@
+name: Palette
+tagline: A web studio for generating and editing images and video
+description: >-
+  Palette lets creators and marketing teams make images and video in a web
+  workspace. They can bring a prompt or reference into a conversation, revise
+  the output with text instructions, and arrange work into storyboards.
+  Developers can also call its API, which uses the same credit balance as the
+  studio.
+problem: >-
+  Creating a campaign across images and video often means moving references
+  and editing decisions between separate tools.
+audience:
+  - Content creators
+  - Marketing teams
+website: https://palettelabs.com/
+access:
+  - kind: browse
+    url: https://studio.palettelabs.com/studio
+categories:
+  - ai-and-agents
+  - media
+  - marketing
+stage: live
+pricing:
+  model: usage_based
+company:
+  name: Palette Technology, Inc.
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Palette's dark paint palette with three purple dots on a white square
+gallery:
+  - path: product.png
+    alt: The Palette homepage, "Media that sells", a self-improving multimodal studio
+sources:
+  - url: https://palettelabs.com/
+    title: Palette official website
+  - url: https://www.ycombinator.com/companies/palette-2
+    title: Palette company profile at Y Combinator
+  - url: https://www.ycombinator.com/launches/SDV-palette-an-ai-native-media-platform
+    title: Palette public launch announcement
+launch:
+  title: Palette announces its media creation platform
+  summary: >-
+    The founders introduced the studio on Launch YC and linked to its public
+    web app, inviting creators and marketing teams to try it.
+  occurred_on:
+    precision: day
+    value: "2026-07-31"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/SDV-palette-an-ai-native-media-platform
+    title: Palette - An AI-Native Media Platform
+    locator: >-
+      The announcement's time element gives July 31, 2026; its closing
+      paragraph links to studio.palettelabs.com. The embedded launch record
+      also gives created_at as 2026-07-31T19:02:01.948Z.
