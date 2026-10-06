@@ -1,0 +1,50 @@
+name: Dreamscale Labs
+tagline: Cloud inference for robot AI models
+description: >-
+  Dreamscale Labs runs robotics models on cloud GPUs so teams can connect
+  their robots without hosting large models on local hardware. Its platform
+  combines model, GPU kernel and network optimization, with on-demand
+  compute for testing and deployment. Teams can use supported models or
+  bring their own checkpoints.
+problem: Large robotics models require compute that can be difficult to fit on a robot.
+audience:
+  - Robotics engineering teams
+  - Robotics research labs
+website: https://www.dreamscalelabs.com/
+access:
+  - kind: demo
+    url: https://cal.com/team/dreamscale-labs/demo
+categories:
+  - ai-and-agents
+  - developer-tools
+stage: beta
+pricing:
+  model: usage_based
+company:
+  name: Dreamscale Labs
+  relationship: independent
+logo:
+  path: logo.png
+  alt: The Dreamscale Labs logo, a black cloud outline with a white interior on a transparent square
+sources:
+  - url: https://www.dreamscalelabs.com/
+    title: Dreamscale Labs official website
+  - url: https://www.ycombinator.com/companies/dreamscale-labs
+    title: Dreamscale Labs company profile on Y Combinator
+  - url: https://www.dreamscalelabs.com/blog/why/
+    title: Why Robot Brains Will Live in the Cloud
+  - url: https://pypi.org/project/dreamscale/
+    title: Official Dreamscale SDK and beta access requirements
+  - url: https://www.ycombinator.com/launches/U24-dreamscale-labs-running-robot-brains-in-the-cloud
+    title: Dreamscale Labs public launch on Y Combinator
+launch:
+  title: Dreamscale Labs launches cloud inference for robotics
+  summary: The team publicly introduced its robot model inference platform and its work with early partners.
+  occurred_on:
+    precision: day
+    value: "2026-09-17"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/U24-dreamscale-labs-running-robot-brains-in-the-cloud
+    title: Dreamscale Labs public launch on Y Combinator
+    locator: Launch post timestamp in embedded page data (created_at), with the platform introduction and early partners described in the body
