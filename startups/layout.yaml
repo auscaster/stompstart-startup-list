@@ -36,24 +36,24 @@ platforms:
 # beside this file, in startups/layout/. With no gallery, Stompstart screenshots the homepage.
 logo:
   path: logo.png
-  alt: The Layout logo, a black circle with a white "L" on a flat background.
+  alt: The Layout logo, a black circle above a black rounded square on white.
 gallery:
   - path: product.png
-    alt: The Layout landing page shown in a browser window, with the headline "Order food anywhere with AI" and a "Join waitlist" call to action.
+    alt: The Layout share card, "Meet layout, the ordering layer for AI agents", beside a phone placing a coffee order.
 sources:
   - url: https://layout.link/
     title: Official website
 # The first release, and the page that dates it. A prelaunch product leaves this out.
 launch:
-  title: Layout opens its AI food ordering waitlist
+  title: Layout launches on Show HN
   summary: >-
-    Public landing page published 2026-09-29 with a "Join waitlist" call to
-    action, marking the first public appearance of the product.
+    Layout was introduced on Hacker News as a way to order food anywhere with
+    AI.
   occurred_on:
     precision: day
-    value: "2026-09-29"
-  date_basis: effective
+    value: "2026-09-30"
+  date_basis: announced
   source:
-    url: https://layout.link/
-    title: Layout landing page, html root element data-framer-page-optimized-at attribute
-    locator: html data-framer-page-optimized-at="2026-09-29T07:11:43.475Z" in <html> tag
+    url: https://news.ycombinator.com/item?id=49906193
+    title: "Show HN: Layout - Order food anywhere with AI"
+    locator: The Show HN post, dated 30 September 2026
