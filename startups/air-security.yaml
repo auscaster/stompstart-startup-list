@@ -1,0 +1,47 @@
+name: AIR Security
+tagline: Security controls for enterprise AI agent fleets
+description: >-
+  AIR Security provides a platform for discovering enterprise AI agents,
+  vetting the skills, plugins and MCPs they use, governing agent access and
+  permissions, and protecting agent actions at runtime.
+problem: Enterprises adopting AI agents need controls for the add-ons, data and actions those agents can access.
+audience:
+  - Enterprises deploying AI agents and coding agents
+  - Security and IT teams governing agent use
+website: https://www.air.security/
+access:
+  - kind: demo
+    url: https://www.air.security/
+categories:
+  - security
+  - ai-and-agents
+stage: live
+pricing:
+  model: contact_sales
+company:
+  name: AIR Security
+  relationship: independent
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://www.air.security/blog-posts/out-of-stealth
+logo:
+  path: logo.png
+  alt: The AIR Security logo, the word AIR in teal with a four-point spark
+sources:
+  - url: https://www.air.security/
+    title: AIR Security official website
+  - url: https://www.air.security/blog-posts/out-of-stealth
+    title: AIR is Coming Out of Stealth
+launch:
+  title: AIR Security comes out of stealth
+  summary: AIR Security publicly announced its launch from stealth and described its AI agent security platform.
+  occurred_on:
+    precision: day
+    value: "2026-09-01"
+  date_basis: effective
+  source:
+    url: https://www.air.security/blog-posts/out-of-stealth
+    title: AIR is Coming Out of Stealth
+    locator: Opening announcement and publication date
