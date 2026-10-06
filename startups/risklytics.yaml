@@ -41,7 +41,10 @@ links:
     url: https://www.risklytics.ai/news/
 logo:
   path: logo.png
-  alt: The Risklytics logo, a dark rounded mark with the company name
+  alt: The Risklytics logo, an orange letter R with a house cut into it
+gallery:
+  - path: product.png
+    alt: The Risklytics homepage, "Insurance for Frontier Tech", commercial insurance for robots, autonomy and hardware
 sources:
   - url: https://www.risklytics.ai/
     title: Official website
