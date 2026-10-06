@@ -24,7 +24,7 @@ categories:
   - business-software
 stage: live
 pricing:
-  model: freemium
+  model: paid
   entry_price:
     amount_minor: 299
     currency: usd
@@ -36,10 +36,6 @@ company:
 platforms:
   - macos
 links:
-  - kind: press
-    url: https://www.producthunt.com/products/starlie
-  - kind: source
-    url: https://marketplace.atlassian.com/apps/127252714/starlie-mac-desktop-client-for-jira
   - kind: docs
     url: https://starlie.app/help/
 logo:
@@ -55,16 +51,15 @@ sources:
   - url: https://marketplace.atlassian.com/apps/127252714/starlie-mac-desktop-client-for-jira
     title: Starlie in the Atlassian Marketplace
 launch:
-  title: Starlie launches for Mac
+  title: Starlie launches on the Mac App Store
   summary: >-
-    First published release of the Mac app. The site's own structured data
-    carries datePublished 2026-08-06, with a later revision on 2026-09-22.
+    The first release of Starlie, a native Jira client for the Mac, on the
+    Mac App Store.
   occurred_on:
     precision: day
-    value: "2026-08-06"
+    value: "2026-08-15"
   date_basis: effective
   source:
-    url: https://starlie.app/
-    title: Official website
-    locator: >-
-      JSON-LD in the page head, SoftwareApplication datePublished field
+    url: https://apps.apple.com/us/app/id6761744867
+    title: Starlie for Jira on the Mac App Store
+    locator: The listing's release date, 2026-08-15
