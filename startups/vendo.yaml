@@ -53,8 +53,8 @@ sources:
     title: Official Vendo website
   - url: https://vendo.run/pricing
     title: Vendo pricing
-  - url: https://www.ycombinator.com/companies/vendo
-    title: Vendo company profile on Y Combinator
+  - url: https://www.ycombinator.com/launches/RkR-vendo-let-your-users-build-their-own-features-on-top-of-your-product
+    title: Vendo on Launch YC
   - url: https://github.com/runvendo/vendo
     title: Official Vendo source repository
   - url: https://raw.githubusercontent.com/runvendo/vendo/main/docs-site/logo/light.svg
