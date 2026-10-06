@@ -19,8 +19,9 @@ categories:
 stage: live
 pricing:
   model: freemium
+  pricing_url: https://hoplite.sh/pricing
   entry_price:
-    amount_minor: 9900
+    amount_minor: 6000
     currency: usd
     interval: month
 platforms:
