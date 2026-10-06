@@ -1,0 +1,90 @@
+name: Desert Ant Labs
+tagline: Small AI models and SDKs for audio, text and vision on the device
+description: >-
+  Desert Ant Labs develops task-specific AI models that run inside apps on phones,
+  computers and browsers. Its catalog includes speech transcription, audio cleanup,
+  personal-data redaction, language identification and video clip selection. Developers
+  integrate the models through Swift, Kotlin or JavaScript SDKs, and the company publishes model weights
+  on Hugging Face. Inference processes the app's content locally instead
+  of sending it to a hosted model API. Each model is free below 100,000 monthly active
+  devices per platform; larger deployments require a commercial license. The software
+  is source-available, with attribution and other license conditions.
+problem: >-
+  Repeated cloud inference calls add latency and usage costs to app features such as
+  transcription, audio processing and text classification.
+audience:
+  - Developers building mobile, desktop and browser applications
+  - Product teams adding local audio, text or vision features
+website: https://desertant.com/
+access:
+  - kind: browse
+    url: https://desertant.com/models/
+  - kind: install
+    url: https://desertant.com/docs/
+categories:
+  - ai-and-agents
+  - developer-tools
+stage: live
+pricing:
+  model: freemium
+  pricing_url: https://license.desertant.com/
+company:
+  name: Desert Ant Labs B.V.
+location:
+  country: NL
+  city: Amsterdam
+founded:
+  precision: month
+  value: "2026-08"
+people:
+  - name: Paul Veugen
+    role: Co-founder and CEO
+  - name: Laurier Rochon
+    role: Co-founder and CTO
+  - name: Fredrik Wallin
+    role: Co-founder, engineering
+platforms:
+  - web
+  - ios
+  - android
+  - macos
+  - windows
+  - linux
+links:
+  - kind: docs
+    url: https://desertant.com/docs/
+  - kind: blog
+    url: https://desertant.com/blog/
+  - kind: press
+    url: https://desertant.com/press/
+  - kind: source
+    url: https://github.com/Desert-Ant-Labs/desert-ant-core
+logo:
+  path: logo.png
+  alt: Desert Ant Labs ant mark
+sources:
+  - url: https://desertant.com/
+    title: Desert Ant Labs official website and model catalog
+  - url: https://desertant.com/press/
+    title: Desert Ant Labs company facts and original brand assets
+  - url: https://license.desertant.com/
+    title: Desert Ant Labs Source-Available License, version 1.0
+  - url: https://desertant.com/docs/
+    title: Desert Ant Labs developer documentation
+launch:
+  title: Desert Ant Labs launches its on-device model catalog
+  summary: >-
+    The company announced a catalog of 18 audio, text and vision
+    models, including 12 stable models and six in beta, with SDKs for Swift, Kotlin
+    and JavaScript.
+  occurred_on:
+    precision: day
+    value: "2026-09-08"
+  date_basis: announced
+  source:
+    url: https://desertant.com/blog/introducing-desert-ant-labs/
+    title: On-device intelligence for every product
+    locator: >-
+      The byline dates Paul Veugen's announcement September 8, 2026. The opening
+      paragraph announces the launch of Desert Ant Labs; the third paragraph says
+      that the first 18 models are live that day.
