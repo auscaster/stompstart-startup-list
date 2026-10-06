@@ -1,0 +1,49 @@
+name: Agent FM
+tagline: A desktop assistant for work across apps and coding agents
+description: >-
+  Agent FM is a desktop AI assistant that works across files, browser tabs,
+  email and other apps. Users describe a task in a chat and review the result
+  before actions such as sending a message or changing a record. Its public
+  launch introduced a shared chat with live text and audio updates for
+  monitoring and directing multiple coding agents.
+problem: Routine work and agent progress are scattered across separate apps and sessions.
+audience:
+  - Founders and operations teams
+  - Product teams and software engineers
+website: https://www.agentfm.ai/
+access:
+  - kind: download
+    url: https://www.agentfm.ai/
+categories:
+  - productivity
+  - developer-tools
+stage: live
+pricing:
+  model: freemium
+platforms:
+  - macos
+  - windows
+logo:
+  path: logo.png
+  alt: White FM lettering on a coral square with rounded corners
+sources:
+  - url: https://www.agentfm.ai/
+    title: Agent FM official website and frequently asked questions
+  - url: https://www.agentfm.ai/icon.png
+    title: Original Agent FM website icon
+  - url: https://www.ycombinator.com/launches/SQ0-agent-fm-one-group-chat-to-hear-and-steer-your-coding-agents
+    title: Agent FM public launch on Y Combinator
+launch:
+  title: Agent FM announces its desktop coding-agent assistant
+  summary: >-
+    The founders publicly introduced a desktop app for coordinating coding
+    agents in a shared chat with live text and audio updates. The announcement
+    describes support for local and remote coding workspaces.
+  occurred_on:
+    precision: day
+    value: "2026-08-05"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/SQ0-agent-fm-one-group-chat-to-hear-and-steer-your-coding-agents
+    title: Agent FM public launch on Y Combinator
+    locator: The publication time element is dated August 5, 2026; the introduction describes the desktop app.
