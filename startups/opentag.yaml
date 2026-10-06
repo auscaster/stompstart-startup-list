@@ -1,0 +1,67 @@
+name: OpenTag
+tagline: A model-agnostic AI coworker for Slack and Teams
+description: >-
+  OpenTag works inside team chat so people can hand off real tasks without
+  leaving the conversation. It can use connected business tools, route work to
+  different AI models, return results in-thread, and maintain shared knowledge
+  from the work it sees.
+problem: Teams lose time moving context between chat, AI tools and business systems when work should happen where the conversation already lives.
+audience:
+  - Operations teams
+  - Product and engineering teams
+  - Small and midsize businesses using Slack
+website: https://www.tryopentag.com/
+access:
+  - kind: signup
+    url: https://app.tryopentag.com/sign-up
+categories:
+  - ai-and-agents
+  - business-software
+  - productivity
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 5000
+    currency: usd
+    interval: month
+  pricing_url: https://www.tryopentag.com/pricing
+company:
+  name: Open Curiosity, Inc.
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://www.tryopentag.com/blog
+  - kind: docs
+    url: https://www.tryopentag.com/docs
+logo:
+  path: logo.png
+  alt: OpenTag app icon
+sources:
+  - url: https://www.tryopentag.com/
+    title: OpenTag official website
+  - url: https://www.ycombinator.com/companies/opentag
+    title: OpenTag at Y Combinator
+  - url: https://www.producthunt.com/products/opentag
+    title: OpenTag on Product Hunt
+  - url: https://slack.com/marketplace/A0BJPD0QWQZ-opentag
+    title: OpenTag in the Slack Marketplace
+launch:
+  title: OpenTag launches publicly
+  summary: OpenTag launched its Slack and Teams AI coworker on Product Hunt.
+  occurred_on:
+    precision: day
+    value: "2026-08-28"
+  date_basis: effective
+  source:
+    url: https://www.producthunt.com/products/opentag/awards
+    title: OpenTag Awards (2026) | Product Hunt
+    locator: Launch Awards lists OpenTag on August 28th, 2026.
