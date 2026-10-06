@@ -50,7 +50,6 @@ links:
     network: linkedin
   - kind: community
     url: https://discord.gg/NgKhhxQny7
-    network: discord
 logo:
   path: logo.png
   alt: >-
