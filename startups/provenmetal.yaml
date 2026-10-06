@@ -1,0 +1,55 @@
+name: ProvenMetal
+tagline: US-based circuit board manufacturing with automated quoting
+description: >-
+  ProvenMetal is a US-based circuit board manufacturing service backed by Y
+  Combinator. Customers send design files or specs and receive an automated
+  quote with DFM review and a sourced bill of materials. Orders are routed
+  through a network of fabrication and assembly partners, and assembled boards
+  are delivered domestically in as few as five days. The company also offers
+  an API, an MCP server, and plugins for Altium Designer and KiCad.
+problem: >-
+  Getting circuit boards built domestically is slow. More than half of the lead
+  time goes to quoting, DFM review, and part sourcing rather than
+  manufacturing itself.
+audience:
+  - Hardware teams
+  - Electronics engineers
+website: https://provenmetal.com/
+access:
+  - kind: browse
+    url: https://provenmetal.com/
+categories:
+  - hardware
+stage: live
+pricing:
+  model: usage_based
+company:
+  name: ProvenMetal
+  relationship: independent
+location:
+  country: US
+founded:
+  precision: month
+  value: "2026-06"
+platforms:
+  - web
+people:
+  - name: Will Carkner
+    role: Founder
+logo:
+  path: logo.png
+  alt: The ProvenMetal logo, white stepped bars on a black rounded square
+sources:
+  - url: https://provenmetal.com/
+    title: Official website
+launch:
+  title: ProvenMetal launches on Hacker News
+  summary: Public launch announcement for the PCB manufacturing service, with ordering open.
+  occurred_on:
+    precision: day
+    value: "2026-08-06"
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=49198464
+    title: "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks"
+    locator: Post by founder willcarkner, dated August 6, 2026
