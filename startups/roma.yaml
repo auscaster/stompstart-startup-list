@@ -1,0 +1,57 @@
+name: Roma
+tagline: A to-do list that starts the work on the tasks you add
+description: >-
+  Roma is a to-do list where an operator does the work behind each task. You
+  add something in your own words, Roma turns it into a clear task, sorts it
+  into a project, and starts on it in the background on its own computer. You
+  come back to review what it prepared, finish it, or steer it. There are Mac
+  and iPhone apps, and connections to Gmail, Google Calendar, Dropbox, Linear
+  and Notion.
+problem: >-
+  A to-do list keeps tasks in one place but leaves all the doing to you, so
+  lists grow faster than they get cleared. Assistants answer in a chat, but
+  the work they help with ends up scattered across conversations instead of
+  living next to the task.
+audience:
+  - People who keep a personal task list
+  - Teams that coordinate work across email and documents
+website: https://roma.app/
+access:
+  - kind: download
+    url: https://roma.app/download
+categories:
+  - productivity
+  - ai-and-agents
+stage: live
+pricing:
+  model: unknown
+company:
+  name: Milo Mode Inc.
+  relationship: independent
+platforms:
+  - web
+  - macos
+  - ios
+logo:
+  path: logo.png
+  alt: The Roma icon, an orange rounded square with a black geometric mark
+sources:
+  - url: https://roma.app/
+    title: Official Roma website
+  - url: https://apps.apple.com/app/id6762153252
+    title: Roma on the App Store
+  - url: https://www.ycombinator.com/companies/roma
+    title: Roma company profile on Y Combinator
+launch:
+  title: Roma opens its to-do list that does the work
+  summary: >-
+    The founders introduced Roma in a launch post on their site, alongside the
+    Mac and iPhone apps and the public launch on Launch YC the same day.
+  occurred_on:
+    precision: day
+    value: "2026-10-06"
+  date_basis: announced
+  source:
+    url: https://roma.app/news/welcome-to-roma
+    title: Welcome to Roma
+    locator: The post is dated October 6, 2026 beneath its heading, and the page's structured data gives datePublished as 2026-10-06T13:52:21.727+00:00.
