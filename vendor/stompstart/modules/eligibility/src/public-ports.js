@@ -9,7 +9,7 @@ import decodePng, { init as initPng } from "@jsquash/png/decode.js";
 import decodeWebp, { init as initWebp } from "@jsquash/webp/decode.js";
 import { initWasm, Resvg } from "@resvg/resvg-wasm";
 import { readImageHeader } from "../../media/src/index.js";
-import { registrableDomain } from "./index.js";
+import { sameStartup } from "./index.js";
 import { MAX_PIXELS } from "./pictures.js";
 const require = createRequire(import.meta.url);
 const PAGE_BYTES = 2_000_000;
@@ -128,17 +128,6 @@ export function publicEligibilityPorts(options) {
             return null;
         }
     };
-    const sameStartup = (name, domain, other) => {
-        const plain = (value) => value.toLowerCase().replace(/[^a-z0-9]/gu, "");
-        let otherDomain = "";
-        try {
-            otherDomain = registrableDomain(new URL(other.website).hostname);
-        }
-        catch {
-            // A record without a usable website matches by name only.
-        }
-        return otherDomain === domain || plain(other.name) === plain(name);
-    };
     let open = null;
     const openPullRequests = options.openPullRequests ??
         (async () => {
@@ -208,11 +197,11 @@ export function publicEligibilityPorts(options) {
             ]) {
                 const page = (await json(new URL(path, options.stompstart).href));
                 for (const record of page?.records ?? []) {
-                    records.push({ slug: record.slug, name: record.name, website: record.website ?? "" });
+                    records.push(record);
                 }
             }
             for (const record of records) {
-                if (sameStartup(query.name, query.domain, record))
+                if (sameStartup(query, record))
                     found.add(record.slug);
             }
             return [...found].sort();
@@ -220,10 +209,12 @@ export function publicEligibilityPorts(options) {
         async earlierPullRequests(query) {
             open ??= openPullRequests();
             return (await open)
-                .filter((file) => file.number < query.before && sameStartup(query.name, query.domain, file))
+                .filter((file) => file.number < query.before && sameStartup(query, file))
                 .map((file) => file.number)
                 .sort((left, right) => left - right);
         },
+        // Private submissions are the host's to read; the public list sees none.
+        pendingSubmissions: options.pendingSubmissions ?? (async () => []),
         decode: decodePicture,
     };
 }
