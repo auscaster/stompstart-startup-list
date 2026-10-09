@@ -79,6 +79,22 @@ export function registrableDomain(host) {
     const size = TWO_LEVEL_SUFFIXES.has(suffix) || SHARED_HOSTS.has(suffix) ? 3 : 2;
     return labels.slice(-size).join(".");
 }
+/**
+ * Whether a record or proposal is the same startup as the one asked about: the same registrable
+ * domain, or the same name in letters and digits.
+ */
+export function sameStartup(query, other) {
+    const plain = (value) => value.toLowerCase().replace(/[^a-z0-9]/gu, "");
+    let domain = "";
+    try {
+        domain = other.website ? registrableDomain(new URL(other.website).hostname) : "";
+    }
+    catch {
+        // A record without a usable website matches by name only.
+    }
+    return ((domain !== "" && domain === query.domain) ||
+        (plain(other.name) !== "" && plain(other.name) === plain(query.name)));
+}
 function hostOf(url) {
     return new URL(url).hostname.toLowerCase();
 }
@@ -105,42 +121,6 @@ function dateSpan(date) {
         return { first: `${date.value}-01`, last: day(new Date(Date.UTC(year, month, 0))) };
     }
     return null;
-}
-const MONTHS = [
-    "january",
-    "february",
-    "march",
-    "april",
-    "may",
-    "june",
-    "july",
-    "august",
-    "september",
-    "october",
-    "november",
-    "december",
-];
-/** Whether a page's text states this day or month in a common written form. */
-export function statesDate(text, date) {
-    const span = dateSpan(date);
-    if (!span)
-        return false;
-    const [year, month, dayOfMonth] = span.first.split("-").map(Number);
-    if (!year || !month)
-        return false;
-    const name = MONTHS[month - 1] ?? "";
-    const short = name.slice(0, 3);
-    const haystack = text.toLowerCase().replace(/\s+/gu, " ");
-    const monthNames = `(?:${name}|${short}\\.?)`;
-    const patterns = date.precision === "day"
-        ? [
-            `${monthNames} 0?${dayOfMonth}(?:st|nd|rd|th)?,? ${year}`,
-            `0?${dayOfMonth}(?:st|nd|rd|th)? (?:of )?${monthNames},? ${year}`,
-            `${year}-${String(month).padStart(2, "0")}-${String(dayOfMonth).padStart(2, "0")}`,
-            `${year}/${String(month).padStart(2, "0")}/${String(dayOfMonth).padStart(2, "0")}`,
-        ]
-        : [`${monthNames},? ${year}`, `${year}-${String(month).padStart(2, "0")}`];
-    return patterns.some((pattern) => new RegExp(pattern, "u").test(haystack));
 }
 const TRACKING = /^(?:utm_[a-z_]+|ref|ref_|referrer|via|aff|affiliate|aff_id|gclid|fbclid|mc_cid|mc_eid)$/u;
 /** Query parameters that track or pay for a click, from any of these addresses. */
@@ -175,22 +155,6 @@ export function visibleText(html) {
         .replace(/&quot;/giu, '"')
         .replace(/\s+/gu, " ")
         .trim();
-}
-/** A parked or for-sale domain, named anywhere on its page. */
-const FOR_SALE = /(?:this domain (?:is|may be) for sale|buy this domain|domain is parked|parked free|parkingcrew|sedoparking|hugedomains|dan\.com)/iu;
-/**
- * A server's default or holding page. Product copy can say "it works!" too, so this counts only
- * in the page title or on a page that says little else.
- */
-const HOLDING = /(?:welcome to nginx|apache2 (?:ubuntu|debian) default page|it works!|site under construction|default web page|this site can't be reached)/iu;
-const NEAR_EMPTY = 400;
-/** Whether a page is a parked or for-sale domain, or a server's default holding page. */
-function parked(html) {
-    const text = visibleText(html);
-    if (FOR_SALE.test(text))
-        return true;
-    const title = /<title\b[^>]*>([\s\S]*?)<\/title\s*>/iu.exec(html)?.[1] ?? "";
-    return HOLDING.test(title) || (text.length <= NEAR_EMPTY && HOLDING.test(text));
 }
 const SUPERLATIVES = /\b(?:revolutionary|revolutionizing|world'?s first|best[- ]in[- ]class|cutting[- ]edge|game[- ]chang(?:er|ing)|seamless(?:ly)?|unparalleled|next[- ]generation|leverag(?:e|es|ing)|innovative|groundbreaking)\b/iu;
 /** Five-word shingles of a text, for copy comparison. */
@@ -323,7 +287,13 @@ export async function checkEligibility(submission, ports) {
     const earlier = await ports.earlierPullRequests({
         domain,
         name: input.name,
-        before: submission.pullNumber,
+        before: submission.pullNumber ?? Number.POSITIVE_INFINITY,
+    });
+    const pending = await ports.pendingSubmissions({
+        domain,
+        name: input.name,
+        pullNumber: submission.pullNumber,
+        submissionId: submission.submissionId,
     });
     if (existing.length > 0) {
         add("duplicate", "fail", `Already on Stompstart: ${existing.join(", ")}.`);
@@ -331,26 +301,27 @@ export async function checkEligibility(submission, ports) {
     else if (earlier.length > 0) {
         add("duplicate", "fail", `An earlier open pull request proposes it: #${earlier.join(", #")}.`);
     }
-    else {
-        add("duplicate", "pass", `No record or earlier pull request for ${domain}.`);
+    else if (pending.length > 0) {
+        add("duplicate", "fail", `Another submission already proposes it: ${pending.join(", ")}.`);
     }
-    // A real product: its site answers on its own domain and is not parked; the way in works.
+    else {
+        add("duplicate", "pass", `No record or earlier proposal for ${domain}.`);
+    }
+    // A real product: its site answers on its own domain, and the way in works. Whether the site
+    // presents the product, not a parked or error page, is read from its capture at review.
     const site = await ports.page(input.website);
     const shared = sharedHost(host);
     if (shared) {
         add("website", "fail", `${input.website} is on ${shared}, a shared host; a listed startup has its own domain.`);
+    }
+    else if (site && registrableDomain(hostOf(site.url)) !== domain) {
+        add("website", "fail", `${input.website} redirects to another domain, ${hostOf(site.url)}.`);
     }
     else if (!site || !answered(site)) {
         if (gone(site))
             add("website", "fail", `${input.website} is not there (${site?.status}).`);
         else
             add("website", "flag", `${unread(input.website, site)}.`);
-    }
-    else if (registrableDomain(hostOf(site.url)) !== domain) {
-        add("website", "fail", `${input.website} redirects to another domain, ${hostOf(site.url)}.`);
-    }
-    else if (parked(site.text)) {
-        add("website", "fail", `${input.website} is a parked or for-sale page.`);
     }
     else {
         add("website", "pass", `${input.website} answers on ${domain}.`);
@@ -361,7 +332,7 @@ export async function checkEligibility(submission, ports) {
         const page = await ports.page(route.url);
         if (gone(page))
             deadAccess.push(route.url);
-        else if (!page || !answered(page))
+        else if (!page || page.status >= 400)
             unreadAccess.push(route.url);
     }
     if (deadAccess.length > 0) {
@@ -405,14 +376,11 @@ export async function checkEligibility(submission, ports) {
         else if (!source || !answered(source)) {
             add("launch-window", "flag", `The launch date is in the window; ${unread(input.launch.source.url, source)}; ${history}.`);
         }
-        else if (!statesDate(visibleText(source.text), input.launch.occurred_on)) {
-            add("launch-window", "flag", `The launch date is in the window, but its source does not state it in a common form; ${history}.`);
-        }
         else if (capturedEarly) {
-            add("launch-window", "flag", `The source dates the launch in the window, but the site was ${history}.`);
+            add("launch-window", "flag", `The launch date is in the window, but the site was ${history}.`);
         }
         else {
-            add("launch-window", "pass", `Launched in the window, as its source states; ${history}.`);
+            add("launch-window", "pass", `The launch date is in the window and its source answers; ${history}.`);
         }
     }
     else if (input.stage !== "prelaunch") {
