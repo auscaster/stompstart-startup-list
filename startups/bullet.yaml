@@ -1,0 +1,47 @@
+name: Bullet
+tagline: A coding agent with automatic model routing and targeted code search
+description: >-
+  Bullet is a coding agent available as a desktop application and a command-line
+  tool. It chooses models for different tasks, searches relevant parts of a
+  repository, and runs independent tool calls in parallel. Developers can use it
+  to work on an existing codebase through a conversational interface.
+website: https://www.codewithbullet.com/
+access:
+  - kind: download
+    url: https://github.com/trybullet/bullet-releases/releases
+categories:
+  - developer-tools
+  - ai-and-agents
+stage: live
+pricing:
+  model: free
+problem: Reduce repeated context gathering and waiting during agent-driven coding tasks.
+audience:
+  - Software developers working with coding agents
+platforms:
+  - macos
+  - linux
+  - windows
+logo:
+  path: logo.png
+  alt: Bullet logo
+sources:
+  - url: https://www.codewithbullet.com/
+    title: Bullet product website
+  - url: https://news.ycombinator.com/item?id=49173799
+    title: Bullet public introduction on Hacker News
+  - url: https://news.ycombinator.com/item?id=49283063
+    title: Launch HN introduction by Bullet's founders
+launch:
+  title: Bullet opens public access to its coding agent
+  summary: >-
+    The founders introduced Bullet on Hacker News and linked a downloadable Mac
+    application, inviting readers to try the coding agent and provide feedback.
+  occurred_on:
+    precision: day
+    value: '2026-08-04'
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=49173799
+    title: 'Show HN: A faster coding agent than Codex and Claude Code'
+    locator: Original post by adi1; paragraph linking the Mac app download.
