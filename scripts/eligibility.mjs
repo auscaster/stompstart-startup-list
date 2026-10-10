@@ -1,8 +1,9 @@
 // Whether a new startup is eligible: the same checks Stompstart's review runs, over the public web.
 //   npm run eligibility -- <slug>        before opening a pull request
-// In CI it checks the one startup a pull request adds, from the PR's number and opening time.
+// In CI it checks the one startup a pull request adds, from the PR's number, head and opening time.
 import { execFileSync } from "node:child_process";
 import { appendFile, readFile } from "node:fs/promises";
+import { digest } from "provenry/primitives";
 import YAML from "yaml";
 import { checkEligibility } from "../vendor/stompstart/modules/eligibility/src/index.js";
 import { publicEligibilityPorts } from "../vendor/stompstart/modules/eligibility/src/public-ports.js";
@@ -10,7 +11,7 @@ import { validateStartup } from "./schemas.mjs";
 
 const STOMPSTART = "https://stompstart.com";
 const root = new URL("../", import.meta.url);
-const pullNumber = Number(process.env.PR_NUMBER ?? Number.MAX_SAFE_INTEGER);
+const repository = process.env.GITHUB_REPOSITORY ?? "auscaster/stompstart-startup-list";
 const openedAt = process.env.PR_CREATED_AT ?? new Date().toISOString();
 
 function changedSlug() {
@@ -70,14 +71,22 @@ for (const image of named) {
     // validate reports a missing image.
   }
 }
+// A pull request is checked at its head and is held only by earlier ones; a file not yet proposed
+// is held by every open one.
+const candidate =
+  process.env.PR_NUMBER && process.env.PR_HEAD_SHA
+    ? {
+        kind: "pull_request",
+        repository,
+        pullRequestNumber: Number(process.env.PR_NUMBER),
+        headSha: process.env.PR_HEAD_SHA,
+      }
+    : { kind: "detached", candidateReference: `startups/${slug}.yaml`, candidateDigest: digest(fields) };
 const result = await checkEligibility(
-  { input: fields, images, pullNumber, openedAt },
+  { input: fields, images, candidate, openedAt },
   publicEligibilityPorts({
     stompstart: STOMPSTART,
-    github: {
-      repository: process.env.GITHUB_REPOSITORY ?? "auscaster/stompstart-startup-list",
-      ...(process.env.GITHUB_TOKEN ? { token: process.env.GITHUB_TOKEN } : {}),
-    },
+    github: { repository, ...(process.env.GITHUB_TOKEN ? { token: process.env.GITHUB_TOKEN } : {}) },
   }),
 );
 const mark = { pass: "pass", fail: "FAIL", flag: "review" };

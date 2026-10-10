@@ -1,7 +1,9 @@
 // Whether a new startup's submission is eligible for Stompstart, and why. The rules read the
 // submission and what the web shows about it through ports; they import only the image header
-// reader and the picture rules beside them, so the compiled files run on their own in the public
-// startup list's CI.
+// reader, the picture rules beside them and Provenry's public identity rule, so the compiled files
+// run on their own in the public startup list's CI.
+import { evaluateIdentityConflicts, } from "provenry/identity";
+import { digest } from "provenry/primitives";
 import { readImageHeader } from "../../media/src/index.js";
 import { differenceHash, galleryImage, logoOrigin, } from "./pictures.js";
 /** A new discovery first appeared publicly within this many months before its pull request. */
@@ -79,21 +81,37 @@ export function registrableDomain(host) {
     const size = TWO_LEVEL_SUFFIXES.has(suffix) || SHARED_HOSTS.has(suffix) ? 3 : 2;
     return labels.slice(-size).join(".");
 }
-/**
- * Whether a record or proposal is the same startup as the one asked about: the same registrable
- * domain, or the same name in letters and digits.
- */
-export function sameStartup(query, other) {
-    const plain = (value) => value.toLowerCase().replace(/[^a-z0-9]/gu, "");
-    let domain = "";
+/** The value a startup's name is compared by: its letters and digits. */
+function plainName(name) {
+    return name.toLowerCase().replace(/[^a-z0-9]/gu, "");
+}
+/** The registrable domain of a website, or "" when it has none that can be read. */
+export function websiteDomain(website) {
     try {
-        domain = other.website ? registrableDomain(new URL(other.website).hostname) : "";
+        return website ? registrableDomain(new URL(website).hostname) : "";
     }
     catch {
-        // A record without a usable website matches by name only.
+        return "";
     }
-    return ((domain !== "" && domain === query.domain) ||
-        (plain(other.name) !== "" && plain(other.name) === plain(query.name)));
+}
+/**
+ * The identities a startup claims: its registrable domain and its name in letters and digits. A
+ * record without a usable website claims its name alone.
+ */
+export function startupKeys(startup) {
+    const domain = websiteDomain(startup.website);
+    const name = plainName(startup.name);
+    return [
+        ...(domain ? [{ keyDigest: digest({ kind: "domain", value: domain }) }] : []),
+        ...(name ? [{ keyDigest: digest({ kind: "name", value: name }) }] : []),
+    ].map((key) => ({ ...key, candidateReference: "startup" }));
+}
+/** A record's or proposal's claims on what `startup` claims, found at `source`. */
+export function startupClaims(startup, claimant, targetReference, source) {
+    const asked = new Set(startupKeys(startup).map(({ keyDigest }) => keyDigest));
+    return startupKeys(claimant)
+        .filter(({ keyDigest }) => asked.has(keyDigest))
+        .map(({ keyDigest }) => ({ keyDigest, targetReference, source }));
 }
 function hostOf(url) {
     return new URL(url).hostname.toLowerCase();
@@ -283,26 +301,54 @@ export async function checkEligibility(submission, ports) {
     const host = hostOf(input.website);
     const domain = registrableDomain(host);
     // One record per startup: already published, archived or first proposed elsewhere.
-    const existing = await ports.existing({ domain, name: input.name });
-    const earlier = await ports.earlierPullRequests({
-        domain,
-        name: input.name,
-        before: submission.pullNumber ?? Number.POSITIVE_INFINITY,
-    });
-    const pending = await ports.pendingSubmissions({
-        domain,
-        name: input.name,
-        pullNumber: submission.pullNumber,
-        submissionId: submission.submissionId,
-    });
-    if (existing.length > 0) {
-        add("duplicate", "fail", `Already on Stompstart: ${existing.join(", ")}.`);
+    const existing = await ports.existing(input);
+    const open = await ports.openPullRequests(input);
+    const pending = await ports.pendingSubmissions(input);
+    const held = evaluateIdentityConflicts({
+        keys: startupKeys(input),
+        matches: [...(existing ?? []), ...(open ?? []), ...pending],
+        candidate: submission.candidate,
+    }).flatMap(({ matches }) => matches);
+    // Each record or proposal that holds it, once however many of its keys it shares.
+    const holders = (kind) => {
+        const found = new Map();
+        for (const match of held) {
+            const { source } = match;
+            if (source.kind !== kind)
+                continue;
+            found.set(source.kind === "open_pull_request"
+                ? String(source.pullRequestNumber)
+                : source.kind === "pending_submission"
+                    ? source.candidateReference
+                    : match.targetReference, match);
+        }
+        return [...found.values()];
+    };
+    const records = holders("live")
+        .map(({ targetReference }) => targetReference)
+        .sort();
+    const earlier = holders("open_pull_request")
+        .flatMap(({ source }) => source.kind === "open_pull_request" ? [source.pullRequestNumber] : [])
+        .sort((left, right) => left - right);
+    const proposals = holders("pending_submission")
+        .map(({ targetReference }) => targetReference)
+        .sort();
+    if (records.length > 0) {
+        add("duplicate", "fail", `Already on Stompstart: ${records.join(", ")}.`);
     }
     else if (earlier.length > 0) {
         add("duplicate", "fail", `An earlier open pull request proposes it: #${earlier.join(", #")}.`);
     }
-    else if (pending.length > 0) {
-        add("duplicate", "fail", `Another submission already proposes it: ${pending.join(", ")}.`);
+    else if (proposals.length > 0) {
+        add("duplicate", "fail", `Another submission already proposes it: ${proposals.join(", ")}.`);
+    }
+    else if (!existing || !open) {
+        // A lookup that could not be made is no evidence the startup is new.
+        const unread = [
+            ...(existing ? [] : ["Stompstart's records"]),
+            ...(open ? [] : ["the list's open pull requests"]),
+        ];
+        add("duplicate", "flag", `Could not read ${unread.join(" or ")} from here; a reviewer checks ${domain} is not already listed or proposed.`);
     }
     else {
         add("duplicate", "pass", `No record or earlier proposal for ${domain}.`);

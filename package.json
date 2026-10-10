@@ -16,6 +16,8 @@
     "@resvg/resvg-wasm": "2.6.2",
     "ajv": "8.20.0",
     "ajv-formats": "3.0.1",
+    "almanac": "file:vendor/almanac",
+    "provenry": "0.2.2",
     "yaml": "2.9.1"
   },
   "engines": {

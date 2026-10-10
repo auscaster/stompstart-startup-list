@@ -1,5 +1,6 @@
 // The eligibility ports over the public web: pages and files over HTTPS, the Wayback index,
-// RDAP, Stompstart's public API and the startup list's open pull requests on GitHub. Pictures
+// RDAP, Stompstart's public API and the startup list's open pull requests on GitHub, each read
+// over Almanac's pinned public HTTPS, which checks every hop's address is public. Pictures
 // decode with WebAssembly codecs (Squoosh's PNG, JPEG and WebP decoders, resvg for SVG), so this
 // runs in the list's CI with no system tools.
 import { readFile } from "node:fs/promises";
@@ -8,38 +9,47 @@ import decodeJpeg, { init as initJpeg } from "@jsquash/jpeg/decode.js";
 import decodePng, { init as initPng } from "@jsquash/png/decode.js";
 import decodeWebp, { init as initWebp } from "@jsquash/webp/decode.js";
 import { initWasm, Resvg } from "@resvg/resvg-wasm";
+import { readPublicHttps } from "almanac/capture/http";
+import { parseWaybackIndex } from "almanac/capture/wayback";
+import { pinnedHttpsRequest } from "almanac/http/pinned";
 import { readImageHeader } from "../../media/src/index.js";
-import { sameStartup } from "./index.js";
+import { startupClaims, websiteDomain } from "./index.js";
 import { MAX_PIXELS } from "./pictures.js";
 const require = createRequire(import.meta.url);
 const PAGE_BYTES = 2_000_000;
+/** A file's bytes, or a JSON answer: a page of a hundred pull requests runs to megabytes. */
 const FILE_BYTES = 8_000_000;
 const TIMEOUT_MS = 15_000;
+/** The most records Stompstart's API answers a page. */
+const API_PAGE = 40;
+/** The most pages one Stompstart listing is read through; a longer one is not read whole. */
+const API_PAGES = 100;
+/** GitHub lists at most 3,000 of a pull request's files, 100 a page. */
+const PULL_FILE_PAGES = 30;
 const USER_AGENT = "StompstartEligibility/1 (+https://stompstart.com/contribute)";
-async function fetchBounded(url, limit, accept) {
-    if (new URL(url).protocol !== "https:")
+const decoder = new TextDecoder("utf-8");
+/** One public read that follows HTTPS redirects anywhere; null when it could not be made. */
+async function readPublic(url, maximumBytes, accept) {
+    try {
+        return await readPublicHttps({
+            url,
+            limits: { minimumBytes: 0, maximumBytes, timeoutMs: TIMEOUT_MS },
+            maxRedirects: 5,
+            permitRedirect: (_from, to) => to.protocol === "https:",
+            userAgent: USER_AGENT,
+            headers: { accept },
+        });
+    }
+    catch {
+        return null;
+    }
+}
+/** A 2xx answer's JSON; null for any other status or a body that is not JSON. */
+function jsonAnswer(status, bytes) {
+    if (status < 200 || status > 299)
         return null;
     try {
-        const response = await fetch(url, {
-            headers: { "user-agent": USER_AGENT, accept },
-            redirect: "follow",
-            signal: AbortSignal.timeout(TIMEOUT_MS),
-        });
-        const reader = response.body?.getReader();
-        const chunks = [];
-        let size = 0;
-        while (reader) {
-            const { done, value } = await reader.read();
-            if (done)
-                break;
-            size += value.byteLength;
-            if (size > limit) {
-                await reader.cancel();
-                break;
-            }
-            chunks.push(value);
-        }
-        return { response, bytes: Buffer.concat(chunks) };
+        return JSON.parse(decoder.decode(bytes));
     }
     catch {
         return null;
@@ -112,70 +122,127 @@ export async function decodePicture(bytes) {
 export function publicEligibilityPorts(options) {
     const githubHeaders = {
         accept: "application/vnd.github+json",
-        "user-agent": USER_AGENT,
         ...(options.github.token ? { authorization: `Bearer ${options.github.token}` } : {}),
     };
-    const json = async (url, headers = { "user-agent": USER_AGENT }) => {
+    const json = async (url) => {
+        const read = await readPublic(url, FILE_BYTES, "application/json");
+        return read ? jsonAnswer(read.responseStatusCode, read.bytes) : null;
+    };
+    // The list's token goes to the API alone, so its answers are read where they are, never followed:
+    // a redirect, like any answer that is not a 2xx JSON one, is unread.
+    const github = async (path) => {
         try {
-            const response = await fetch(url, { headers, signal: AbortSignal.timeout(TIMEOUT_MS) });
-            if (response.ok)
-                return (await response.json());
-            // An unread body holds its connection open, and with it the process.
-            await response.body?.cancel();
-            return null;
+            const response = await pinnedHttpsRequest({
+                url: `https://api.github.com/repos/${options.github.repository}${path}`,
+                method: "GET",
+                headers: githubHeaders,
+                userAgent: USER_AGENT,
+                maximumBytes: FILE_BYTES,
+                deadline: Date.now() + TIMEOUT_MS,
+            });
+            return jsonAnswer(response.status, response.bytes);
         }
         catch {
             return null;
         }
     };
+    /** Every record of one Stompstart API listing, page by page; undefined unless all of it was read. */
+    const listing = async (path) => {
+        const records = [];
+        const url = new URL(path, options.stompstart);
+        url.searchParams.set("limit", String(API_PAGE));
+        for (let page = 0; page < API_PAGES; page += 1) {
+            const answer = (await json(url.href));
+            if (!Array.isArray(answer?.records))
+                return undefined;
+            records.push(...answer.records);
+            if (typeof answer.nextCursor !== "string")
+                return records;
+            url.searchParams.set("cursor", answer.nextCursor);
+        }
+        return undefined;
+    };
+    /**
+     * The startup file a pull request changes, read page by page; null when it changes none, and
+     * undefined unless every page that could hold it was read.
+     */
+    const startupFile = async (pull) => {
+        for (let page = 1; page <= PULL_FILE_PAGES; page += 1) {
+            const changed = (await github(`/pulls/${pull}/files?per_page=100&page=${page}`));
+            if (!Array.isArray(changed))
+                return undefined;
+            const file = changed.find((entry) => /^startups\/[a-z0-9-]+\.yaml$/u.test(entry.filename));
+            if (file)
+                return file;
+            if (changed.length < 100)
+                return null;
+        }
+        // GitHub lists no more of a pull request's files than this; the rest cannot be read.
+        return undefined;
+    };
+    // Open pull requests' startups; undefined unless every one of them was read.
     let open = null;
-    const openPullRequests = options.openPullRequests ??
-        (async () => {
-            const files = [];
-            const base = `https://api.github.com/repos/${options.github.repository}`;
-            for (let page = 1; page <= 10; page += 1) {
-                const pulls = (await json(`${base}/pulls?state=open&per_page=100&page=${page}`, githubHeaders));
-                if (!pulls || pulls.length === 0)
-                    break;
-                for (const pull of pulls) {
-                    const changed = (await json(`${base}/pulls/${pull.number}/files?per_page=100`, githubHeaders));
-                    const file = changed?.find((entry) => /^startups\/[a-z0-9-]+\.yaml$/u.test(entry.filename));
-                    if (!file)
-                        continue;
-                    const text = await fetchBounded(file.raw_url, PAGE_BYTES, "text/plain");
-                    const yaml = text?.bytes.toString("utf8") ?? "";
-                    const field = (key) => new RegExp(`^${key}:\\s*["']?([^"'\\n]+)["']?\\s*$`, "mu").exec(yaml)?.[1]?.trim() ??
-                        "";
-                    files.push({ number: pull.number, name: field("name"), website: field("website") });
+    const openPullRequests = async () => {
+        const files = [];
+        for (let page = 1; page <= 10; page += 1) {
+            const pulls = (await github(`/pulls?state=open&per_page=100&page=${page}`));
+            if (!Array.isArray(pulls))
+                return undefined;
+            for (const pull of pulls) {
+                const file = await startupFile(pull.number);
+                if (file === undefined)
+                    return undefined;
+                if (!file)
+                    continue;
+                const text = await readPublic(file.raw_url, PAGE_BYTES, "text/plain");
+                if (!text || text.responseStatusCode < 200 || text.responseStatusCode > 299) {
+                    return undefined;
                 }
-                if (pulls.length < 100)
-                    break;
+                const yaml = decoder.decode(text.bytes);
+                const field = (key) => new RegExp(`^${key}:\\s*["']?([^"'\\n]+)["']?\\s*$`, "mu").exec(yaml)?.[1]?.trim() ?? "";
+                files.push({
+                    number: pull.number,
+                    headSha: pull.head.sha,
+                    name: field("name"),
+                    website: field("website"),
+                });
             }
-            return files;
-        });
+            if (pulls.length < 100)
+                return files;
+        }
+        return undefined;
+    };
     return {
         async page(url) {
-            const fetched = await fetchBounded(url, PAGE_BYTES, "text/html,application/xhtml+xml,*/*;q=0.5");
-            if (!fetched)
-                return null;
-            return {
-                status: fetched.response.status,
-                url: fetched.response.url || url,
-                text: fetched.bytes.toString("utf8"),
-            };
+            const read = await readPublic(url, PAGE_BYTES, "text/html,application/xhtml+xml,*/*;q=0.5");
+            return read
+                ? { status: read.responseStatusCode, url: read.finalUrl, text: decoder.decode(read.bytes) }
+                : null;
         },
         async bytes(url) {
-            const fetched = await fetchBounded(url, FILE_BYTES, "image/*");
-            return fetched?.response.ok ? fetched.bytes : null;
+            const read = await readPublic(url, FILE_BYTES, "image/*");
+            return read && read.responseStatusCode >= 200 && read.responseStatusCode <= 299
+                ? read.bytes
+                : null;
         },
         async earliestCapture(host) {
-            const rows = (await json(`https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(host)}&output=json&limit=1&fl=timestamp&filter=statuscode:200`));
-            if (!rows)
+            const index = await readPublic(`https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(host)}&output=json&limit=1&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200`, PAGE_BYTES, "application/json");
+            const rows = index && jsonAnswer(index.responseStatusCode, index.bytes);
+            if (!index || !Array.isArray(rows))
                 return undefined;
-            const stamp = rows[1]?.[0];
-            return stamp && /^\d{8}/u.test(stamp)
-                ? `${stamp.slice(0, 4)}-${stamp.slice(4, 6)}-${stamp.slice(6, 8)}`
-                : null;
+            // The index answers an empty list for a host it never archived.
+            if (rows.length === 0)
+                return null;
+            try {
+                const [first] = parseWaybackIndex(index.bytes, {
+                    maximumBytes: PAGE_BYTES,
+                    maximumRows: 1,
+                });
+                return first?.snapshotAt.slice(0, 10) ?? null;
+            }
+            catch {
+                return undefined;
+            }
         },
         async registered(domain) {
             const answer = (await json(`https://rdap.org/domain/${encodeURIComponent(domain)}`));
@@ -185,33 +252,43 @@ export function publicEligibilityPorts(options) {
             const date = answer.events?.find((event) => event.eventAction === "registration")?.eventDate;
             return date ? date.slice(0, 10) : null;
         },
-        async existing(query) {
+        // Stompstart's public records: `/api/startups` lists every listed startup, read whole, and
+        // `/api/archive` searches every startup with an old-site listing, by name and by its
+        // website's domain. A live startup in neither is private: the host's own `existing`, read from
+        // its database, finds it. A proposal not yet released is found by `pendingSubmissions`, which
+        // only the host can answer.
+        async existing(startup) {
             if (options.existing)
-                return options.existing(query);
-            const found = new Set();
-            const records = [];
+                return options.existing(startup);
+            const found = [];
+            let unread = false;
             for (const path of [
-                `/api/archive?q=${encodeURIComponent(query.name)}&limit=50`,
-                `/api/archive?q=${encodeURIComponent(query.domain)}&limit=50`,
-                "/api/startups?limit=100",
+                `/api/archive?q=${encodeURIComponent(startup.name)}`,
+                `/api/archive?q=${encodeURIComponent(websiteDomain(startup.website))}`,
+                "/api/startups",
             ]) {
-                const page = (await json(new URL(path, options.stompstart).href));
-                for (const record of page?.records ?? []) {
-                    records.push(record);
+                const records = await listing(path);
+                if (!records)
+                    unread = true;
+                for (const record of records ?? []) {
+                    found.push(...startupClaims(startup, record, record.slug, { kind: "live" }));
                 }
             }
-            for (const record of records) {
-                if (sameStartup(query, record))
-                    found.add(record.slug);
-            }
-            return [...found].sort();
+            // A record found is a duplicate whatever else went unread; finding none proves nothing then.
+            return unread && found.length === 0 ? undefined : found;
         },
-        async earlierPullRequests(query) {
+        async openPullRequests(startup) {
             open ??= openPullRequests();
-            return (await open)
-                .filter((file) => file.number < query.before && sameStartup(query, file))
-                .map((file) => file.number)
-                .sort((left, right) => left - right);
+            const files = await open;
+            // An unread listing is read again for the next query.
+            if (!files)
+                open = null;
+            return files?.flatMap((file) => startupClaims(startup, file, `#${file.number}`, {
+                kind: "open_pull_request",
+                repository: options.github.repository,
+                pullRequestNumber: file.number,
+                headSha: file.headSha,
+            }));
         },
         // Private submissions are the host's to read; the public list sees none.
         pendingSubmissions: options.pendingSubmissions ?? (async () => []),
