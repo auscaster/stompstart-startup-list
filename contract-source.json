@@ -1,12 +1,19 @@
 {
   "source_repository": "sourcey/stompstart",
-  "source_commit": "cbae15dcb5c457211cd11aa4f9ce2e1eac17b73f",
+  "source_commit": "32a783f77e70874256d4c4853adf04108271ca4d",
   "files": {
     "startup-input.schema.json": "1010226a34dbefce3029ad2940657756a43c2365723dfcdfa125da605dd4a356",
     "launch-input.schema.json": "c3a3338c2925f8c32845d49024428e4f78cb48fa664a34bc8a6234308c56dc31",
-    "vendor/stompstart/modules/eligibility/src/index.js": "16039b5049bddf9ca2936b18dca16e770eb242332d0be7ec478a96059241860f",
+    "vendor/stompstart/modules/eligibility/src/index.js": "29c78fa33b56b4b7f84920edccb2688d0c8b7506ae048e39517637a98f1e2606",
     "vendor/stompstart/modules/eligibility/src/pictures.js": "b8609484d1b81d5cca1c554f39c0e5d2daeed488e057f317ecdef6c72e4b1532",
-    "vendor/stompstart/modules/eligibility/src/public-ports.js": "a0e227050dfb9e056c85ce997951e25a200df40a0dc521046c33665aef60d5d9",
-    "vendor/stompstart/modules/media/src/index.js": "8c28fece5a6f4b2ba3ac99a14019de8a811fad4550bbef1dea441b712e855ccf"
+    "vendor/stompstart/modules/eligibility/src/public-ports.js": "b13a44aa33f688fc3023470c222a9635b3c94ef78075362f7da8ec1b066df8bd",
+    "vendor/stompstart/modules/media/src/index.js": "8c28fece5a6f4b2ba3ac99a14019de8a811fad4550bbef1dea441b712e855ccf",
+    "vendor/almanac/dist/modules/http/src/pinned.js": "10971fc4f9251717284dcb2a3e93c984daa132ab40590125de5afb7a63c39a5d",
+    "vendor/almanac/dist/modules/capture/src/wayback.js": "5267bd0d9e0542b5e307d7cd026b48dd9400b4d9dd90bb93b21b53d584c91bde",
+    "vendor/almanac/dist/modules/work/src/time.js": "61b2986060808ce78f9db9f6e4a2760f83522cd3690bc3baf2fe25d9b6e2cee3",
+    "vendor/almanac/dist/modules/capture/src/http.js": "4ced91d9d95cb623cce21677d7a5f9944529e3cc9b08cff85b9b621c2ef0d26d",
+    "vendor/almanac/package.json": "50940984ac5d0c214087d4db5a571f4eba43a742114cfa1e03a2df6f85e04ba8",
+    "vendor/almanac/LICENSE": "60dd3fcb1bd0f2668ffd74c316ae6664ea317407361a1ad62152008416aebb6d",
+    "vendor/almanac/ALMANAC-SOURCE.json": "668e51557eaadf63111413dd0ec05fa4a0c9ba8d7202b83fb79136348e348c7b"
   }
 }

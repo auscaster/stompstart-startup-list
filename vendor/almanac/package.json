@@ -1,0 +1,20 @@
+{
+  "name": "almanac",
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    "./capture/http": {
+      "import": "./dist/modules/capture/src/http.js"
+    },
+    "./capture/wayback": {
+      "import": "./dist/modules/capture/src/wayback.js"
+    },
+    "./http/pinned": {
+      "import": "./dist/modules/http/src/pinned.js"
+    }
+  },
+  "dependencies": {
+    "provenry": "0.2.2"
+  }
+}
