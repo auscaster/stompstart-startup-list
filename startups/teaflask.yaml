@@ -1,0 +1,56 @@
+# Copy with `npm run new -- your-startup-slug`, then replace every sample value.
+# The file holds the startup's facts; Stompstart adds identifiers and evidence at review.
+name: Teaflask
+tagline: Add an AI agent to your SaaS product within a day
+description: >-
+  Teaflask is a managed platform plus a frontend package that SaaS teams embed
+  in their own product. The package renders as a full page, sidebar, corner
+  widget, or command palette, and answers user questions, reads the current
+  page, navigates users, fills forms for review, calls product APIs, and runs
+  multi-step workflows with subagents. Teams supply their own Anthropic or
+  OpenAI keys, and the platform itself charges no fee.
+problem: Adding a capable AI assistant inside a SaaS product means building agent UI, tool wiring, and product knowledge plumbing from scratch.
+audience:
+  - SaaS product teams
+  - B2B software companies
+website: https://teaflask.com/
+access:
+  - kind: signup
+    url: https://app.teaflask.com/
+categories:
+  - developer-tools
+stage: live
+pricing:
+  model: free
+platforms:
+  - web
+links:
+  - kind: changelog
+    url: https://teaflask.com/changelog
+# The startup's own logo (an original of at least 256 pixels) and any pictures of the product sit
+# beside this file, in startups/<slug>/. With no gallery, Stompstart screenshots the homepage.
+logo:
+  path: logo.png
+  alt: The Teaflask logo, a black abstract flask mark on a transparent background
+sources:
+  - url: https://teaflask.com/
+    title: Teaflask official website
+  - url: https://teaflask.com/pricing/
+    title: Teaflask pricing, free platform with bring-your-own model keys
+  - url: https://www.ycombinator.com/launches/VnT-teaflask-make-your-existing-saas-ai-native-by-tomorrow-self-serve-byok
+    title: Teaflask public launch on Y Combinator
+# The first release, and the page that dates it. A prelaunch product leaves this out.
+launch:
+  title: Teaflask launches its self-serve AI agent platform
+  summary: >-
+    The founders publicly introduced a managed platform and frontend package
+    that lets SaaS teams ship an AI agent inside their product, with
+    bring-your-own model keys and a free plan.
+  occurred_on:
+    precision: day
+    value: "2026-10-14"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/VnT-teaflask-make-your-existing-saas-ai-native-by-tomorrow-self-serve-byok
+    title: Teaflask public launch on Y Combinator
+    locator: The launch post is dated October 14, 2026 and introduces the platform and its frontend package.
