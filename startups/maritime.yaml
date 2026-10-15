@@ -1,0 +1,60 @@
+name: Maritime
+tagline: Managed cloud infrastructure providing an isolated persistent virtual machine for each AI agent
+description: >-
+  Maritime is a cloud hosting platform that gives each AI agent its own
+  isolated, persistent virtual machine with disk storage that survives sleep,
+  restart and redeployment. Developers can run Linux computers, Windows
+  desktops or virtual Android phones for their agents, or connect an external
+  backend through MCP, with three agents hosted for free and paid fleet plans
+  starting at one dollar per agent per month.
+problem: Teams deploying customer-facing AI agents spend significant engineering effort provisioning, maintaining and debugging separate runtime environments for every user.
+audience:
+  - Software teams building and selling customer-facing AI agents
+  - Startups giving each user a dedicated personal assistant or AI employee
+website: https://maritime.sh/
+access:
+  - kind: signup
+    url: https://maritime.sh/signup
+categories:
+  - ai-and-agents
+  - developer-tools
+stage: live
+pricing:
+  model: freemium
+company:
+  name: Maritime
+  relationship: independent
+platforms:
+  - web
+  - linux
+  - windows
+  - android
+links:
+  - kind: docs
+    url: https://maritime.sh/docs
+  - kind: blog
+    url: https://maritime.sh/blog
+logo:
+  path: logo.png
+  alt: The Maritime logo, a white stylized ship silhouette on a dark square background
+sources:
+  - url: https://maritime.sh/
+    title: Maritime official website
+  - url: https://maritime.sh/maritimefav.png
+    title: Original Maritime website icon
+  - url: https://www.ycombinator.com/launches/VQm-maritime-fully-managed-cloud-for-running-ai-agents-at-scale
+    title: Maritime public launch on Y Combinator
+launch:
+  title: Maritime launches managed cloud VMs for AI agents
+  summary: >-
+    The founders publicly launched Maritime on Launch YC, introducing a managed
+    cloud platform that gives every AI agent an isolated, persistent virtual
+    machine across Linux, Windows and Android environments.
+  occurred_on:
+    precision: day
+    value: "2026-10-09"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/VQm-maritime-fully-managed-cloud-for-running-ai-agents-at-scale
+    title: Maritime public launch on Y Combinator
+    locator: The publication time element is dated October 9, 2026; the announcement describes the managed VM platform for AI agents.
