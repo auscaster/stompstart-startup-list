@@ -1,0 +1,55 @@
+name: Prized
+tagline: Cloud development boxes for software teams
+description: >-
+  Prized gives developers persistent Linux machines through a browser or CLI.
+  Project files sync between the laptop and the remote box, while forwarded
+  ports open locally. Sessions and agents can continue running after the laptop
+  disconnects. Teams can also create temporary sandboxes through an API.
+problem: Development sessions and agents need somewhere to keep running when a developer closes a laptop.
+audience:
+  - Software developers
+  - Teams running coding agents
+website: https://prized.dev/
+access:
+  - kind: signup
+    url: https://prized.dev/sign-in
+categories:
+  - developer-tools
+stage: live
+pricing:
+  model: usage_based
+  pricing_url: https://prized.dev/pricing
+platforms:
+  - web
+  - macos
+  - linux
+links:
+  - kind: docs
+    url: https://prized.dev/docs
+  - kind: blog
+    url: https://prized.dev/blog
+logo:
+  path: logo.png
+  alt: Prized's black flower-shaped brand mark
+sources:
+  - url: https://prized.dev/pricing
+    title: Prized official pricing
+  - url: https://prized.dev/
+    title: Prized official product website
+  - url: https://prized.dev/blog/backed-by-y-combinator
+    title: Prized is now backed by Y Combinator
+  - url: https://news.ycombinator.com/item?id=49109721
+    title: Founder introduction of Prized on Launch HN
+launch:
+  title: Prized founders introduce their live product
+  summary: >-
+    The founders introduced Prized as a live, self-serve internal-tools platform.
+    The current official website describes its cloud development boxes and sandboxes.
+  occurred_on:
+    precision: day
+    value: "2026-07-30"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=49109721
+    title: Launch HN introduction by Prized cofounder Marinos Eliades
+    locator: Top-level founder post with page timestamp 2026-07-30T13:29:03; introduction says the product is live and self-serve.
