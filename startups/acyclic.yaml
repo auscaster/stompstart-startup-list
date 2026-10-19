@@ -1,0 +1,72 @@
+name: Acyclic
+tagline: Rapid agent swarms that finish long agentic workflows faster
+description: >-
+  Acyclic runs a task as a swarm of coding agents. It splits the work across
+  agents that each work in an isolated sandbox, then merges their results into
+  one patch or pull request. Users start a swarm from a command line tool, a web
+  dashboard, or a coding agent over MCP, and bring their own model keys. The
+  company was founded by two University of Cambridge graduates and is funded by
+  Y Combinator.
+problem: Long agentic tasks run one step at a time, so they take hours to finish.
+audience:
+  - Software engineers
+  - Teams running coding agents at scale
+website: https://acyclic.dev/
+access:
+  - kind: install
+    url: https://acyclic.dev/
+  - kind: signup
+    url: https://acyclic.dev/auth
+categories:
+  - developer-tools
+  - ai-and-agents
+stage: live
+pricing:
+  model: freemium
+company:
+  name: Acyclic Labs
+  relationship: independent
+location:
+  country: GB
+  city: London
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+  - macos
+  - linux
+people:
+  - name: Varun Latthe
+    role: Co-founder and CTO
+  - name: Abhiram Vinjamuri
+    role: Co-founder and CEO
+links:
+  - kind: source
+    url: https://github.com/acyclic-labs
+    network: github
+logo:
+  path: logo.png
+  alt: A white A mark drawn with lines and nodes on a dark blue rounded square
+sources:
+  - url: https://acyclic.dev/
+    title: Acyclic Labs official website
+  - url: https://www.ycombinator.com/companies/acyclic
+    title: Acyclic Labs on Y Combinator
+  - url: https://www.producthunt.com/products/acyclic
+    title: Acyclic on Product Hunt
+launch:
+  title: Acyclic launches its agent swarm platform on Product Hunt
+  summary: >-
+    The founders publicly launched Acyclic on Product Hunt on October 14, 2026.
+    The listing introduces a command line tool, a dashboard and an MCP route for
+    splitting a task across many coding agents in parallel and merging the
+    results.
+  occurred_on:
+    precision: day
+    value: "2026-10-14"
+  date_basis: announced
+  source:
+    url: https://www.producthunt.com/products/acyclic
+    title: Acyclic on Product Hunt
+    locator: The page is marked Launching today, dated October 14, 2026
