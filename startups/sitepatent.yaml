@@ -1,0 +1,72 @@
+name: SitePatent
+tagline: A reviewed directory of newly launched startups and online products
+description: >-
+  SitePatent lists startups, software tools and other online products that
+  have recently gone live. Makers submit their website, a person checks it,
+  and each approved product gets a lasting page, sorted into categories, that
+  links back to the product. Visitors can browse by category or look at what
+  is trending. A free listing is shown as unverified and waits at least seven
+  days before it goes live; paid plans publish right away. The site also
+  offers its product data to AI agents through an MCP server.
+problem: New products are hard to find right after launch, and makers need a place where visitors can discover them.
+audience:
+  - Startup founders and indie makers
+  - People looking for newly launched tools
+website: https://sitepatent.com/
+access:
+  - kind: browse
+    url: https://sitepatent.com/browse
+  - kind: signup
+    url: https://sitepatent.com/register
+categories:
+  - startup-resources
+  - marketing
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 1900
+    currency: usd
+    interval: one_off
+  pricing_url: https://sitepatent.com/pricing
+highlights:
+  - title: Human review
+    detail: Each submitted website is checked by a person before it is listed.
+  - title: Free or paid listing
+    detail: The free listing waits at least seven days and is marked unverified; one-time paid plans start at $19 and publish at once.
+  - title: Data for AI agents
+    detail: Listings are available to AI assistants through an MCP endpoint.
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://sitepatent.com/blog
+  - kind: docs
+    url: https://sitepatent.com/mcp
+  - kind: social
+    network: linkedin
+    url: https://www.linkedin.com/company/sitepatentcom/
+logo:
+  path: logo.png
+  alt: The SitePatent logo
+gallery:
+  - path: home.png
+    alt: The SitePatent home page with the list of newly launched products
+sources:
+  - url: https://sitepatent.com/
+    title: Official website
+  - url: https://sitepatent.com/pricing
+    title: SitePatent pricing
+launch:
+  title: SitePatent launches on Product Hunt
+  summary: >-
+    The public launch of the startup and product discovery directory on
+    Product Hunt.
+  occurred_on:
+    precision: day
+    value: "2026-06-14"
+  date_basis: effective
+  source:
+    url: https://www.producthunt.com/products/sitepatent
+    title: SitePatent on Product Hunt
+    locator: The launch is scheduled and dated 2026-06-14 00:01 PT on the product page
