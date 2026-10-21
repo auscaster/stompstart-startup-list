@@ -1,0 +1,86 @@
+name: HyperProbe
+tagline: Read-only probes that let coding agents read live variable state in a running production service
+description: >-
+  HyperProbe is an on-call agent for backend engineering teams. An SDK for
+  Node.js, TypeScript, Java, Kotlin, Python and Ruby services lets a coding
+  agent place a read-only probe on a chosen line of a service that is already
+  running, so the values held at that line are captured from real traffic
+  rather than inferred from logs. The company states that no redeploy is
+  needed, that the probe fires asynchronously so the running service never
+  pauses, that a probe adds under one percent overhead at 3,000 requests per
+  second, that personal data is redacted at the agent before capture, and that
+  every placement is written to an audit log. Probes can be driven from an MCP
+  server for Cursor, Claude Code, Codex and opencode, or from a VS Code
+  extension, and the service can be run inside a private VPC or self-hosted.
+  The free plan covers one service with unlimited probes and seven days of
+  capture history. The paid plan is listed at $99 per running service per month
+  with a three service minimum, or $79 per service billed annually, and raises
+  capture history to thirty days.
+problem: >-
+  When a production incident starts, the value that would explain it is often
+  absent from the logs, so an engineer adds a log line and redeploys before
+  being able to see it. The company frames this as a loop that costs hours on
+  an incident whose fix takes minutes, and argues that an agent asked to
+  diagnose the failure can only guess from the data that was already recorded.
+audience:
+  - Backend teams that carry a production on-call rota
+  - Engineers debugging services written largely by coding agents
+website: https://www.hyperprobe.co/
+access:
+  - kind: install
+    url: https://docs.hyperprobe.co/quickstart
+categories:
+  - developer-tools
+  - ai-and-agents
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 9900
+    currency: usd
+    interval: month
+  pricing_url: https://www.hyperprobe.co/pricing
+company:
+  name: HyperProbe
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://docs.hyperprobe.co/
+  - kind: blog
+    url: https://www.hyperprobe.co/resources/blog/
+logo:
+  path: logo.png
+  alt: >-
+    The HyperProbe logo, a black rounded square holding two white angled bars
+    that meet in a zigzag
+sources:
+  - url: https://www.hyperprobe.co/
+    title: HyperProbe official website, giving the supported runtimes and editors and the overhead and audit claims
+  - url: https://www.hyperprobe.co/pricing
+    title: HyperProbe pricing page, giving the free plan, the per service price and the three service minimum
+  - url: https://docs.hyperprobe.co/quickstart
+    title: HyperProbe quickstart documentation, covering the SDK and editor setup
+  - url: https://www.ycombinator.com/companies/hyperprobe
+    title: HyperProbe company profile at Y Combinator, giving San Francisco and the Summer 2026 batch
+  - url: https://www.hyperprobe.co/favicon.svg
+    title: Original brand mark served by the official website, rendered to PNG at 512 pixels
+  - url: https://news.ycombinator.com/item?id=49185389
+    title: Launch HN post by the HyperProbe founders, dated 2026-08-05
+launch:
+  title: HyperProbe launches on Hacker News
+  summary: >-
+    The founders introduced HyperProbe on Launch HN as a way for coding agents
+    to capture variable state from a running production service.
+  occurred_on:
+    precision: day
+    value: "2026-08-05"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=49185389
+    title: "Launch HN: HyperProbe (YC S26) - Agents that do read-only debugging in prod"
+    locator: The Launch HN post, dated 5 August 2026
