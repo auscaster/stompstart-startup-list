@@ -1,0 +1,30 @@
+name: Artzine
+tagline: A place to publish art and make zines
+description: >-
+  Artzine is opening a home where artists can publish their work, collect
+  discoveries and make zines from their own point of view. People can claim an
+  Artzine address now; the publishing space is still preparing to open.
+problem: Artists need a place to share their work and shape collections as zines.
+audience:
+  - Artists and people who collect and share art
+website: https://artzine.com/
+access:
+  - kind: waitlist
+    url: https://artzine.com/
+categories:
+  - media
+  - design
+stage: prelaunch
+pricing:
+  model: free
+company:
+  name: Artzine
+  relationship: independent
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Artzine's stacked black ART serif and ZINE sans-serif wordmark on white
+sources:
+  - url: https://artzine.com/
+    title: Artzine official prelaunch site
