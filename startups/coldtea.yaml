@@ -1,0 +1,40 @@
+name: Coldtea
+tagline: An agentic IDE for teams that ship software with AI coding agents
+description: >-
+  Coldtea is an IDE built for software teams that build with AI coding agents.
+  Coding agents write and change the code inside the editor, visual QA agents
+  review each change for regressions, and monitoring keeps watch once the code
+  reaches production. It launched publicly on Product Hunt on August 7, 2026.
+problem: As AI coding agents write more of a team's code, keeping production stable gets harder.
+audience:
+  - Software teams building with AI coding agents
+website: https://www.coldtea.ai/
+access:
+  - kind: demo
+    url: https://www.coldtea.ai/demo
+categories:
+  - developer-tools
+stage: live
+pricing:
+  model: unknown
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: The Coldtea logo, a dark circle with a teal angle-bracket mark
+sources:
+  - url: https://www.coldtea.ai/
+    title: Official website
+  - url: https://www.producthunt.com/posts/coldtea-ai
+    title: Coldtea on Product Hunt
+launch:
+  title: Coldtea launches on Product Hunt
+  summary: Coldtea's public launch as a Product Hunt listing, dated August 7, 2026.
+  occurred_on:
+    precision: day
+    value: "2026-08-07"
+  date_basis: effective
+  source:
+    url: https://www.producthunt.com/posts/coldtea-ai
+    title: Coldtea on Product Hunt
+    locator: Launches section, which dates the launch August 7th, 2026
