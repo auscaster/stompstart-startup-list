@@ -1,0 +1,60 @@
+name: Salem Robotics
+tagline: Autonomous robot software for industrial inspections
+description: >-
+  Salem Robotics develops software for mobile robots that carry out surveys and
+  inspections in hazardous industrial facilities. Its system brings together
+  task planning, instrument handling, measurement collection and inspection
+  records. Facilities can request a pilot using robots they already own or a
+  platform supplied with the deployment. The company starts with nuclear
+  inspection workflows and also describes applications in oil, gas and chemical
+  facilities.
+problem: >-
+  Routine industrial surveys require skilled staff to enter hazardous areas,
+  take measurements and transcribe inspection records by hand.
+audience:
+  - Industrial inspection and survey teams
+  - Nuclear facility operators
+website: https://www.salemroboticsinc.com/
+access:
+  - kind: contact_sales
+    url: https://www.salemroboticsinc.com/contact-us
+categories:
+  - ai-and-agents
+stage: live
+pricing:
+  model: contact_sales
+  pricing_url: https://www.salemroboticsinc.com/contact-us
+company:
+  name: Salem Robotics Inc
+  relationship: independent
+logo:
+  path: logo.png
+  alt: Salem Robotics logo
+sources:
+  - url: https://www.salemroboticsinc.com/
+    title: Official product website and pilot access
+  - url: https://www.salemroboticsinc.com/about-us
+    title: Company background and industrial audience
+  - url: https://www.ycombinator.com/companies/salem-robotics-inc
+    title: Y Combinator company and product profile
+  - url: https://news.ycombinator.com/item?id=49466715
+    title: Founder launch announcement on Hacker News
+  - url: https://hacker-news.firebaseio.com/v0/item/49466715.json
+    title: Official Hacker News item timestamp and author
+  - url: https://web.archive.org/web/20250202210909id_/https://www.salemroboticsinc.com/
+    title: Earlier company homepage describing its work as in stealth mode
+launch:
+  title: Salem Robotics introduces its industrial inspection software on Hacker News
+  summary: >-
+    The founders describe software for surveys and interactive inspections using
+    existing mobile robots, with paid technical validations and ongoing deployments.
+  occurred_on:
+    precision: day
+    value: "2026-08-27"
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=49466715
+    title: Launch HN Salem Robotics
+    locator: >-
+      Founder post by Salem_robotics; official item API reports Unix timestamp
+      1787845564, which is 2026-08-27T15:46:04Z.
