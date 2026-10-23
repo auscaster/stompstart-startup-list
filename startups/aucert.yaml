@@ -1,0 +1,63 @@
+name: Aucert
+tagline: AI agents that check every mobile app build before release
+description: >-
+  Aucert runs a set of AI agents against a mobile app build. The agents map
+  the app's screens and flows, turn the team's expectations into checks, and
+  report a verdict with evidence for each build. Separate agents cover design,
+  accessibility, functional validation, build health and the Google Play and
+  Apple App Store review rules. It supports Android, iOS, Kotlin Multiplatform
+  and React Native apps, and teams can request a free scan of a published app.
+problem: Mobile teams check each release by hand, and store rejections and regressions slip through.
+audience:
+  - Mobile engineering teams
+  - QA and release managers
+website: https://www.aucert.ai/
+access:
+  - kind: demo
+    url: https://cal.com/vivek-soneja-aucert/25min
+categories:
+  - developer-tools
+  - ai-and-agents
+stage: live
+pricing:
+  model: contact_sales
+company:
+  name: Aucert Inc.
+  relationship: independent
+platforms:
+  - web
+links:
+  - kind: social
+    network: x
+    url: https://x.com/aucert_official
+  - kind: social
+    network: linkedin
+    url: https://www.linkedin.com/company/aucert/
+logo:
+  path: logo.png
+  alt: A white letter A with a magnifying glass and a green lens on a black rounded square
+sources:
+  - url: https://www.aucert.ai/
+    title: Aucert official website
+  - url: https://www.aucert.ai/team/
+    title: Aucert team page with the founders
+  - url: https://www.aucert.ai/legal/terms/
+    title: Aucert terms of service naming Aucert Inc., a Delaware corporation
+  - url: https://www.aucert.ai/assets/icon.png
+    title: Original Aucert website icon
+  - url: https://www.ycombinator.com/launches/WGP-aucert-ai-agents-that-verify-mobile-apps-autonomously
+    title: Aucert launch on Y Combinator
+launch:
+  title: Aucert launches autonomous verification for mobile app builds
+  summary: >-
+    The founders publicly introduced Aucert on Y Combinator as a Fall 2026
+    company, presenting AI agents that test mobile app builds and report a
+    verdict for each one.
+  occurred_on:
+    precision: day
+    value: "2026-10-22"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/WGP-aucert-ai-agents-that-verify-mobile-apps-autonomously
+    title: Aucert launch on Y Combinator
+    locator: The launch post's publication time is dated October 22, 2026.
