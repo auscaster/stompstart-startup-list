@@ -1,0 +1,69 @@
+name: Tiden
+tagline: Intent verification for coding agents. Checks that your AI agents built what you actually asked for.
+description: >-
+  Tiden is a continuous verification system for agentic coding teams. It sits
+  beside your coding agents (Claude Code, Cursor, Codex, Copilot) and verifies
+  that what they built is what you actually asked for. Tiden captures your
+  intent as versioned requirements that branch and merge like code, picks the
+  relevant tests for each change, runs them in your environment before anything
+  merges, and traces production errors back to the release and the prompt
+  behind it. The verdict comes from real tests, not a model grading the diff.
+problem: >-
+  Coding agents write code in minutes, but delivery is still slow. PRs stall
+  because nobody is sure what else a change touches. CI catches regressions
+  late. Reviewers spot invented code. The tests agree with the code by
+  construction because the same agent wrote both, so they pass even when the
+  output is not what was intended.
+audience:
+  - Engineering teams shipping agent-written code every day
+  - QA and platform engineers building agent pipelines
+website: https://tiden.ai/
+access:
+  - kind: signup
+    url: https://tiden.ai/
+  - kind: browse
+    url: https://docs.tiden.ai/
+categories:
+  - developer-tools
+  - ai-and-agents
+  - data-and-analytics
+stage: live
+pricing:
+  model: usage_based
+  pricing_url: https://tiden.ai/pricing
+company:
+  name: Qase, Inc.
+  relationship: parent
+platforms:
+  - web
+  - linux
+links:
+  - kind: docs
+    url: https://docs.tiden.ai/
+logo:
+  path: logo.png
+  alt: Tiden wave icon, a black circular mark on transparent background
+sources:
+  - url: https://tiden.ai/
+    title: Tiden official website
+  - url: https://www.producthunt.com/products/tiden
+    title: Tiden launch on Product Hunt (October 14, 2026)
+  - url: https://docs.tiden.ai/
+    title: Tiden documentation
+launch:
+  title: Tiden launches intent verification for coding agents
+  summary: >-
+    Tiden, built by the team behind Qase, went public on Product Hunt on
+    October 14, 2026. The product is live at tiden.ai with a CLI that installs
+    in one command and a 14-day free trial on Starter and Team plans.
+  occurred_on:
+    precision: day
+    value: "2026-10-14"
+  date_basis: announced
+  source:
+    url: https://www.producthunt.com/products/tiden
+    title: "Tiden: Intent verification for coding agents (Product Hunt)"
+    locator: >-
+      The maker comment by Nikita Fedorov and the PM comment by Nitin
+      Deshmukh both date the public launch to October 14, 2026, with the
+      product live at tiden.ai and a 14-day free trial available.
