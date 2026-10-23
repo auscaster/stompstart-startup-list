@@ -1,0 +1,67 @@
+name: Munito
+tagline: An EU-hosted inference API for open AI models
+description: >-
+  Munito runs open-weight models such as GLM, Qwen and DeepSeek behind an API
+  that accepts requests written for the OpenAI or Anthropic SDKs, so a team
+  changes only the base URL and key. Requests sent to its EU endpoint are
+  processed in the EU, it keeps no prompt data by default and does not train
+  on customer data. One key also covers speech to text and document models.
+  There is a free tier, and paid credits raise the limits.
+problem: >-
+  European companies that want open models often have to manage their own GPUs
+  or send data to providers outside the EU.
+audience:
+  - Developers building AI products and agents
+  - Companies whose customers ask where their data is processed
+website: https://munito.ai/
+access:
+  - kind: signup
+    url: https://munito.ai/registration
+  - kind: contact_sales
+    url: https://munito.ai/contact
+categories:
+  - ai-and-agents
+  - developer-tools
+stage: live
+pricing:
+  model: freemium
+company:
+  name: Munito AI France
+  relationship: independent
+location:
+  country: FR
+  city: Paris
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://munito.ai/docs
+logo:
+  path: logo.png
+  alt: A violet pixel-art cube with two lime eyes on its front and the letters AI on its side
+sources:
+  - url: https://munito.ai/
+    title: Munito official website
+  - url: https://munito.ai/favicon.svg
+    title: Munito SVG logo served by its website, rendered to PNG at 512 pixels
+  - url: https://www.ycombinator.com/launches/WJe-munito-ai-open-model-inference-provider-for-europe-private-by-default
+    title: Munito AI public launch on Y Combinator
+  - url: https://www.ycombinator.com/companies/munito-ai
+    title: Munito AI company profile on Y Combinator (founded 2026, Fall 2026 batch, Paris)
+launch:
+  title: Munito AI launches its open-model inference API for Europe
+  summary: >-
+    The founder publicly introduced Munito as an inference provider for open
+    models with EU and US endpoints, zero data retention by default and a free
+    tier open to anyone who signs up.
+  occurred_on:
+    precision: day
+    value: "2026-10-23"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/WJe-munito-ai-open-model-inference-provider-for-europe-private-by-default
+    title: "Munito AI: Open-model inference provider for Europe, private by default"
+    locator: The launch post's publication time is October 23, 2026; the TL;DR and How to start sections describe the API and free tier.
