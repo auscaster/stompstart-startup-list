@@ -1,0 +1,71 @@
+name: Pulse Local
+tagline: A budgeting app whose AI models run on your machine
+description: >-
+  Pulse Local is a budgeting app for Mac (Apple Silicon beta) that answers
+  questions about your spending with small AI models running locally on your
+  machine. Local mode needs no account. You import a CSV from any bank, in any
+  currency, and the app keeps the ledger and your questions on the machine: it
+  sends no analytics, crash logs or model calls to anyone else. A tuned Qwen3
+  0.6B model reads a question into a structured query, then code, not the model,
+  does the money math against your ledger, and a second checker model
+  double-reads each money answer; when the two readings disagree the app says
+  it is not sure instead of guessing. It covers plans and targets, rules,
+  rollover, splits, cash flow and forecast, and the tuned model weights are
+  published on Hugging Face.
+problem: >-
+  Most budgeting apps keep your ledger on their servers, or send your questions
+  to a hosted model. "Local" usually means your data stays, not your questions.
+  Pulse Local keeps both the ledger and the questions on your machine, with no
+  account and no analytics.
+audience:
+  - Privacy-focused personal finance users
+  - Mac users who want a local-first budgeting app
+website: https://pulseos.finance/
+access:
+  - kind: download
+    url: https://pulseos.finance/
+categories:
+  - finance
+  - ai-and-agents
+stage: live
+pricing:
+  model: free
+company:
+  name: Pulse Browser Inc
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - macos
+links:
+  - kind: blog
+    url: https://pulseos.finance/
+# The startup's own logo (an original of at least 256 pixels) and any pictures of the product sit
+# beside this file, in startups/<slug>/. With no gallery, Stompstart screenshots the homepage.
+logo:
+  path: logo.png
+  alt: The Pulse Local logo, a green leaf mark
+sources:
+  - url: https://pulseos.finance/
+    title: Pulse Local official website
+  - url: https://news.ycombinator.com/item?id=50080932
+    title: "Show HN: Pulse Local (Hacker News, 13 Oct 2026)"
+# The first release, and the page that dates it. A prelaunch product leaves this out.
+launch:
+  title: Pulse Local opens to everyone
+  summary: >-
+    The author listed Pulse Local on Hacker News as a Mac budgeting app whose
+    AI models run on your machine, with the Mac download and the tuned model
+    weights already public.
+  occurred_on:
+    precision: day
+    value: "2026-10-13"
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=50080932
+    title: "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine"
+    locator: Story creation timestamp, 2026-10-13T23:13:23Z
