@@ -1,0 +1,104 @@
+name: Simulithic
+tagline: AI agents that act as users and test web and mobile apps on every pull request
+description: >-
+  Simulithic sends AI agents through a product the way its users would move
+  through it. A single command explores the app, or reads its repository, and
+  turns what it finds into a list of user flows, so nobody has to write test
+  scripts by hand. The agents then run those flows in real browsers and on real
+  phones, across operating systems, screen sizes and network speeds. Teams use
+  it in three places: from the terminal, where a coding agent such as Claude
+  Code or Codex can run it before opening a pull request; as the end-to-end
+  step in CI, where it compares a pull request's preview build with production
+  and leaves one comment listing what broke; and as a scheduled monitor on
+  production that posts to Slack when a flow stops working. The company is in
+  Y Combinator's Fall 2026 batch and is based in San Francisco.
+problem: >-
+  Coding agents now produce changes faster than teams can check them, while
+  hand-written end-to-end tests take time to write and break whenever the
+  interface changes.
+audience:
+  - Software teams that ship changes every day
+  - Engineering teams that use coding agents
+  - QA and product teams that check user flows before release
+website: https://www.simulithic.com/
+access:
+  - kind: signup
+    url: https://app.simulithic.com/login
+  - kind: demo
+    url: https://cal.com/ryan-ning/20min
+categories:
+  - developer-tools
+  - ai-and-agents
+stage: live
+pricing:
+  model: contact_sales
+  pricing_url: https://www.simulithic.com/pricing
+company:
+  name: Simulithic
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+people:
+  - name: Ryan Ning
+    role: Co-founder and CEO
+  - name: Satyam Singh
+    role: Co-founder and CTO
+highlights:
+  - title: Flows mapped from one command
+    detail: >-
+      The map command opens the app, or reads its code, and writes the screens
+      and journeys a careful tester would cover as flows to run.
+  - title: Checks on pull requests
+    detail: >-
+      Each pull request runs the same flows on its preview and on production,
+      with one comment that lists failures by flow and by device.
+  - title: Production monitors
+    detail: >-
+      The same flows repeat against production on a schedule and alert a Slack
+      channel when one stops working.
+links:
+  - kind: docs
+    url: https://www.simulithic.com/docs
+  - kind: social
+    network: x
+    url: https://x.com/simulithic
+  - kind: social
+    network: linkedin
+    url: https://www.linkedin.com/company/simulithic
+logo:
+  path: logo.png
+  alt: The Simulithic app icon, four white squares stepped into an S on a blue gradient square
+sources:
+  - url: https://www.simulithic.com/
+    title: Simulithic official website
+  - url: https://www.simulithic.com/docs/getting-started
+    title: Simulithic documentation, getting started
+  - url: https://www.simulithic.com/pricing
+    title: Simulithic plans
+  - url: https://www.ycombinator.com/companies/simulithic
+    title: Simulithic company profile at Y Combinator
+  - url: https://www.ycombinator.com/launches/W3D-simulithic-ai-users-that-test-your-app-on-every-device-and-browser
+    title: Simulithic public launch announcement on Launch YC
+launch:
+  title: Simulithic announces its AI testing agents on Launch YC
+  summary: >-
+    The two founders introduced Simulithic on Launch YC as a Fall 2026 company,
+    explained how its agents explore an app and test its user flows on many
+    devices, and invited engineering teams to book a demo.
+  occurred_on:
+    precision: day
+    value: "2026-10-21"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/W3D-simulithic-ai-users-that-test-your-app-on-every-device-and-browser
+    title: "Launch YC: Simulithic, AI users that test your app on every device and browser"
+    locator: >-
+      The time element beside the founder's name gives Oct 21, 2026 9:02:18 am
+      PDT (dateTime 2026-10-21T09:02:18-07:00). The embedded launch record also
+      gives created_at as 2026-10-21T16:02:18.580Z.
