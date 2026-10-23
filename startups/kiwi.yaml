@@ -1,0 +1,51 @@
+name: Kiwi
+tagline: A runtime for building GTM agents that run on checked company data
+description: >-
+  Kiwi is a runtime where a revenue team describes a workflow and Kiwi drafts the
+  agents behind it. Those agents read from one versioned record of the team's GTM
+  data, synced from tools such as Salesforce, HubSpot, Gmail, Slack and Gong, so
+  each answer points to the rows behind it. Anything that leaves the company stops
+  for a named person's approval first, and any run can be replayed against the
+  exact data it saw.
+problem: >-
+  Revenue agents fail quietly when the data behind them is stale or partial, and a
+  wrong answer sent to a customer is expensive to correct.
+audience:
+  - Revenue operations teams
+  - Sales and account management teams
+website: https://withkiwi.ai/
+access:
+  - kind: demo
+    url: https://trykiwi.now/
+categories:
+  - ai-and-agents
+  - business-software
+stage: live
+pricing:
+  model: unknown
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: The Kiwi brand icon
+sources:
+  - url: https://withkiwi.ai/
+    title: Official Kiwi website
+  - url: https://www.ycombinator.com/launches/WGR-kiwi-your-gtm-agent-s-data-engineer
+    title: Kiwi launch on Y Combinator
+  - url: https://withkiwi.ai/brand/icon-512.png
+    title: Kiwi brand icon from its official website
+launch:
+  title: Kiwi launches a runtime for GTM agents
+  summary: >-
+    Kiwi introduced a runtime that drafts GTM agent workflows, keeps the data
+    behind every agent on one versioned record, and pauses outgoing work for a
+    named person's approval.
+  occurred_on:
+    precision: day
+    value: "2026-10-22"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/WGR-kiwi-your-gtm-agent-s-data-engineer
+    title: Kiwi - your GTM agent's data engineer
+    locator: The page's embedded launch data gives created_at as 2026-10-22T13:00:00.180Z.
