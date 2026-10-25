@@ -1,0 +1,56 @@
+name: AgentSandboxes
+tagline: A neutral index of cloud sandboxes for AI agents.
+description: >-
+  AgentSandboxes is a directory of cloud sandbox providers for AI agents.
+  A listing records the isolation model, cold start, persistence, GPU
+  support, price and free tier each vendor publishes in its own docs, and
+  every fact links back to the page it came from. Visitors can browse by
+  category, compare providers side by side, or read the same records
+  through a free REST API and an MCP endpoint that need no key.
+problem: Picking a sandbox for an AI agent means reading every vendor's docs to compare isolation, startup speed and price.
+audience:
+  - Developers building AI agents
+  - Teams comparing sandbox providers
+website: https://agentsandboxes.fyi/
+access:
+  - kind: browse
+    url: https://agentsandboxes.fyi/
+categories:
+  - developer-tools
+  - data-and-analytics
+stage: live
+pricing:
+  model: free
+company:
+  name: Beeloud
+  relationship: independent
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://agentsandboxes.fyi/guides
+  - kind: source
+    url: https://github.com/pooriaarab/directory
+logo:
+  path: logo.png
+  alt: The AgentSandboxes logo, a light blue wireframe cube with a yellow bar on a dark rounded square
+sources:
+  - url: https://agentsandboxes.fyi/
+    title: AgentSandboxes official website
+  - url: https://agentsandboxes.fyi/icon
+    title: Original 512 by 512 site icon
+  - url: https://registry.modelcontextprotocol.io/v0/servers?search=io.github.pooriaarab/agentsandboxes
+    title: Official MCP registry listing for AgentSandboxes
+launch:
+  title: AgentSandboxes published to the official MCP registry
+  summary: >-
+    The directory's MCP endpoint was listed on the official Model Context
+    Protocol registry, making the index's public launch date visible.
+  occurred_on:
+    precision: day
+    value: "2026-10-21"
+  date_basis: announced
+  source:
+    url: https://registry.modelcontextprotocol.io/v0/servers?search=io.github.pooriaarab/agentsandboxes
+    title: MCP registry listing for io.github.pooriaarab/agentsandboxes
+    locator: The publishedAt field under _meta states October 21, 2026.
