@@ -1,0 +1,56 @@
+name: Agent Wallet Index
+tagline: Wallets and rails that let AI agents spend money safely.
+description: >-
+  Agent Wallet Index is a directory of agent wallets, payment protocols,
+  card rails, payments platforms and key-management layers for AI agents.
+  Each row restates facts from the vendor's public docs or the protocol
+  spec, with the source URL on the row. Visitors can browse by category,
+  compare by rail, chain, custody or protocol, or read the same records
+  through a free REST API and an MCP endpoint that need no key.
+problem: Picking a wallet or payment rail for an AI agent means comparing custody, fees, protocols and spend controls across scattered vendor docs.
+audience:
+  - Developers building AI agents that pay for things
+  - Teams comparing agent payment infrastructure
+website: https://agentwalletindex.fyi/
+access:
+  - kind: browse
+    url: https://agentwalletindex.fyi/
+categories:
+  - developer-tools
+  - finance
+stage: live
+pricing:
+  model: free
+company:
+  name: Beeloud
+  relationship: independent
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://agentwalletindex.fyi/guides
+  - kind: source
+    url: https://github.com/pooriaarab/directory
+logo:
+  path: logo.png
+  alt: The Agent Wallet Index logo, list lines beside a teal key shape on a dark rounded square
+sources:
+  - url: https://agentwalletindex.fyi/
+    title: Agent Wallet Index official website
+  - url: https://agentwalletindex.fyi/icon
+    title: Original 512 by 512 site icon
+  - url: https://registry.modelcontextprotocol.io/v0/servers?search=io.github.pooriaarab/agentwalletindex
+    title: Official MCP registry listing for Agent Wallet Index
+launch:
+  title: Agent Wallet Index published to the official MCP registry
+  summary: >-
+    The directory's MCP endpoint was listed on the official Model Context
+    Protocol registry, making the index's public launch date visible.
+  occurred_on:
+    precision: day
+    value: "2026-10-21"
+  date_basis: announced
+  source:
+    url: https://registry.modelcontextprotocol.io/v0/servers?search=io.github.pooriaarab/agentwalletindex
+    title: MCP registry listing for io.github.pooriaarab/agentwalletindex
+    locator: The publishedAt field under _meta states October 21, 2026.
