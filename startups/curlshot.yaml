@@ -1,0 +1,67 @@
+name: CurlShot
+tagline: A screenshot API for web pages, HTML and Markdown
+description: >-
+  CurlShot turns a web address, raw HTML or Markdown into a PNG, JPEG, WebP or
+  PDF with one HTTP request, or records the page scrolling as a video. It
+  covers full-page and element captures, phone and tablet views, dark mode and
+  bulk jobs, and hides ads and cookie banners before the capture. An MCP
+  endpoint lets AI agents take screenshots, and a free tool on the home page
+  works without an account.
+problem: Running and maintaining headless browsers just to capture web pages takes time away from the product.
+audience:
+  - Software developers
+  - No-code and AI agent builders
+website: https://curlshot.com/
+access:
+  - kind: signup
+    url: https://curlshot.com/register
+  - kind: demo
+    url: https://curlshot.com/
+categories:
+  - developer-tools
+  - ai-and-agents
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 1900
+    currency: usd
+    interval: month
+  pricing_url: https://curlshot.com/pricing
+highlights:
+  - title: One request per screenshot
+    detail: "GET /api/v1/screenshot?url=... returns an image or PDF; failed renders and cache hits are not counted."
+  - title: Free plan
+    detail: 100 screenshots a month with no card; paid plans start at $19 a month with a fixed monthly quota.
+  - title: Built for agents
+    detail: A hosted MCP server, an OpenAPI 3.1 description and llms.txt.
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://curlshot.com/docs
+  - kind: blog
+    url: https://curlshot.com/blog
+logo:
+  path: logo.png
+  alt: The CurlShot logo, a white frame around a page with two text lines, on a blue rounded square
+sources:
+  - url: https://curlshot.com/
+    title: Official website
+  - url: https://curlshot.com/pricing.md
+    title: CurlShot pricing
+  - url: https://curlshot.com/llms.txt
+    title: CurlShot product summary for AI agents
+launch:
+  title: CurlShot launches on Product Hunt
+  summary: >-
+    The public launch of the screenshot API on Product Hunt, with the free
+    online tool, the HTTP API, the MCP server and an n8n community node.
+  occurred_on:
+    precision: day
+    value: "2026-10-15"
+  date_basis: effective
+  source:
+    url: https://www.producthunt.com/products/curlshot
+    title: CurlShot on Product Hunt
+    locator: The launch is scheduled and dated 2026-10-15 00:01 PT on the product page
