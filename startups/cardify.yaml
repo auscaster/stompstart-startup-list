@@ -1,0 +1,55 @@
+name: Cardify
+tagline: Turn Markdown notes into finished knowledge cards
+description: >-
+  Cardify keeps a Markdown note as the source and renders it as a shareable
+  card. The editor sits beside a live preview, so headings, lists, quotes and
+  code blocks appear as they will on the card. More than thirty themes change
+  the layout, not only the colours, and preset sizes cover square posts, story
+  formats and A4. Cards export as PNG, SVG or PDF, one at a time or in a batch
+  from a single long note, and a share link keeps the text editable instead of
+  freezing it as an image.
+problem: A note worth sharing has to be rebuilt by hand in a design tool before it can be posted.
+audience:
+  - People who write in Markdown and publish to social platforms
+  - Teachers and students making study cards
+website: https://cardify.aivaded.com/
+access:
+  - kind: browse
+    url: https://cardify.aivaded.com/
+categories:
+  - design
+  - productivity
+stage: live
+pricing:
+  model: freemium
+  pricing_url: https://cardify.aivaded.com/pricing
+company:
+  name: AIVaded
+  relationship: independent
+location:
+  country: CN
+  city: Hangzhou
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: Cardify logo, a rounded card mark on a warm background
+gallery:
+  - path: cardify-editor.png
+    alt: A Markdown note on the left with its finished knowledge card previewed on the right
+sources:
+  - url: https://cardify.aivaded.com/
+    title: Official website
+  - url: https://launchclash.com/product/cardify-aivaded
+    title: Cardify on LaunchClash
+launch:
+  title: Cardify opens to everyone
+  summary: The public release of the Markdown to card editor with themes, size presets and batch export.
+  occurred_on:
+    precision: day
+    value: "2026-11-03"
+  date_basis: announced
+  source:
+    url: https://launchclash.com/product/cardify-aivaded
+    title: Cardify on LaunchClash
+    locator: The published date shown on the listing page
