@@ -1,0 +1,75 @@
+name: Nizlo
+tagline: Windows-first endpoint operations for MSPs and lean IT teams
+description: >-
+  Nizlo is remote monitoring and management software for organizations that
+  administer Windows endpoints across customers or internal sites. Its web
+  console brings device health, inventory, alerts, Windows patch workflows,
+  scripts, automation, remote support, reporting and audit history into one
+  customer-aware workspace. Native Windows and macOS agents are available.
+problem: >-
+  MSPs and small IT teams often need several tools to monitor endpoints,
+  perform authorized remote work and retain evidence of technician actions.
+audience:
+  - Managed service providers
+  - Internal IT teams
+  - IT consultants and computer support businesses
+website: https://nizlo.com/
+access:
+  - kind: signup
+    url: https://app.nizlo.com/signup
+  - kind: demo
+    url: https://nizlo.com/demo
+categories:
+  - business-software
+  - productivity
+  - security
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 5900
+    currency: usd
+    interval: month
+  pricing_url: https://nizlo.com/pricing
+company:
+  name: Cloud 84 Holdings, LLC
+  relationship: parent
+location:
+  country: US
+platforms:
+  - web
+  - windows
+  - macos
+links:
+  - kind: docs
+    url: https://nizlo.com/guides
+  - kind: press
+    url: https://nizlo.com/media-kit
+  - kind: social
+    url: https://www.facebook.com/nizlormm
+    network: facebook
+logo:
+  path: logo.png
+  alt: The Nizlo logo, a teal angular letter N inside a rounded outline
+sources:
+  - url: https://nizlo.com/
+    title: Nizlo official website
+  - url: https://nizlo.com/media-kit
+    title: Nizlo media kit and product facts
+  - url: https://nizlo.com/pricing
+    title: Nizlo pricing
+  - url: https://nizlo.com/platform
+    title: Nizlo platform availability
+launch:
+  title: Nizlo opens its Windows-first RMM platform to public signup
+  summary: >-
+    Nizlo opened a public, card-free trial for its remote monitoring and
+    management platform for MSPs and internal IT teams.
+  occurred_on:
+    precision: day
+    value: "2026-11-01"
+  date_basis: effective
+  source:
+    url: https://upfynd.com/products/nizlo
+    title: Nizlo on Upfynd
+    locator: At a glance section, which states Launched Nov 1, 2026
