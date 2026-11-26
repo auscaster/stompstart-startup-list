@@ -1,0 +1,84 @@
+name: Versine
+tagline: Send and receive money through your AI assistant, with your approval
+description: >-
+  Versine connects an AI assistant to a wallet, so a chat message can start a
+  payment. The user approves each transfer with a passkey in the iPhone or
+  Android app, or sets standing rules for trusted contacts. Money moves as
+  USDC from a wallet the user owns, and people without an account receive a
+  link to cash out to a bank. Sending money is free; only instant withdrawals
+  to a bank carry a fee passed through at cost.
+problem: >-
+  Paying someone back still means opening a separate app and typing the
+  details by hand, even when an AI assistant already knows who is owed and
+  how much.
+audience:
+  - People who use AI assistants every day
+  - US residents who split bills with friends and roommates
+website: https://versine.com/
+access:
+  - kind: download
+    url: https://versine.com/app
+categories:
+  - finance
+  - ai-and-agents
+stage: live
+pricing:
+  model: free
+company:
+  name: Versine
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - ios
+  - android
+people:
+  - name: Harshith Latchupatula
+    role: Founder
+  - name: Param Thakkar
+    role: Founder
+  - name: Vishnudev Poil
+    role: Founder
+links:
+  - kind: docs
+    url: https://versine.com/docs/mcp
+  - kind: social
+    url: https://x.com/versineapp
+    network: x
+  - kind: social
+    url: https://www.linkedin.com/company/versinehq/
+    network: linkedin
+logo:
+  path: logo.png
+  alt: The Versine logo, a blue glass mark in the shape of a sideways S on a white square
+sources:
+  - url: https://versine.com/
+    title: Official website
+  - url: https://www.ycombinator.com/companies/versine
+    title: Versine on Y Combinator
+  - url: https://www.producthunt.com/products/versine
+    title: Versine on Product Hunt
+  - url: https://news.ycombinator.com/item?id=50634426
+    title: Launch HN post by the founders
+  - url: https://hunted.space/product/versine
+    title: Versine Product Hunt launch overview on hunted.space
+launch:
+  title: Versine launches on Product Hunt
+  summary: >-
+    Versine opened its money-movement product to the public on Product Hunt,
+    with an MCP for ChatGPT and Claude and iPhone and Android apps for
+    approving payments.
+  occurred_on:
+    precision: day
+    value: "2026-11-17"
+  date_basis: announced
+  source:
+    url: https://hunted.space/product/versine
+    title: Versine Product Hunt launch overview on hunted.space
+    locator: >-
+      The page states Versine was featured on November 17th, 2026, as
+      Product of the Day 6th with 209 upvotes.
