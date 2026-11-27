@@ -44,7 +44,6 @@ people:
 links:
   - kind: source
     url: https://github.com/acyclic-labs
-    network: github
 logo:
   path: logo.png
   alt: A white A mark drawn with lines and nodes on a dark blue rounded square
