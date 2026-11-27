@@ -1,0 +1,69 @@
+name: Petal
+tagline: Open source screen sharing for pair programming, where shared windows stay real windows
+description: >-
+  A free desktop app for macOS and Windows built for small engineering syncs
+  of about three to eight people. When someone shares a window, it opens on
+  every other participant's desktop as its own native window that they can
+  move and resize, instead of a video tile in a grid. Several people can share
+  at once, everyone gets a labelled cursor, and any participant can click and
+  type into a shared window. Teams keep persistent rooms, so joining a sync is
+  one click. Calls run on the hosted Petal Cloud by default, or on a LiveKit
+  server the team runs itself, and the source is published under Apache-2.0.
+  It is built by four people from the team behind CoScreen, the pairing tool
+  Datadog acquired in 2022 and shut down on 31 July 2026.
+problem: Pair programming in general video call tools flattens shared windows into one video tile, so only one person can share and the others cannot work in it.
+audience:
+  - Small software engineering teams
+  - Developers who pair program remotely
+  - Teams that need to self-host their meeting traffic
+website: https://petal.live/
+access:
+  - kind: download
+    url: https://app.petal.live/api/download
+  - kind: install
+    url: https://github.com/kiruna-labs/petal
+  - kind: browse
+    url: https://petal.live/docs/
+categories:
+  - developer-tools
+  - productivity
+stage: live
+pricing:
+  model: free
+company:
+  name: Kiruna Labs
+  relationship: independent
+platforms:
+  - macos
+  - windows
+links:
+  - kind: docs
+    url: https://petal.live/docs/
+  - kind: source
+    url: https://github.com/kiruna-labs/petal
+logo:
+  path: logo.png
+  alt: The Petal app icon, a white outlined flower with three petals on a dark rounded square
+gallery:
+  - path: product.png
+    alt: A teammate's shared code editor open as its own native window on a participant's desktop in Petal
+sources:
+  - url: https://petal.live/
+    title: Official website
+  - url: https://petal.live/docs/
+    title: Petal Docs overview
+  - url: https://github.com/kiruna-labs/petal
+    title: Petal source repository by Kiruna Labs, with product screenshots in its README
+  - url: https://news.ycombinator.com/item?id=50092470
+    title: "Show HN: Petal, open-source CoScreen/ScreenHero finally free"
+launch:
+  title: Petal launches on Hacker News
+  summary: A CoScreen co-founder introduced Petal as a free, open source pairing tool in a Show HN post.
+  occurred_on:
+    precision: day
+    value: "2026-10-14"
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=50092470
+    title: "Show HN: Petal, open-source CoScreen/ScreenHero finally free"
+    locator: The submission timestamp, 14 October 2026, and the founder's post text introducing Petal
