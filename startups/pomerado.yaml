@@ -1,0 +1,60 @@
+name: Pomerado
+tagline: Turns websites without an API into tools that AI agents can call
+description: >-
+  Pomerado lets developers, or the coding agents they work with, describe a task
+  on a website in a sentence and get back an API and MCP tool for it. The tools
+  run as fixed code against the site instead of a browser agent reasoning
+  through every page, and they are rebuilt when the site changes. It works on
+  sites the user does not own, and the code is open source under the MIT
+  licence.
+problem: >-
+  Airline, bank, insurance, government and older business portals rarely offer
+  an API, so agents fall back on browser automation, which is slow, costly and
+  often not allowed by security teams.
+audience:
+  - Developers building AI agents
+  - Teams automating work on portals that have no API
+website: https://pomerado.ai/
+access:
+  - kind: signup
+    url: https://app.pomerado.ai/auth/sign-in
+  - kind: demo
+    url: https://pomerado.cal.com/pomerado/discovery-call
+categories:
+  - ai-and-agents
+  - developer-tools
+stage: live
+pricing:
+  model: freemium
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://docs.pomerado.ai/
+  - kind: source
+    url: https://github.com/Pomerado/pomerado
+logo:
+  path: logo.png
+  alt: The Pomerado logo, a red ring around a cream circle with three orange segments
+sources:
+  - url: https://pomerado.ai/
+    title: Official Pomerado website
+  - url: https://news.ycombinator.com/item?id=50455811
+    title: "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents"
+  - url: https://github.com/Pomerado/pomerado
+    title: Pomerado source code on GitHub, MIT licence
+  - url: https://pomerado.ai/icon.svg
+    title: Original Pomerado logo from its official website
+launch:
+  title: Pomerado launches on Hacker News
+  summary: >-
+    The founders introduced Pomerado's self-serve platform for turning websites
+    into APIs and MCP tools in a Launch HN post.
+  occurred_on:
+    precision: day
+    value: "2026-11-11"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=50455811
+    title: "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents"
+    locator: The post's date and its opening paragraph
