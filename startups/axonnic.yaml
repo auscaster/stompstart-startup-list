@@ -1,0 +1,93 @@
+name: Axonnic
+tagline: Wearable forearm EMG sleeves that capture finger movement and force for robot training
+description: >-
+  Axonnic builds a 64-channel surface electromyography forearm sleeve and
+  decoding software that record individual finger joint angles and fingertip
+  force while leaving a worker's hands bare. Synchronizing muscle signals with
+  hand-pose data lets robotics teams collect manipulation training datasets for
+  tasks such as sewing, fine assembly and tool use, even when cameras lose
+  sight of the hand. The company has published held-out benchmarks against
+  Apple Vision Pro hand tracking and Meta's EMG dataset, runs paid industrial
+  pilots, and accepts refundable preorders for Gen 2 sleeves with free SDK
+  access.
+problem: >-
+  Camera-based hand tracking loses sight of fingers when objects block the view
+  and misses the grip force and muscle effort required for skilled manual work.
+audience:
+  - Robotics teams training dexterous manipulation models
+  - Manufacturers automating skilled manual assembly and sewing tasks
+website: https://www.axonnic.com/
+access:
+  - kind: signup
+    url: https://www.axonnic.com/preorder
+  - kind: browse
+    url: https://www.axonnic.com/benchmarks
+categories:
+  - hardware
+  - ai-and-agents
+  - data-and-analytics
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 1200000
+    currency: usd
+    interval: one_off
+  pricing_url: https://www.axonnic.com/preorder
+company:
+  name: Axonnic Inc.
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - hardware
+people:
+  - name: Maxim Williams
+    role: Founder/CEO
+    url: https://www.linkedin.com/in/maxim-williams
+  - name: Arsh Patankar
+    role: Founder/CTO
+    url: https://www.linkedin.com/in/arshpatankar
+links:
+  - kind: social
+    url: https://www.linkedin.com/company/axonnic/
+    network: linkedin
+logo:
+  path: logo.png
+  alt: >-
+    Axonnic mark: three orange vertical bars linked by two diagonal strokes on
+    a dark navy rounded square
+sources:
+  - url: https://www.axonnic.com/
+    title: Axonnic official website
+  - url: https://www.axonnic.com/benchmarks
+    title: Axonnic published EMG sleeve benchmarks
+  - url: https://www.axonnic.com/preorder
+    title: Axonnic Gen 2 preorder pricing and availability
+  - url: https://www.ycombinator.com/companies/axonnic
+    title: Axonnic company profile at Y Combinator
+  - url: https://www.ycombinator.com/launches/WfE-axonnic-muscle-sensing-sleeves-for-robot-training
+    title: Axonnic Launch YC announcement
+  - url: https://news.ycombinator.com/item?id=50522776
+    title: Launch HN post by the Axonnic founders, dated 2026-11-16
+launch:
+  title: Axonnic announces its muscle-sensing sleeves on Launch YC
+  summary: >-
+    The founders introduced Axonnic on Launch YC with a wearable forearm EMG
+    sleeve that decodes finger movement and fingertip force for robot training,
+    reporting that sleeves are shipping and paid pilots are underway.
+  occurred_on:
+    precision: day
+    value: "2026-10-30"
+  date_basis: announced
+  source:
+    url: https://www.ycombinator.com/launches/WfE-axonnic-muscle-sensing-sleeves-for-robot-training
+    title: "Axonnic: Muscle-sensing sleeves for robot training"
+    locator: >-
+      The Launch YC page time element gives October 30, 2026
+      (2026-10-30T06:00:00-07:00), and the embedded launch record gives
+      created_at as 2026-10-30T13:00:00.290Z.
