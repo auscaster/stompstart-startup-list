@@ -1,0 +1,56 @@
+name: Seamcult
+tagline: Draft sewing patterns with your AI coding agent
+description: >-
+  Seamcult is a web tool for designing sewing patterns with an AI coding
+  agent. You give the agent a photo, a paper pattern, or a short brief, and
+  it drafts the pattern on a mannequin built from your measurements while
+  you watch the work on a canvas. The tool checks the geometry of the draft,
+  so the agent works from the measurements rather than guessing. You can ask
+  it to refit a pattern to another size, split a piece, add a pocket, or
+  move a seam, and you can sketch a fix on the canvas for the agent to see
+  as an image. Finished patterns print on A4 paper at home, export as PLT
+  or DXF files, or share through a read-only link. It is free while in
+  early access.
+problem: Sewing patterns are usually drafted by hand or in tools that do not work with the AI assistants people already use, so fitting and revising a pattern takes slow manual work.
+audience:
+  - People who sew their own clothes
+  - Pattern designers and small sewing studios
+website: https://seamcult.com/
+access:
+  - kind: signup
+    url: https://seamcult.com/login
+categories:
+  - ai-and-agents
+  - everyday-life
+stage: live
+pricing:
+  model: free
+company:
+  name: Seamcult
+  relationship: independent
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://seamcult.com/blog
+logo:
+  path: logo.png
+  alt: The Seamcult logo, a dark hexagon stitched with seam lines around a button with four holes
+sources:
+  - url: https://seamcult.com/
+    title: Seamcult official website
+  - url: https://seamcult.com/blog/hello-world
+    title: Hello, world, our first release
+  - url: https://www.producthunt.com/products/seamcult
+    title: Seamcult on Product Hunt
+launch:
+  title: Seamcult opens in early access
+  summary: Seamcult announced its first release and opened the pattern tool in early access, free to use.
+  occurred_on:
+    precision: day
+    value: "2026-10-14"
+  date_basis: effective
+  source:
+    url: https://seamcult.com/blog/hello-world
+    title: Hello, world, our first release
+    locator: Article header dated October 14, 2026, stating Seamcult is live in early access
