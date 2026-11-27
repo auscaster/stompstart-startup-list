@@ -1,0 +1,69 @@
+name: Taskhold
+tagline: A task list you share with your coding agents
+description: >-
+  Taskhold is one task list shared by a person and their coding agents. The
+  person adds and orders tasks in a web app and watches a live board while the
+  agent works. The agent reads and updates the same list through a remote MCP
+  server, plans steps, reports progress, and blocks a task with a question when
+  it needs a decision. Claude Code, Cursor, Codex, ChatGPT and any MCP client
+  can connect.
+problem: Coding agents lose track of what is queued, what is half done and what needs a human answer between sessions.
+audience:
+  - Developers who work with coding agents
+  - Small product teams
+website: https://taskhold.com/
+access:
+  - kind: signup
+    url: https://taskhold.com/
+  - kind: demo
+    url: https://taskhold.com/demo/live
+categories:
+  - developer-tools
+  - productivity
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 1200
+    currency: usd
+    interval: month
+  pricing_url: https://taskhold.com/pricing
+company:
+  name: Great Work LLC
+  relationship: independent
+location:
+  country: US
+founded:
+  precision: month
+  value: "2026-10"
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://taskhold.com/docs
+  - kind: changelog
+    url: https://taskhold.com/changelog
+logo:
+  path: logo.png
+  alt: The Taskhold logo
+gallery:
+  - path: live-board.png
+    alt: The Taskhold live board showing an agent's steps and progress bar
+  - path: needs-you.png
+    alt: A blocked task in Taskhold waiting for the person's answer
+sources:
+  - url: https://taskhold.com/
+    title: Taskhold official website
+  - url: https://taskhold.com/changelog
+    title: Taskhold changelog
+launch:
+  title: Taskhold ships its Claude Code plugin and agent skill
+  summary: The changelog dates the first public release of the MCP server, plugin and agent skill.
+  occurred_on:
+    precision: day
+    value: "2026-10-08"
+  date_basis: effective
+  source:
+    url: https://taskhold.com/changelog
+    title: Taskhold changelog
+    locator: The entry dated 2026-10-08, Claude Code plugin and agent skill
