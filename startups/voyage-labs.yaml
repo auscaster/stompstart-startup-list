@@ -1,0 +1,70 @@
+# Voyage Labs, proposed for Stompstart. Facts from the startup's own site and launch coverage.
+name: Voyage Labs
+tagline: A personal AI agent that plans, books and watches over trips
+description: >-
+  Atlas is a personal AI agent from Voyage Labs for trips and local outings.
+  A traveller describes what they have in mind in plain words, and Atlas puts
+  together the plan, books flights, stays, dining and experiences through
+  suppliers, and keeps watch on prices, availability and check-in times while
+  the trip is under way. It runs on the web and over text, and the people
+  travelling together can see the same plan and shape it. Atlas is in private
+  beta, open through a waitlist.
+problem: Planning a trip means juggling searches, bookings and price checks across many sites, then keeping track of every detail until the traveller is home.
+audience:
+  - People planning trips
+  - Groups planning outings together
+website: https://voyagelabs.ai/
+access:
+  - kind: waitlist
+    url: https://atlas.voyagelabs.ai/
+categories:
+  - ai-and-agents
+  - everyday-life
+stage: beta
+pricing:
+  model: free
+company:
+  name: Voyage Labs
+  relationship: independent
+location:
+  country: US
+  city: Menlo Park
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+people:
+  - name: Manik Gupta
+    role: Co-founder and CEO
+  - name: Yogesh Jain
+    role: Co-founder and CPTO
+links:
+  - kind: blog
+    url: https://voyagelabs.ai/blog/introducing-atlas
+  - kind: press
+    url: https://www.prnewswire.com/news-releases/voyage-labs-raises-12m-to-build-atlas-a-personal-ai-agent-that-helps-people-experience-more-of-the-world-302941872.html
+# The startup's own logo, rendered from the SVG the site serves, at 512 pixels.
+# With no gallery, Stompstart screenshots the homepage.
+logo:
+  path: logo.png
+  alt: The Voyage Labs logo, a dark paper plane mark on a cream square
+sources:
+  - url: https://voyagelabs.ai/
+    title: Official website
+  - url: https://voyagelabs.ai/blog/introducing-atlas
+    title: Voyage Labs Raises $12M to Build Atlas
+  - url: https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/
+    title: Voyage Labs raises $12 million for a specialized AI travel assistant
+# The first release, and the page that dates it.
+launch:
+  title: Voyage Labs opens the Atlas private beta
+  summary: The first product opens in private beta through a waitlist, alongside a $12M seed round led by Kleiner Perkins.
+  occurred_on:
+    precision: day
+    value: "2026-11-17"
+  date_basis: announced
+  source:
+    url: https://voyagelabs.ai/blog/introducing-atlas
+    title: Voyage Labs Raises $12M to Build Atlas
+    locator: The post is dated November 17, 2026 and says it is opening the beta of Atlas today
