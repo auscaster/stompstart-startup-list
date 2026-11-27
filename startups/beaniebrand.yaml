@@ -1,0 +1,71 @@
+name: beaniebrand
+tagline: An AI generator that turns a company description into a logo and a matching mascot
+description: >-
+  beaniebrand draws a logo and an animated mascot from a short written
+  description of a company. It returns four character ideas, each as a flat
+  logo and a 3D mascot, and the user asks for changes in plain words until one
+  fits. The chosen character arrives as a kit: SVG and PNG logo files, favicons
+  and app icons, a social share image, an animated mascot, a React component,
+  and an AGENTS.md file that a coding agent follows to install the mascot.
+  Drawing is free for the first twelve characters and the complete kit is
+  bought once.
+problem: >-
+  A small team wants a logo with a personality instead of another abstract
+  mark, and wants that character to appear in the product, on store listings
+  and in social profiles without briefing a designer for each of them.
+audience:
+  - Indie founders and small product teams
+  - Developers who build with coding agents
+website: https://beaniebrand.com/
+access:
+  - kind: signup
+    url: https://beaniebrand.com/login
+  - kind: browse
+    url: https://beaniebrand.com/
+categories:
+  - design
+  - ai-and-agents
+stage: live
+pricing:
+  model: freemium
+  entry_price:
+    amount_minor: 2900
+    currency: usd
+    interval: one_off
+  pricing_url: https://beaniebrand.com/
+company:
+  name: TourByte Inc
+  relationship: independent
+location:
+  country: US
+platforms:
+  - web
+logo:
+  path: logo.png
+  alt: beaniebrand's mascot, a small deep red character with big white eyes on a white square
+gallery:
+  - path: share.jpg
+    alt: The beaniebrand share image, the mascot Beanie waving beside matching bee and puppy logos
+sources:
+  - url: https://beaniebrand.com/
+    title: beaniebrand official website and pricing
+  - url: https://beaniebrand.com/terms
+    title: beaniebrand terms of service, naming TourByte Inc and Delaware law
+  - url: https://news.ycombinator.com/item?id=50094265
+    title: Show HN post introducing beaniebrand
+launch:
+  title: beaniebrand launches on Hacker News
+  summary: >-
+    The site was posted to Hacker News with a link to beaniebrand.com, where a
+    description of a company produces logo and mascot ideas and a kit can then
+    be bought.
+  occurred_on:
+    precision: day
+    value: "2026-10-14"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=50094265
+    title: "Show HN: Beaniebrand – Easy way to create a cute logo for your product"
+    locator: >-
+      The submission is timestamped 2026-10-14T20:04:15Z and its link points to
+      https://beaniebrand.com.
