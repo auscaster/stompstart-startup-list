@@ -1,0 +1,70 @@
+name: Transformer.gg
+tagline: Book sponsored posts from X creators, from a dashboard or your AI agent
+description: >-
+  Transformer.gg is a marketplace for sponsored posts on X. A brand pastes its
+  website and gets a list of X creators who fit what it sells, each with a
+  suggested price. Sending offers is free with no subscription, seat fee or
+  minimum. When a creator accepts, the brand's saved card is charged and the
+  money is held until the post is live with X's Paid partnership label and our
+  team confirms it. Creators keep 80% and are paid by PayPal or USDC. Every
+  offer comes with a tracked link so clicks and sales are credited to the
+  creator who drove them. Brands can run everything from the web dashboard or
+  hand it to Claude, Codex or their own agent through our MCP server, CLI or
+  REST API. Creators can check the value of one sponsored post on any X account
+  for free with no sign-up. Transformer.gg is part of North Bay Ventures (North
+  Bay Opco I, Inc., Miami, Florida). The founder is Jon Oringer, who founded
+  Shutterstock.
+problem: >-
+  Brands and AI agents have no fast, self-serve way to discover relevant X
+  creators, see transparent per-post pricing, and book paid sponsored posts
+  with tracked attribution without manual outreach and negotiation.
+audience:
+  - Brands and growth teams running creator campaigns on X
+  - Developers and AI agents automating creator sponsorships via MCP or API
+  - X creators monetizing sponsored posts
+website: https://transformer.gg/
+access:
+  - kind: signup
+    url: https://transformer.gg/
+  - kind: browse
+    url: https://transformer.gg/docs
+categories:
+  - marketing
+  - ai-and-agents
+stage: live
+pricing:
+  model: usage_based
+  pricing_url: https://transformer.gg/pricing
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://transformer.gg/docs
+  - kind: source
+    url: https://github.com/NBV-AppFactory/transformer-mcp
+logo:
+  path: logo.png
+  alt: The Transformer.gg logo
+sources:
+  - url: https://transformer.gg/
+    title: Official Transformer.gg website
+  - url: https://www.producthunt.com/products/transformer-gg
+    title: Transformer.gg on Product Hunt
+  - url: https://github.com/NBV-AppFactory/transformer-mcp
+    title: Transformer.gg MCP server and CLI repository
+  - url: https://transformer.gg/assets/transformer-512.png
+    title: Official Transformer.gg 512px logo
+launch:
+  title: Transformer.gg launches on Product Hunt
+  summary: >-
+    Transformer.gg launched publicly on Product Hunt on November 15, 2026 as a
+    self-serve marketplace for booking sponsored posts from X creators via web
+    dashboard, MCP server, CLI or REST API.
+  occurred_on:
+    precision: day
+    value: "2026-11-15"
+  date_basis: announced
+  source:
+    url: https://www.producthunt.com/products/transformer-gg
+    title: Transformer.gg on Product Hunt
+    locator: Product Hunt launch page
