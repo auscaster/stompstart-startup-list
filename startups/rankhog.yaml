@@ -1,0 +1,73 @@
+name: Rankhog
+tagline: Finds people on Reddit asking for what you sell, and replies for you
+description: >-
+  Rankhog watches the subreddits where a product's buyers gather and finds
+  posts from people asking for what the product sells. For each match it
+  checks the rules of that subreddit, drafts a reply that helps first and
+  names the product only when it fits, then posts from the founder's own
+  Reddit account at a human pace, or waits for approval. A new account can
+  be warmed up with helpful comments before it starts posting. The app runs
+  on macOS, Windows and Linux, and through Claude, ChatGPT, Cursor and
+  other MCP clients. The plan costs $99 a month per product and starts
+  with a 7 day free trial.
+problem: >-
+  Buyers ask for recommendations on Reddit every day, but watching
+  subreddits, learning each community's rules and answering in time is a
+  full time job, and one careless promotional comment can get an account
+  banned.
+audience:
+  - Solo founders and small teams
+  - Marketers promoting a product on Reddit
+website: https://rankhog.com/
+access:
+  - kind: signup
+    url: https://rankhog.com/sign-up
+categories:
+  - marketing
+  - ai-and-agents
+stage: live
+pricing:
+  model: paid
+  entry_price:
+    amount_minor: 9900
+    currency: usd
+    interval: month
+  pricing_url: https://rankhog.com/pricing
+company:
+  name: Rankhog
+  relationship: independent
+platforms:
+  - web
+  - macos
+  - windows
+  - linux
+links:
+  - kind: blog
+    url: https://rankhog.com/blog
+logo:
+  path: logo.png
+  alt: The Rankhog logo, an orange-red spiky hog mark with two eyes
+sources:
+  - url: https://rankhog.com/
+    title: Official Rankhog website
+  - url: https://rankhog.com/pricing
+    title: Rankhog pricing
+  - url: https://rankhog.com/about
+    title: About Rankhog and its founder
+  - url: https://www.producthunt.com/products/rankhog
+    title: Rankhog on Product Hunt
+  - url: https://hunted.space/product/rankhog
+    title: Rankhog Product Hunt launch overview
+launch:
+  title: Rankhog launches on Product Hunt
+  summary: >-
+    Solo founder Anthony Riera launched Rankhog on Product Hunt on 22
+    November 2026, where it earned second place as Product of the Day.
+  occurred_on:
+    precision: day
+    value: "2026-11-22"
+  date_basis: announced
+  source:
+    url: https://www.producthunt.com/products/rankhog
+    title: Rankhog on Product Hunt
+    locator: The launch listing for Rankhog, which launched on 22 November 2026
