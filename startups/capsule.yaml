@@ -1,0 +1,72 @@
+name: Capsule
+tagline: Single-file apps that carry their own SQLite data
+description: >-
+  Capsule is a player for one kind of document: a .capsule file that holds a small
+  HTML application, its assets and a SQLite database in a single bundle. A tool built
+  this way can be sent like a document, opened without a connection and kept without a
+  server or an account. A document starts from a starter template, from pasted HTML, or
+  from the builder prompt the site hands to an AI assistant. Documents run isolated:
+  they get no file system access, and they need permission before they may use the
+  network. Data can be exported to CSV or JSON. The desktop player, written in Rust with
+  Tauri, ships for macOS, Windows and Linux, and Capsule Web opens the same files in a
+  browser.
+problem: A small personal tool needs a server, a bill and an account before it can save a single row of data.
+audience:
+  - People who want a private tool without hosting it
+  - Teams that pass a small internal tool around as a file
+  - Developers building single-file apps with AI assistants
+highlights:
+  - title: One file holds the app and its data
+    detail: >-
+      The interface, the media assets and a SQLite database travel together as one
+      .capsule document that opens in the desktop player or in the browser player.
+  - title: Nothing runs without permission
+    detail: >-
+      A document cannot touch the file system, and it asks before it reaches the
+      network, so an opened file stays a document rather than a program with your keys.
+website: https://withcapsule.app/
+access:
+  - kind: demo
+    url: https://withcapsule.app/web
+  - kind: browse
+    url: https://withcapsule.app/templates
+categories:
+  - productivity
+  - developer-tools
+stage: live
+pricing:
+  model: free
+platforms:
+  - web
+  - macos
+  - windows
+  - linux
+links:
+  - kind: docs
+    url: https://withcapsule.app/create
+logo:
+  path: logo.png
+  alt: The Capsule logo, a green diamond outline around an open book, with small green squares and circles around it
+sources:
+  - url: https://withcapsule.app/
+    title: Capsule official website
+  - url: https://news.ycombinator.com/item?id=49712278
+    title: "Show HN: Capsule, single-file web apps that save their data into SQLite"
+  - url: https://withcapsule.app/icon-512.png
+    title: Original Capsule app icon served by the site's web manifest
+  - url: https://withcapsule.app/web
+    title: Capsule Web, the browser player
+launch:
+  title: Capsule is introduced publicly on Hacker News
+  summary: >-
+    The author presented a Rust and Tauri desktop player that packs an HTML app and its
+    data into a single SQLite file. The post links to the site and to a browser player
+    with ready-made templates, and describes the sandbox and permission model.
+  occurred_on:
+    precision: day
+    value: "2026-09-15"
+  date_basis: announced
+  source:
+    url: https://news.ycombinator.com/item?id=49712278
+    title: "Show HN: Capsule, single-file web apps that save their data into SQLite"
+    locator: The post's date line gives 2026-09-15; its opening paragraphs introduce the Rust and Tauri desktop app and link to the browser preview.
